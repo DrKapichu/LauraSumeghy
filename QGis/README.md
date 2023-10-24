@@ -11,4 +11,6 @@ Tghe software to use for this project is [QGis](https://www.qgis.org/fr/site/) a
 
 
 
+Couche non valide: GDAL provider Cannot open GDAL dataset /home/craftdata/LauraSumeghy/QGis/data/ReefsAtRiskRevisitedClimate-RelatedThreatsData/reefsatriskrevisited2030.kmz: `/home/craftdata/LauraSumeghy/QGis/data/ReefsAtRiskRevisitedClimate-RelatedThreatsData/reefsatriskrevisited2030.kmz' not recognized as a supported file format. Raster layer Le fournisseur de données n'est pas valide (prestataire : gdal, URI : /home/craftdata/LauraSumeghy/QGis/data/ReefsAtRiskRevisitedClimate-RelatedThreatsData/reefsatriskrevisited2030.kmz
+
 
