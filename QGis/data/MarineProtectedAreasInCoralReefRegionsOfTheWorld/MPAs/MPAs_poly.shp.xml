@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>World Resources Institute</origin>
+				<pubdate>2011</pubdate>
+				<serinfo>
+					<sername>Reefs at Risk Revisited</sername>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Washington, DC, United States</pubplace>
+					<publish>World Resources Institute</publish>
+				</pubinfo>
+				<onlink>http://www.wri.org/reefs</onlink>
+				<lworkcit>
+					<citeinfo>
+						<title>Burke, L., K. Reytar, M. Spalding, and A. Perry. Reefs at Risk Revisited.  (Washington, DC, USA: World Resources Institute, 2011).</title>
+						<pubdate>2011</pubdate><onlink>www.wri.org/reefs</onlink></citeinfo>
+				</lworkcit>
+				<title>Marine Protected Areas in Coral Reef Regions of the World</title><ftname Sync="TRUE">MPAs_poly</ftname><geoform Sync="TRUE">vector digital data</geoform></citeinfo>
+		</citation>
+		<descript>
+			<abstract>Shapefile of marine protected areas (MPAs) in coral reef regions of the world, including scores of management effectiveness. Sites were scored based on surveys and expert opinion using a 3-point scale as follows: 1) Effective--site is managed sufficiently well that in situ threats are not undermining natural ecosystem function; 2) Partially effective--site is managed such that in situ threats are significantly lower than adjacent non-managed sites, but there may still be some detrimental effects on ecosystem function; and 3) Not Effective--site is unmanaged, or management is insufficient to reduce in situ threats in any meaningful way.</abstract>
+			<purpose>To assess the level of protection and management for coral reefs around the world.  The map of MPAs and associated management effectiveness scores were used to adjust pressure from overfishing and destructive fishing in the Reefs at Risk Revisited model (the overfishing threat was reduced one level for partially effective MPAs and two levels for effective MPAs).</purpose>
+			<supplinf>The definition of a coral reef MPA for the Reefs at Risk Revisited project includes all sites that overlap with coral reefs on the map (1,712 sites), but also those that are known (from a variety of sources) to contain reefs. To these we added a third category-sites considered likely to contain reefs or reef species. These are the sites with offshore or subtidal areas that occur within 20 km of a coral reef.  We included these sites to avoid missing key MPAs due to mapping errors or inaccuracies.  For example, we lack accurate boundary information for some MPAs, while reef maps themselves are also missing some areas of reef (notably small isolated patches or coral communities that are too small or deep to be properly mapped).  The primary source for this information is the World Database of Protected Areas (WDPA) polygon and point shapefiles, which provided the majority of sites.  For WDPA point data, the points were buffered to the documented area of the MPA as listed in WDPA.  If the documented area was blank or unknown, the MPA received a default area of 1 ha.  In addition, Reef Base provided information on over 600 LMMAs for Pacific Islands and in the Phillipines.  The Nature Conservancy provided data on over 100 additional sites in Indonesia, while reviewers provided about 50 additional sites. For the analysis, we differentiated the nine different management zones within the Great Barrier Reef Marine Park. The combined areas in each zone are substantial, and each zone offers strikingly different levels of protection. The final map of sites is the most comprehensive listing ever produced for coral reef areas globally.</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2011</caldate></sngdate>
+			</timeinfo>
+			<current>publication date</current></timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-180.000000</westbc>
+				<eastbc Sync="TRUE">180.000000</eastbc>
+				<northbc Sync="TRUE">34.054119</northbc>
+				<southbc Sync="TRUE">-31.988191</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">-18843387.504634</leftbc><rightbc Sync="TRUE">14210036.526888</rightbc><bottombc Sync="TRUE">-3360374.415848</bottombc><topbc Sync="TRUE">3552666.425035</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>MPAs.</themekt>
+				<themekey>marine protected areas</themekey>
+				<themekey>MPAs</themekey><themekey>management</themekey><themekey>management effectiveness</themekey><themekey>coral reef management</themekey></theme>
+			<place>
+				<placekt>coral reef areas</placekt>
+				<placekey>coral reef areas of the world</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>Data set is not for use in litigation. While efforts have been made to ensure that these data are accurate and reliable, WRI cannot assume liability for any damages or misrepresentations caused by any inaccuracies in the data, or as a result of the data used on a particular system. WRI makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>World Resources Institute</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>10 G Street, NE Suite 800</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20002</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntemail>reefsatrisk@wri.org</cntemail>
+				<hours>9 am - 5 pm EST</hours>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+		<natvform Sync="TRUE">Shapefile</natvform><datacred>World Resources Institute, Reefs at Risk Revisited. 2011.</datacred></idinfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>World Resources Institute</cntorg>
+					<cntper>GIS Data Manager</cntper></cntorgp>
+				<cntvoice>202-729-7653</cntvoice><cntvoice>202-729-7600</cntvoice><cntemail>reefsatrisk@wri.org</cntemail></cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data and Data CD</resdesc>
+		<stdorder><digform><digtinfo><transize Sync="TRUE">33.236</transize><dssize Sync="TRUE">33.236</dssize></digtinfo></digform></stdorder></distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20110624</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>World Resources Institute</cntorg>
+					<cntper>GIS Data Manager</cntper></cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20002</postal>
+					<address>10 G Street NE Suite 800</address><country>United States</country></cntaddr>
+				<cntvoice>202-729-7600</cntvoice><cntemail>reefsatrisk@wri.org</cntemail></cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20110214</CreaDate><CreaTime>16132800</CreaTime><SyncOnce>FALSE</SyncOnce><ModDate>20110624</ModDate><ModTime>17030400</ModTime><MetaID>{6FAEB3A3-95AC-41B9-BA77-85C469BE84E5}</MetaID><SyncDate>20110624</SyncDate><SyncTime>17030400</SyncTime></Esri><dataqual><lineage/></dataqual><mdDateSt Sync="TRUE">20110624</mdDateSt><spref><horizsys><cordsysn><geogcsn Sync="TRUE">GCS_WGS_1984</geogcsn><projcsn Sync="TRUE">WGS_1984_Cylindrical_Equal_Area</projcsn></cordsysn><geodetic><horizdn Sync="TRUE">D_WGS_1984</horizdn><ellips Sync="TRUE">WGS_1984</ellips><semiaxis Sync="TRUE">6378137.000000</semiaxis><denflat Sync="TRUE">298.257224</denflat></geodetic><planar><planci><plance Sync="TRUE">coordinate pair</plance><plandu Sync="TRUE">meters</plandu><coordrep><absres Sync="TRUE">0.000000</absres><ordres Sync="TRUE">0.000000</ordres></coordrep></planci><mapproj><mapprojn Sync="TRUE">Cylindrical_Equal_Area</mapprojn><mapprojp><stdparll Sync="TRUE">0.000000</stdparll><longcm Sync="TRUE">-160.000000</longcm><feast Sync="TRUE">0.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></mapprojp></mapproj></planar></horizsys></spref><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">MPAs_poly</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">-18843387.504634</westBL><eastBL Sync="TRUE">14210036.526888</eastBL><northBL Sync="TRUE">3552666.425035</northBL><southBL Sync="TRUE">-3360374.415848</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-180</westBL><eastBL Sync="TRUE">180</eastBL><northBL Sync="TRUE">34.054119</northBL><southBL Sync="TRUE">-31.988191</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\WRICSAP029333\GIS\Working\R@R_2008\Data\Data_CD_Dev\Data_for_CD\GIS_Data\Base_Data\MPAs\MPAs_poly.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">33.236</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><spdoinfo><direct Sync="TRUE">Vector</direct><ptvctinf><esriterm Name="MPAs_poly"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">3383</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm><sdtsterm Name="MPAs_poly"><sdtstype Sync="TRUE">G-polygon</sdtstype><ptvctcnt Sync="TRUE">3383</ptvctcnt></sdtsterm></ptvctinf></spdoinfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">WGS_1984_Cylindrical_Equal_Area</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="MPAs_poly"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">3383</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><eainfo><detailed Name="MPAs_poly"><enttyp><enttypl Sync="TRUE">MPAs_poly</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">3383</enttypc></enttyp><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">SITE_ID</attrlabl><attalias Sync="TRUE">SITE_ID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><attrdef>Unique identifying code for each MPA.</attrdef></attr><attr><attrlabl Sync="TRUE">WDPA_SITE</attrlabl><attalias Sync="TRUE">WDPA_SITE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth><attrdef>Site code used in the World Database of Protected Areas (WDPA).</attrdef><attrdefs>WDPA</attrdefs></attr><attr><attrlabl Sync="TRUE">COUNTRY</attrlabl><attalias Sync="TRUE">COUNTRY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><attrdef>Country where the MPA is located.</attrdef></attr><attr><attrlabl Sync="TRUE">NAME_ENG</attrlabl><attalias Sync="TRUE">NAME_ENG</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><attrdef>Name of MPA in English.</attrdef></attr><attr><attrlabl Sync="TRUE">NAME_LOCAL</attrlabl><attalias Sync="TRUE">NAME_LOCAL</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><attrdef>Name of MPA in the local language.</attrdef></attr><attr><attrlabl Sync="TRUE">MPA_TYPE</attrlabl><attalias Sync="TRUE">MPA_TYPE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><attrdef>Type of MPA.</attrdef></attr><attr><attrlabl Sync="TRUE">GIS_AREAKM</attrlabl><attalias Sync="TRUE">GIS_AREAKM</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef>Area of MPA (in sq km) as calculated from the shapefile in GIS.</attrdef><attrdefs>WRI</attrdefs><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">DOC_AREA</attrlabl><attalias Sync="TRUE">DOC_AREA</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef>Documented area of the MPA (from the original source data).</attrdef><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">UNITS</attrlabl><attalias Sync="TRUE">UNITS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><attrdef>Units of the documented MPA area.</attrdef></attr><attr><attrlabl Sync="TRUE">REGION</attrlabl><attalias Sync="TRUE">REGION</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth><attrdef>Region where the MPA is located.  (Regions were defined for the Reefs at Risk Revisited analysis).</attrdef><attrdefs>WRI</attrdefs></attr><attr><attrlabl Sync="TRUE">SCORE</attrlabl><attalias Sync="TRUE">SCORE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth><attrdef>Management effectiveness score for the MPA. 1 = Effective, 2 = Partially Effective, 3 = Not Effective, 0 = Unrated.</attrdef><attrdefs>WRI</attrdefs></attr><attr><attrlabl Sync="TRUE">RATING</attrlabl><attalias Sync="TRUE">RATING</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">25</attwidth><attrdef>Management effectiveness score for the MPA (as text).</attrdef><attrdefs>WRI</attrdefs></attr><attr><attrlabl Sync="TRUE">SOURCE</attrlabl><attalias Sync="TRUE">SOURCE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth><attrdef>Original source of the MPA data that was compiled at WRI.</attrdef></attr></detailed></eainfo></metadata>

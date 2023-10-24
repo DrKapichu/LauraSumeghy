@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>National Imagery and Mapping Agency (formerly U.S. Defense Mapping Agency)</origin>
+				<pubdate>Unknown</pubdate>
+				<title>World Vector Shoreline of the Gulf of Mexico and Caribbean Sea region</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<ftname Sync="TRUE">cln_wvs</ftname><onlink>http://rimmer.ngdc.noaa.gov/mgg/coast/getcoast.html</onlink></citeinfo>
+		</citation>
+		<descript>
+			<abstract>The World Vector Shoreline (WVS) dataset was developed by  the National Imagery and Mapping Agency (formerly the U.S. Defense Mapping Agency - DMA) as a digital data file, at a nominal scale of 1:250,000  and referenced to the World Geodetic System  (WGS-84)  datum. The WVS is divided into ten ocean basin area files. This data layer is a subset of the Western North Atlantic region and provides a shapefile of countries bordering the Gulf of Mexico and Caribbean Sea, and the islands of the Caribbean Sea region. </abstract>
+			<purpose>This dataset was created by the World Resources Institute for the purposes of the Reefs at Risk Caribbean Project (http://reefsatrisk.wri.org/). This ArcView shapefile may be used as a general basemap data layer to illustrate coastlines of countries bordering the Gulf of Mexico and Caribbean Sea, and the islands of the Caribbean Sea region. It may be utilized in any Geographic Information System (GIS). </purpose>
+			<supplinf>
+
+Shoreline based on Mean High Water (MHW).</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>unknown</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-105.000000</westbc>
+				<eastbc Sync="TRUE">-52.500000</eastbc>
+				<northbc Sync="TRUE">35.000000</northbc>
+				<southbc Sync="TRUE">2.500000</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">-105.000000</leftbc><rightbc Sync="TRUE">-52.500000</rightbc><bottombc Sync="TRUE">2.500000</bottombc><topbc Sync="TRUE">35.000000</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>General</themekt>
+				<themekey>World Vector Shoreline</themekey>
+				<themekey>National Geospatial-Intelligence Agency</themekey>
+				<themekey>National Imagery and Mapping Agency</themekey>
+				<themekey>Defense Mapping Agency</themekey>
+				<themekey>coastlines</themekey>
+				<themekey>digital vector data</themekey>
+				<themekey>ArcView</themekey>
+				<themekey>shapefile</themekey>
+			</theme>
+			<place>
+				<placekt>General</placekt>
+				<placekey>Caribbean Sea</placekey>
+			</place>
+		</keywords>
+		<accconst>none</accconst>
+		<useconst>These data are NOT to be used for navigation purposes. Public domain data from the U.S. government is freely redistributable with proper metadata and source attribution.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>World Resources Institute</cntorg>
+				</cntorgp>
+				<cntpos>GIS lab manager</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>10 G Street NE</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20008</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>202-729-7600</cntvoice>
+				<cntfax>202-729-7775</cntfax>
+				<cntemail>reefsatrisk.wri.org</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Please recognize the U.S. Defense Mapping Agency (DMA) as the originator of the source data.</datacred>
+		<native Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 2; ESRI ArcCatalog 9.0.0.535</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+		</attracc>
+		<posacc>
+			<horizpa>
+				<horizpar>Feature specification  that 90% of all identifiable shoreline features  should be  located  within 500 metres (i.e. 2mm at 1:250,000) of  their  true geographic position with respect to the WGS-84 datum.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>International Hydrographic Review</origin>
+						<pubdate>1990</pubdate>
+						<pubtime>Unknown</pubtime>
+						<title>World Vector Shoreline for North America</title>
+						<geoform>vector digital data</geoform>
+					</citeinfo>
+				</srccite>
+				<srcscale>250000</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>wvs_wnatl</srccitea>
+				<srccontr>
+The  main  source  material for the WVS was DMA's  Digital  Landmass Blanking  (DLMB) database which was derived primarily from  the  Joint Operations  Graphics and coastal nautical charts produced by DMA.  The DLMB  data consisted of a land/water flag file on a 3 by 3  arc-second interval  geographic  grid.  This raster database was  converted  into vector  form  to  create WVS and explains the  3  arc-second  stepping interval apparent in the coastline when plotted out at high scale.  For areas of the world not covered by the DLMB database, the shoreline was taken  from the best available hard copy sources at a preferred  scale of 1:250,000 (or up to 1:125,000 where the source data allowed).
+
+The DMA WVS datasets were compiled into separate 'coast' format data files for use with the USGS Coastal and Marine Geology Program cartographic plotting program MAPGEN during the 1980's.  These 'coast' format files were the source to retrieve the WVS datasets and is the result of what is presented here.
+</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>The WVS data for the Caribbean region was extracted  (see bounding coordinates) from the WVS North America region.</procdesc>
+				<procdate>2003</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntorg>World Resources Institute</cntorg>
+						</cntperp>
+					</cntinfo>
+				</proccont>
+				<srcused>wvs_wnatl</srcused></procstep>
+			<procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">R:\DataCD\RRCARIB_CD\GIS\Data_GIS\Borders\cln_wvs</srcused><date Sync="TRUE">20050228</date><time Sync="TRUE">10505300</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="cln_wvs">
+				<sdtstype Sync="TRUE">String</sdtstype>
+				<ptvctcnt Sync="TRUE">14050</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="cln_wvs"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polyline</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">14050</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres Sync="TRUE">0.000001</latres>
+				<longres Sync="TRUE">0.000001</longres>
+				<geogunit Sync="TRUE">Decimal degrees</geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn Sync="TRUE">D_WGS_1984</horizdn>
+				<ellips Sync="TRUE">WGS_1984</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257224</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_WGS_1984</geogcsn></cordsysn></horizsys>
+		<vertdef>
+			<depthsys>
+				<depthdn>Mean high water</depthdn>
+			</depthsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="cln_wvs">
+			<enttyp>
+				<enttypl Sync="TRUE">cln_wvs</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">14050</enttypc></enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr><attrlabl Sync="TRUE">ENTITY</attrlabl><attalias Sync="TRUE">ENTITY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">14</attwidth></attr></detailed>
+		<overview></overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>World Resources Institute</cntorg>
+				</cntorgp>
+				<cntpos>GIS Lab Manager</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>10 G Street NE</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20008</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>202-729-7600</cntvoice>
+				<cntfax>202-729-7775</cntfax>
+				<cntemail>gislab@wri.org</cntemail>
+			</cntinfo>
+		</distrib>
+		<distliab>Although this data set has been used by the World Resources Institute, no warranty, expressed or implied, is made by WRI as to the accuracy of the data and/or related materials. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by WRI in the use of these data or related materials.
+
+</distliab>
+		<techpreq>The data are available in Environmental Systems Research Institute (ESRI) shapefile format.  The user must have ArcGIS® or ArcView® 3.0 or greater software to read and process the data file.  In lieu of ArcView or ArcGIS, the user may utilize another GIS application package capable of importing data.  </techpreq>
+		<resdesc>Made available on Reefs at Risk Caribbean Data CD</resdesc><stdorder><digform><digtinfo><transize Sync="TRUE">5.822</transize><dssize Sync="TRUE">5.822</dssize></digtinfo></digform></stdorder></distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20050126</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>World Resources Institute</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>10 G Street NE</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20008</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>202-729-7600</cntvoice>
+				<cntfax>202-729-7775</cntfax>
+				<cntemail>gislab@wri.org</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metac>None</metac>
+		<metuc>None</metuc>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20050228</CreaDate><CreaTime>10505300</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20050126</SyncDate><SyncTime>14441800</SyncTime><ModDate>20050126</ModDate><ModTime>14442300</ModTime><DataProperties><lineage><Process Name="DefineProjection_1" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DefineProjection" Date="20050119" Time="155442">DefineProjection C:\RRCARIB_CD2\GIS\Data_GIS\Borders\cln_wvs.shp GEOGCS['GCS_WGS_1984',DATUM['D_WGS_1984',SPHEROID['WGS_1984',6378137.0,298.257223563]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]] C:\RRCARIB_CD2\GIS\Data_GIS\Borders\cln_wvs.shp</Process></lineage></DataProperties><Sync>FALSE</Sync><MetaID>{B2B7B28B-E190-4A18-B315-5DB743593B74}</MetaID></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 2; ESRI ArcCatalog 9.0.0.535</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">cln_wvs</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">-105</westBL><eastBL Sync="TRUE">-52.5</eastBL><northBL Sync="TRUE">35</northBL><southBL Sync="TRUE">2.5</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-105</westBL><eastBL Sync="TRUE">-52.5</eastBL><northBL Sync="TRUE">35</northBL><southBL Sync="TRUE">2.5</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\MAGELLAN\VOL1\gis\Working\R@R-CB\data_download\vector\cln_wvs</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">5.822</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">GCS_WGS_1984</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="cln_wvs"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">14050</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20050126</mdDateSt></metadata>

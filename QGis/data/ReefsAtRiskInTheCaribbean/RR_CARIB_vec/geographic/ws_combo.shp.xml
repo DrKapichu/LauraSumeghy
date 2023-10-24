@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>World Resources Institute</origin>
+				<pubdate>2004</pubdate>
+				<title>Summary erosion statistics for watersheds in wider Caribbean region (combined).</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Washington D.C., United States</pubplace>
+					<publish>World Resources Institute</publish>
+				</pubinfo>
+				<ftname Sync="TRUE">ws_combo</ftname><serinfo><sername>Reefs at Risk in the Caribbean</sername></serinfo><lworkcit><citeinfo><title>L. Burke and J. Maidens "Reefs at Risk in the Caribbean," (Washington DC, USA: World Resources Institute, 2004)</title></citeinfo></lworkcit><onlink>http://reefsatrisk.wri.org</onlink></citeinfo>
+		</citation>
+		<descript>
+			<abstract>Summary statistics for relative erosion rate (REP), river flow, and sediment delivery estimated for each of over 3,000 watersheds draining into the Caribbean Sea and Gulf of Mexico. This dataset is a combination of the region wide 1 km analysis and the higher resolution 270 m analysis for the islands of the eastern caribbean.</abstract>
+			<purpose>This data set was derived at the World Resources Institute for input to the Reefs at Risk sedimentation and pollution from watershed based sources threat analysis. Agriculture, though important to economic development and food security, is a source of increased sediment, nutrient, and pesticide runoff. Threats from sedimentation and pollution from inland sources were modeled for over 3,000 watersheds discharging into the Caribbean. The indicators developed by the Reefs at Risk in the Caribbean project enable detailed comparative analyses of threats on many scales. The Reefs at Risk indicators are a simplification of human activities and complex natural processes. </purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>unknown</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-113.919212</westbc><eastbc Sync="TRUE">-53.348095</eastbc><northbc Sync="TRUE">49.723824</northbc><southbc Sync="TRUE">1.196202</southbc></bounding>
+			<lboundng><leftbc Sync="TRUE">-113.919212</leftbc><rightbc Sync="TRUE">-53.348095</rightbc><bottombc Sync="TRUE">1.196202</bottombc><topbc Sync="TRUE">49.723824</topbc></lboundng></spdom>
+		<keywords>
+			<place><placekey>caribbean</placekey><placekey>central america</placekey><placekey>south america</placekey><placekey>north america</placekey><placekey>insular caribbean</placekey><placekey>gulf of mexico</placekey></place><theme><themekey>threat</themekey><themekey>coral reefs</themekey><themekey>pressure</themekey><themekey>sediment</themekey><themekey>sedimentation</themekey><themekey>watershed</themekey><themekey>basin</themekey><themekey>plume</themekey><themekey>erosion</themekey><themekey>preciptation</themekey><themekey>soil</themekey><themekey>slope</themekey><themekey>erosion </themekey><themekey>land cover</themekey></theme></keywords>
+		<accconst>None</accconst>
+		<useconst>Data set is not for use in litigation. While efforts have been made to ensure that these data are accurate and reliable within the state of the art, WRI, cannot assume liability for any damages, or misrepresentations, caused by any inaccuracies in the data, or as a result of the data to be used on a particular system. WRI makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>GIS Lab Manager</cntper>
+					<cntorg>World Resources Institute</cntorg>
+				</cntperp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>10 G Street NE Suite 800</address>
+					<city>Washington DC</city>
+					<state>District of Columbia</state>
+					<postal>20002</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntvoice>202 729 7600</cntvoice>
+				<cntfax>202 729 7775</cntfax>
+				<cntemail>reefsatrisk@wri.org</cntemail>
+				<hours>9am - 5pm EST</hours>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 2; ESRI ArcCatalog 9.0.0.535</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc></attracc>
+		<posacc>
+			<horizpa></horizpa>
+			<vertacc></vertacc>
+		</posacc>
+		<lineage>
+			<procstep><procdesc>This dataset is a combination of the region wide 1 km analysis and the higher resolution 270 m analysis for the islands of the eastern caribbean.
+
+Two indicators indicative of erosion within the watershed are given for each watershed:
+a) Mean REP for the basin (an indicator of average erosion rates for the basin) (REP_MEAN) and
+b) Total relative erosion within the basin (REP_SUM).
+</procdesc><srcused>World Resources Institute, "Summary erosion statistics for watersheds in wider Caribbean region (1 km analysis)", 2004.</srcused><srcused>World Resources Institute, "Summary erosion statistics for watersheds in the Eastern Caribbean (270 m analysis)", 2004.</srcused></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">R:\DataCD\RRCARIB_CD\GIS\Data_model\Sediment\ws_combo</srcused><date Sync="TRUE">20050228</date><time Sync="TRUE">10503900</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct><rastinfo><rasttype Sync="TRUE">Grid Cell</rasttype><rowcount Sync="TRUE">6600</rowcount><colcount Sync="TRUE">7979</colcount><rastxsz Sync="TRUE">1000.000000</rastxsz><rastysz Sync="TRUE">1000.000000</rastysz><rastbpp Sync="TRUE">8</rastbpp><vrtcount Sync="TRUE">1</vrtcount><rastorig Sync="TRUE">Upper Left</rastorig><rastcmap Sync="TRUE">FALSE</rastcmap><rastcomp Sync="TRUE">Default</rastcomp><rastband Sync="TRUE">1</rastband><rastdtyp Sync="TRUE">matrix values</rastdtyp><rastplyr Sync="TRUE">FALSE</rastplyr><rastifor Sync="TRUE">ESRI GRID</rastifor></rastinfo><ptvctinf><esriterm Name="ws_combo"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">3478</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm><sdtsterm Name="ws_combo"><sdtstype Sync="TRUE">G-polygon</sdtstype><ptvctcnt Sync="TRUE">3478</ptvctcnt></sdtsterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1927</horizdn>
+				<ellips Sync="TRUE">Clarke 1866</ellips>
+				<semiaxis Sync="TRUE">6378206.400000</semiaxis>
+				<denflat Sync="TRUE">294.978698</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_Assumed_Geographic_1</geogcsn></cordsysn><geograph><geogunit Sync="TRUE">Decimal degrees</geogunit><latres Sync="TRUE">0.000001</latres><longres Sync="TRUE">0.000001</longres></geograph></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="ws_combo">
+			<attr><attrlabl Sync="TRUE">PRECIP_SUM</attrlabl><attalias Sync="TRUE">PRECIP_SUM</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">12</attwidth><atnumdec Sync="TRUE">4</atnumdec><attrdef>precipitation sum</attrdef></attr><attr><attrlabl Sync="TRUE">PCT_AG</attrlabl><attalias Sync="TRUE">PCT_AG</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">6</attwidth><attrdef>percent agriculture in watershed</attrdef></attr><enttyp>
+				<enttypl Sync="TRUE">ws_combo</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">3478</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">11</attwidth><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">GRIDCODE</attrlabl><attalias Sync="TRUE">GRIDCODE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">11</attwidth></attr><attr><attrlabl Sync="TRUE">PRECIP_MEA</attrlabl><attalias Sync="TRUE">PRECIP_MEA</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">12</attwidth><atnumdec Sync="TRUE">4</atnumdec><attrdef>precipitation - monthly mean</attrdef></attr><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">12</attwidth><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv><atnumdec Sync="TRUE">4</atnumdec></attr><attr><attrlabl Sync="TRUE">AREA_SQKM</attrlabl><attalias Sync="TRUE">AREA_SQKM</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">12</attwidth><atnumdec Sync="TRUE">4</atnumdec></attr><attr><attrlabl Sync="TRUE">MEAN_REP</attrlabl><attalias Sync="TRUE">MEAN_REP</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">12</attwidth><atnumdec Sync="TRUE">4</atnumdec></attr><attr><attrlabl Sync="TRUE">SUM_REP</attrlabl><attalias Sync="TRUE">SUM_REP</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">16</attwidth></attr><attr><attrlabl Sync="TRUE">SED_DELIV</attrlabl><attalias Sync="TRUE">SED_DELIV</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">6</attwidth></attr><attr><attrlabl Sync="TRUE">SDR_RATIO</attrlabl><attalias Sync="TRUE">SDR_RATIO</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">5</attwidth><atnumdec Sync="TRUE">2</atnumdec></attr><attr><attrlabl Sync="TRUE">SOURCETHM</attrlabl><attalias Sync="TRUE">SOURCETHM</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize Sync="TRUE">5.752</transize>
+					<dssize Sync="TRUE">5.752</dssize></digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20041221</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>World Resources Institute</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>10 G Street, NE Suite # 800</addrtype>
+					<city>Washington, DC</city>
+					<state>District of Columbia</state>
+					<postal>20002</postal>
+					<country>United States</country></cntaddr>
+				<cntvoice>202 729 7600</cntvoice>
+				<cntfax>202 729 7775</cntfax>
+				<cntemail>reefsatrisk@wri.org</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20050228</CreaDate><CreaTime>10503900</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20041221</SyncDate><SyncTime>12380600</SyncTime><ModDate>20041221</ModDate><ModTime>12380600</ModTime><MetaID>{9A019467-1E99-4664-B14B-6E3A601CCAF5}</MetaID></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 2; ESRI ArcCatalog 9.0.0.535</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">ws_combo</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">-113.919212</westBL><eastBL Sync="TRUE">-53.348095</eastBL><northBL Sync="TRUE">49.723824</northBL><southBL Sync="TRUE">1.196202</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-113.919212</westBL><eastBL Sync="TRUE">-53.348095</eastBL><northBL Sync="TRUE">49.723824</northBL><southBL Sync="TRUE">1.196202</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\MAGELLAN\VOL1\gis\Working\R@R-CB\data_download\vector\ws_combo</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">5.752</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><spatRepInfo><GridSpatRep><numDims Sync="TRUE">2</numDims><cellGeo><CellGeoCd Sync="TRUE" value="002"></CellGeoCd></cellGeo><tranParaAv Sync="TRUE">1</tranParaAv><axDimProps><Dimen><dimName><DimNameTypCd Sync="TRUE" value="002"></DimNameTypCd></dimName><dimSize Sync="TRUE">7979</dimSize><dimResol><value Sync="TRUE">1000</value><uom><UomLength><uomName Sync="TRUE">Meter</uomName><conversionToISOstandardUnit Sync="TRUE">1 Meter = 1 Meter(s)</conversionToISOstandardUnit></UomLength></uom></dimResol></Dimen><Dimen><dimName><DimNameTypCd Sync="TRUE" value="001"></DimNameTypCd></dimName><dimSize Sync="TRUE">6600</dimSize><dimResol><value Sync="TRUE">1000</value><uom><UomLength><uomName Sync="TRUE">Meter</uomName><conversionToISOstandardUnit Sync="TRUE">1 Meter = 1 Meter(s)</conversionToISOstandardUnit></UomLength></uom></dimResol></Dimen></axDimProps></GridSpatRep><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="ws_combo"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">3478</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20041221</mdDateSt><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">GCS_Assumed_Geographic_1</identCode></refSysID></RefSystem></refSysInfo></metadata>

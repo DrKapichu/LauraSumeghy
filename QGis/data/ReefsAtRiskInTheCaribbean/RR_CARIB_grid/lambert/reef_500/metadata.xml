@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>World Resources Institute</origin>
+				<pubdate>2004</pubdate>
+				<title>Coral Reef locations in the western Atlantic (500 m raster) </title>
+				<geoform Sync="TRUE">raster digital data</geoform>
+				<pubinfo>
+					<pubplace>Washington D.C., United States</pubplace>
+					<publish>World Resources Institute</publish>
+				</pubinfo>
+				<ftname Sync="TRUE">reef_500</ftname><serinfo><sername>Reefs at Risk in the Caribbean</sername></serinfo><lworkcit><citeinfo><title>L. Burke and J. Maidens "Reefs at Risk in the Caribbean," (Washington DC, USA: World Resources Institute, 2004)</title></citeinfo></lworkcit><onlink>http://reefsatrisk.wri.org</onlink></citeinfo>
+		</citation>
+		<descript>
+			<purpose>This dataset was developed for the Reefs at Risk Caribbean project (World Resources Institute, 2004 http://reefsatrisk.wri.org) and shows locations of coral reefs in the Wider Caribbean</purpose>
+			<langdata Sync="TRUE">en</langdata><abstract>A dataset of shallow water (generally less than 30 m depth) coral reef locations for the Caribbean Sea and Gulf of Mexico at 500 m resolution derived from a variety of sources.</abstract></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>unknown</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-121.470929</westbc><eastbc Sync="TRUE">-40.315132</eastbc><northbc Sync="TRUE">54.967898</northbc><southbc Sync="TRUE">-1.337689</southbc></bounding>
+			<lboundng><leftbc Sync="TRUE">-3206742.724742</leftbc><rightbc Sync="TRUE">2609257.275258</rightbc><bottombc Sync="TRUE">-1497657.476543</bottombc><topbc Sync="TRUE">2346342.523457</topbc></lboundng></spdom>
+		<keywords>
+			<place><placekey>caribbean</placekey><placekey>caribbean sea</placekey><placekey>gulf of mexico</placekey><placekey>western atlantic</placekey></place><theme><themekey>coral reefs</themekey></theme></keywords>
+		<accconst>None</accconst>
+		<useconst>Data set is not for use in litigation. While efforts have been made to ensure that these data are accurate and reliable within the state of the art, WRI, cannot assume liability for any damages, or misrepresentations, caused by any inaccuracies in the data, or as a result of the data to be used on a particular system. WRI makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>GIS Lab Manager</cntper>
+					<cntorg>World Resources Institute</cntorg>
+				</cntperp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>10 G Street NE Suite 800</address>
+					<city>Washington DC</city>
+					<state>District of Columbia</state>
+					<postal>20002</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntvoice>202 729 7600</cntvoice>
+				<cntfax>202 729 7775</cntfax>
+				<cntemail>gislab@wri.org</cntemail>
+				<hours>9am - 5pm EST</hours>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 2; ESRI ArcCatalog 9.0.0.535</native>
+		<natvform Sync="TRUE">Raster Dataset</natvform></idinfo>
+	<dataqual>
+		<attracc></attracc>
+		<posacc>
+			<horizpa></horizpa>
+			<vertacc></vertacc>
+		</posacc>
+		<lineage>
+			<procstep><procdesc>Maps of coral reefs in vector format (ESRI ArcINFO line and polygon files) are the basis for the coral reef map for the region. These data were of multiple scales, generally ranging from approximately 1:30,000 to 1:1,000,000, and from multiple sources (listed below). 
+
+Sources:
+--University of South Florida, Institute for Marine Remote Sensing (IMaRS), "Millennium Coral Reef Mapping Project," 2004 (30 m Landsat data classified and converted to shapefile) for the Lesser Antilles (British Virgin Islands through Barbados), the Turks and Caicos Islands, Southern Bahamas, Dominican Republic, Haiti, Jamaica, Nicaragua, and Panama).**
+--US National Oceanographic and Atmospheric Administration (NOAA), "Benthic Habitats of Puerto Rico and the U.S. Virgin Islands," 2001, from high-resolution aerial photography.
+--Coastal Zone Management Institute of Belize, 1999. (30-m Landsat data classified and converted to shapefile, for Belize).
+--For other areas, UNEP-WCMC "Coral Reef Maps," 2002. Data have been acquired or digitized from a variety of sources. Scales typically range from 1:60,000 to 1:1,000,000.
+--In addition, WRI edited and digitized maps for some areas based on input from project partners.
+
+(**The Millenium Coral Reef Mapping Project developed a geomorphologic classification of coral reefs. To make data comparable to other map sources, the Reefs at Risk project selected a subset of 30 categories from the overall mapping effort. Categories with high probability of being living coral -- such as forereef, inter-tidal reef flat, barrier reef pinnacle, and shallow terrace -- were included, while categories such as drowned bank and undetermined envelope were excluded.)</procdesc><date Sync="TRUE">20041222</date><time Sync="TRUE">10262700</time><procdate>2004</procdate><proccont><cntinfo><cntorgp><cntorg>World Resources Institute</cntorg></cntorgp><cntemail>reefsatrisk@wri.org</cntemail></cntinfo></proccont></procstep><procstep><procdesc>To standardize these data, WRI converted them to raster format (ESRI ArcINFO GRID) at 500-m resolution and projected in Lambert Azimuthal (-76,16) for use in the analysis. </procdesc><proccont><cntinfo><cntorgp><cntorg>World Resources Institute</cntorg></cntorgp><cntemail>reefsatrisk@wri.org</cntemail></cntinfo></proccont></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">R:\DataCD\RRCARIB_CD\GIS\Data_GIS\Reef_loc\reef_500</srcused><date Sync="TRUE">20050228</date><time Sync="TRUE">10573100</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Raster</direct><rastinfo><rasttype Sync="TRUE">Grid Cell</rasttype><rowcount Sync="TRUE">7688</rowcount><colcount Sync="TRUE">11632</colcount><rastxsz Sync="TRUE">500.000000</rastxsz><rastysz Sync="TRUE">500.000000</rastysz><rastbpp Sync="TRUE">8</rastbpp><vrtcount Sync="TRUE">1</vrtcount><rastorig Sync="TRUE">Upper Left</rastorig><rastcmap Sync="TRUE">FALSE</rastcmap><rastcomp Sync="TRUE">Default</rastcomp><rastband Sync="TRUE">1</rastband><rastdtyp Sync="TRUE">matrix values</rastdtyp><rastplyr Sync="TRUE">FALSE</rastplyr><rastifor Sync="TRUE">ESRI GRID</rastifor></rastinfo></spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">row and column</plance>
+					<coordrep>
+						<absres Sync="TRUE">500.000000</absres>
+						<ordres Sync="TRUE">500.000000</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Lambert Azimuthal Equal Area</mapprojn><lamberta><longpc Sync="TRUE">-76.000000</longpc><latprjc Sync="TRUE">16.000000</latprjc><feast Sync="TRUE">0.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></lamberta></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">D_Sphere_ARC_INFO</horizdn>
+				<ellips Sync="TRUE">Sphere_ARC_INFO</ellips>
+				<semiaxis Sync="TRUE">6370997.000000</semiaxis>
+				<denflat Sync="TRUE">infinity</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_Sphere_ARC_INFO</geogcsn><projcsn Sync="TRUE">Sphere_ARC_INFO_Lambert_Azimuthal_Equal_Area</projcsn></cordsysn></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="reef_500">
+			<enttyp>
+				<enttypl Sync="TRUE">reef_500</enttypl>
+				<enttypt Sync="TRUE">Table</enttypt><enttypc Sync="TRUE">1</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">ObjectID</attrlabl><attalias Sync="TRUE">ObjectID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Value</attrlabl><attalias Sync="TRUE">Value</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdomv/><attrdef>weighted soil porosity</attrdef></attr><attr><attrlabl Sync="TRUE">Count</attrlabl><attalias Sync="TRUE">Count</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<resdesc>Reefs at Risk in the Caribbean Data CD</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize Sync="TRUE">1.606</transize>
+					<dssize Sync="TRUE">1.606</dssize></digtinfo>
+			</digform>
+		</stdorder>
+		<distrib><cntinfo><cntorgp><cntorg>World Resources Institute</cntorg></cntorgp><cntemail>reefsatrisk@wri.org</cntemail></cntinfo></distrib><distliab>Although this data set has been used by the World Resources Institute, no warranty, expressed or implied, is made by WRI as to the accuracy of the data and/or related materials. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by WRI in the use of these data or related materials.
+</distliab></distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20050126</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>World Resources Institute</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>10 G Street, NE Suite # 800</addrtype>
+					<city>Washington, DC</city>
+					<state>District of Columbia</state>
+					<postal>20002</postal>
+					<country>United States</country></cntaddr>
+				<cntvoice>202 729 7600</cntvoice>
+				<cntfax>202 729 7775</cntfax>
+				<cntemail>reefsatrisk@wri.org</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20050228</CreaDate><CreaTime>10573100</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20050126</SyncDate><SyncTime>15003800</SyncTime><ModDate>20050126</ModDate><ModTime>15003800</ModTime><MetaID>{AC863805-5EB3-4162-892D-E4428001D498}</MetaID></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 2; ESRI ArcCatalog 9.0.0.535</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">reef_500</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="002"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">-3206742.724742</westBL><eastBL Sync="TRUE">2609257.275258</eastBL><northBL Sync="TRUE">2346342.523457</northBL><southBL Sync="TRUE">-1497657.476543</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-121.470929</westBL><eastBL Sync="TRUE">-40.315132</eastBL><northBL Sync="TRUE">54.967898</northBL><southBL Sync="TRUE">-1.337689</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\MAGELLAN\VOL1\gis\Working\R@R-CB\data_download\grid\lambert\reef_500</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">1.606</transSize></distorTran><distorFormat><formatName Sync="TRUE">Raster Dataset</formatName></distorFormat></distributor></distInfo><spatRepInfo><GridSpatRep><numDims Sync="TRUE">2</numDims><cellGeo><CellGeoCd Sync="TRUE" value="002"></CellGeoCd></cellGeo><tranParaAv Sync="TRUE">1</tranParaAv><axDimProps><Dimen><dimName><DimNameTypCd Sync="TRUE" value="002"></DimNameTypCd></dimName><dimSize Sync="TRUE">11632</dimSize><dimResol><value Sync="TRUE">500</value><uom><UomLength><uomName Sync="TRUE">unknown</uomName></UomLength></uom></dimResol></Dimen><Dimen><dimName><DimNameTypCd Sync="TRUE" value="001"></DimNameTypCd></dimName><dimSize Sync="TRUE">7688</dimSize><dimResol><value Sync="TRUE">500</value><uom><UomLength><uomName Sync="TRUE">unknown</uomName></UomLength></uom></dimResol></Dimen></axDimProps></GridSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20050126</mdDateSt><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">Sphere_ARC_INFO_Lambert_Azimuthal_Equal_Area</identCode></refSysID></RefSystem></refSysInfo></metadata>

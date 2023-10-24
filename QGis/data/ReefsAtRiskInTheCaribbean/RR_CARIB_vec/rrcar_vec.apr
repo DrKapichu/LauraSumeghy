@@ -1,0 +1,8503 @@
+/3.2
+(ODB.1
+	FirstRootClassName:	"Project"
+	Roots:	2
+	Version:	32
+)
+
+(Project.2
+	Name:	"rrcar_vec.apr"
+	CreationDate:	"Wednesday, March 02, 2005 2:49:12 PM"
+	GUIName:	"Project"
+	Win:	3
+	CSMgr:	4
+	DocExts:	5
+	VisGUIWidth:	70
+	Doc:	6
+	Doc:	553
+	Doc:	991
+	Buttons:	1318
+	Buttons:	1319
+	Buttons:	1320
+	Scripts:	1321
+	Prefs:	1322
+	WorkDir:	2148
+	WinX:	-4
+	WinY:	-3
+	WinW:	1032
+	WinH:	693
+	SerialNumber:	"825851118016"
+	SelColor:	2149
+	GUINames:	2150
+	GUINames:	2151
+	GUINames:	2152
+	GUINames:	2153
+	GUINames:	2154
+	GUINames:	2155
+	GUINames:	2156
+	TocWidthScale:	1.00000000000000
+)
+
+(DocWin.3
+	Owner:	2
+	Open:	1
+	X:	3
+	Y:	39
+	W:	402
+	H:	448
+)
+
+(CSMgr.4
+)
+
+(DocAct.5
+	Doc:	2
+)
+
+(View.6
+	Name:	"View 1 - Estimated Threats to Coral Reefs"
+	CreationDate:	"Wednesday, March 02, 2005 2:49:14 PM"
+	GUIName:	"View"
+	Win:	7
+	CSMgr:	8
+	DocExts:	10
+	DocExts:	11
+	Graphics:	12
+	Theme:	19
+	Theme:	46
+	Theme:	104
+	Theme:	162
+	Theme:	220
+	Theme:	278
+	Theme:	344
+	Theme:	384
+	Theme:	424
+	Theme:	464
+	Theme:	504
+	LastScale:	39255470.54476881800000
+	Dpy:	13
+	TOCWidth:	305
+	CoordPrecision:	2
+	BackgroundSymbol:	549
+)
+
+(DocWin.7
+	Owner:	6
+	X:	145
+	Y:	10
+	W:	878
+	H:	500
+)
+
+(CSMgr.8
+	Client:	9
+)
+
+(CSClient.9
+	Client:	10
+	ReqName:	"ClientNfy"
+)
+
+(PanMgr.10
+	Doc:	6
+)
+
+(DocAct.11
+	Doc:	6
+)
+
+(GList.12
+	Dpy:	13
+	FormatNumb:	18
+)
+
+(MapDpy.13
+	Left:	-99.20170280614343
+	Bottom:	7.38649500050097
+	Top:	33.68159825654001
+	Right:	-57.50487986521313
+	ReportUnits:	4
+	Units:	10
+	Scale:	14
+	FrameTop:	3.82500000000000
+	FrameRight:	4.65000000000000
+	PageDpy:	15
+	FitToPage:	1
+	MouseLoc:	17
+)
+
+(Numb.14
+	N:	0.11151928785048
+)
+
+(PageDpy.15
+	Top:	3.82500000000000
+	Right:	4.65000000000000
+	ReportUnits:	1
+	Units:	1
+	Scale:	16
+	ZoomRight:	4.65000000000000
+	ZoomTop:	3.82500000000000
+	GridSpacingX:	0.25000000000000
+	GridSpacingY:	0.25000000000000
+)
+
+(Numb.16
+	N:	0.21505376344086
+)
+
+(PointD.17
+	x:	-65.72468367077286
+	y:	37.08574247335214
+)
+
+(Numb.18
+)
+
+(FTheme.19
+	Name:	"National Boundaries"
+	Source:	20
+	Flags:	0x06
+	Legend:	29
+	Threshold:	42
+	View:	6
+	GSet:	43
+	LegEditScript:	"View.EditLegend"
+	TxPos:	44
+	LabelField:	25
+	AttrRules:	45
+	SnapTolCursor:	1
+)
+
+(ShpSrc.20
+	Name:	21
+	FTab:	23
+)
+
+(SrcName.21
+	FileName:	22
+	Name:	"cntry_vmap.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.22
+	Path:	"geographic/cntry_vmap.shp"
+)
+
+(FTab.23
+	Name:	"cntry_vmap.dbf"
+	BTab:	24
+	Fields:	27
+	Fields:	25
+	SelBits:	28
+	FSrc:	20
+)
+
+(dBASE.24
+	Name:	"cntry_vmap.dbf"
+	Fields:	25
+	FileName:	26
+)
+
+(Field.25
+	Name:	"Country"
+	Btab:	24
+	Alias:	"Country"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.26
+	Path:	"geographic/cntry_vmap.dbf"
+)
+
+(Field.27
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.28
+	NumBits:	2025
+
+)
+
+(Legend.29
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	30
+	Class:	35
+	StdDevs:	1.00000000000000
+	NullSym:	36
+	NullValues:	40
+	StatValues:	41
+	Precision:	-3
+)
+
+(SymList.30
+	Child:	31
+)
+
+(BShSym.31
+	Color:	32
+	Outline:	1
+	OutlineColor:	33
+	OutlineWidth:	0.10000000000000
+	BgColor:	34
+)
+
+(TClr.32
+	Red:	0xfeff
+	Green:	0xfe83
+	Blue:	0xe01e
+)
+
+(TClr.33
+	Red:	0x7878
+	Green:	0x7878
+	Blue:	0x7878
+)
+
+(TClr.34
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.35
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.36
+	Color:	37
+	Outline:	1
+	OutlineColor:	38
+	OutlineWidth:	0.10000000000000
+	BgColor:	39
+)
+
+(TClr.37
+	Name:	"Transparent"
+)
+
+(TClr.38
+	Name:	"Transparent"
+)
+
+(TClr.39
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.40
+)
+
+(NameDict.41
+)
+
+(Thresh.42
+)
+
+(GSet.43
+)
+
+(TxPosPly.44
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.45
+	FTab:	23
+	Field:	25
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTheme.46
+	Name:	"Reef (points) by Coastal Development Threat"
+	Source:	47
+	Flags:	0x04
+	Legend:	57
+	Threshold:	101
+	View:	6
+	GSet:	102
+	LegEditScript:	"View.EditLegend"
+	TxPos:	103
+	LabelField:	53
+	SnapTolCursor:	1
+)
+
+(ShpSrc.47
+	Name:	48
+	FTab:	50
+)
+
+(SrcName.48
+	FileName:	49
+	Name:	"r_pt_cd.shp"
+	SubName:	"Point"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.49
+	Path:	"geographic/r_pt_cd.shp"
+)
+
+(FTab.50
+	Name:	"r_pt_cd.dbf"
+	BTab:	51
+	Fields:	55
+	Fields:	52
+	Fields:	53
+	SelBits:	56
+	FSrc:	47
+)
+
+(dBASE.51
+	Name:	"r_pt_cd.dbf"
+	Fields:	52
+	Fields:	53
+	FileName:	54
+)
+
+(Field.52
+	Name:	"Threat"
+	Btab:	51
+	Alias:	"Threat"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.53
+	Name:	"Threat_txt"
+	Btab:	51
+	Alias:	"Threat_txt"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.54
+	Path:	"geographic/r_pt_cd.dbf"
+)
+
+(Field.55
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	17
+	Order:	-1
+)
+
+(Bitmap.56
+	NumBits:	103734
+
+)
+
+(Legend.57
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	58
+	Symbols:	59
+	Class:	88
+	Class:	89
+	Class:	90
+	Class:	91
+	StdDevs:	1.00000000000000
+	NullSym:	92
+	NullValues:	99
+	StatValues:	100
+	Precision:	-3
+)
+
+(AVStr.58
+	S:	"Threat"
+)
+
+(SymList.59
+	Child:	60
+	Child:	67
+	Child:	74
+	Child:	81
+)
+
+(BMkSym.60
+	Color:	61
+	BgColor:	62
+	Font:	63
+	Size:	3.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.61
+	Red:	0x1ee0
+	Green:	0x8b7e
+	Blue:	0xfeff
+)
+
+(TClr.62
+	Name:	"Transparent"
+)
+
+(NFont.63
+	Family:	64
+	Name:	65
+	Style:	66
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.64
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.65
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.66
+	S:	"Normal"
+)
+
+(BMkSym.67
+	Color:	68
+	BgColor:	69
+	Font:	70
+	Size:	3.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.68
+	Red:	0xfcff
+	Green:	0xb813
+	Blue:	0xfc
+)
+
+(TClr.69
+	Name:	"Transparent"
+)
+
+(NFont.70
+	Family:	71
+	Name:	72
+	Style:	73
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.71
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.72
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.73
+	S:	"Normal"
+)
+
+(BMkSym.74
+	Color:	75
+	BgColor:	76
+	Font:	77
+	Size:	3.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.75
+	Red:	0xfcff
+	Green:	0x3453
+	Blue:	0x19b1
+)
+
+(TClr.76
+	Name:	"Transparent"
+)
+
+(NFont.77
+	Family:	78
+	Name:	79
+	Style:	80
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.78
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.79
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.80
+	S:	"Normal"
+)
+
+(BMkSym.81
+	Color:	82
+	BgColor:	83
+	Font:	84
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.82
+	Name:	"Transparent"
+)
+
+(TClr.83
+	Name:	"Transparent"
+)
+
+(NFont.84
+	Family:	85
+	Name:	86
+	Style:	87
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.85
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.86
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.87
+	S:	"Normal"
+)
+
+(LClass.88
+	Label:	"Low"
+	MinNum:	1.00000000000000
+	MaxNum:	1.00000000000000
+	Precision:	-3
+)
+
+(LClass.89
+	Label:	"Medium"
+	MinNum:	100.00000000000000
+	MaxNum:	100.00000000000000
+	Precision:	-3
+)
+
+(LClass.90
+	Label:	"High"
+	MinNum:	1000.00000000000000
+	MaxNum:	1000.00000000000000
+	Precision:	-3
+)
+
+(LClass.91
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BMkSym.92
+	Color:	93
+	BgColor:	94
+	Font:	95
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.93
+	Name:	"Transparent"
+)
+
+(TClr.94
+	Name:	"Transparent"
+)
+
+(NFont.95
+	Family:	96
+	Name:	97
+	Style:	98
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.96
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.97
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.98
+	S:	"Normal"
+)
+
+(NameDict.99
+)
+
+(NameDict.100
+)
+
+(Thresh.101
+)
+
+(GSet.102
+)
+
+(TxPosPt.103
+	HAlign:	4
+	VAlign:	3
+)
+
+(FTheme.104
+	Name:	"Reef (points) by Sediment Threat"
+	Source:	105
+	Flags:	0x04
+	Legend:	115
+	Threshold:	159
+	View:	6
+	GSet:	160
+	LegEditScript:	"View.EditLegend"
+	TxPos:	161
+	LabelField:	111
+	SnapTolCursor:	1
+)
+
+(ShpSrc.105
+	Name:	106
+	FTab:	108
+)
+
+(SrcName.106
+	FileName:	107
+	Name:	"r_pt_sed.shp"
+	SubName:	"Point"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.107
+	Path:	"geographic/r_pt_sed.shp"
+)
+
+(FTab.108
+	Name:	"r_pt_sed.dbf"
+	BTab:	109
+	Fields:	113
+	Fields:	110
+	Fields:	111
+	SelBits:	114
+	FSrc:	105
+)
+
+(dBASE.109
+	Name:	"r_pt_sed.dbf"
+	Fields:	110
+	Fields:	111
+	FileName:	112
+)
+
+(Field.110
+	Name:	"Threat"
+	Btab:	109
+	Alias:	"Threat"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.111
+	Name:	"Threat_txt"
+	Btab:	109
+	Alias:	"Threat_txt"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.112
+	Path:	"geographic/r_pt_sed.dbf"
+)
+
+(Field.113
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	17
+	Order:	-1
+)
+
+(Bitmap.114
+	NumBits:	103734
+
+)
+
+(Legend.115
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	116
+	Symbols:	117
+	Class:	146
+	Class:	147
+	Class:	148
+	Class:	149
+	StdDevs:	1.00000000000000
+	NullSym:	150
+	NullValues:	157
+	StatValues:	158
+	Precision:	-3
+)
+
+(AVStr.116
+	S:	"Threat"
+)
+
+(SymList.117
+	Child:	118
+	Child:	125
+	Child:	132
+	Child:	139
+)
+
+(BMkSym.118
+	Color:	119
+	BgColor:	120
+	Font:	121
+	Size:	3.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.119
+	Red:	0x1ee0
+	Green:	0x8b7e
+	Blue:	0xfeff
+)
+
+(TClr.120
+	Name:	"Transparent"
+)
+
+(NFont.121
+	Family:	122
+	Name:	123
+	Style:	124
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.122
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.123
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.124
+	S:	"Normal"
+)
+
+(BMkSym.125
+	Color:	126
+	BgColor:	127
+	Font:	128
+	Size:	3.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.126
+	Red:	0xfcff
+	Green:	0xb813
+	Blue:	0xfc
+)
+
+(TClr.127
+	Name:	"Transparent"
+)
+
+(NFont.128
+	Family:	129
+	Name:	130
+	Style:	131
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.129
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.130
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.131
+	S:	"Normal"
+)
+
+(BMkSym.132
+	Color:	133
+	BgColor:	134
+	Font:	135
+	Size:	3.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.133
+	Red:	0xfcff
+	Green:	0x3453
+	Blue:	0x19b1
+)
+
+(TClr.134
+	Name:	"Transparent"
+)
+
+(NFont.135
+	Family:	136
+	Name:	137
+	Style:	138
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.136
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.137
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.138
+	S:	"Normal"
+)
+
+(BMkSym.139
+	Color:	140
+	BgColor:	141
+	Font:	142
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.140
+	Name:	"Transparent"
+)
+
+(TClr.141
+	Name:	"Transparent"
+)
+
+(NFont.142
+	Family:	143
+	Name:	144
+	Style:	145
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.143
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.144
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.145
+	S:	"Normal"
+)
+
+(LClass.146
+	Label:	"Low"
+	MinNum:	1.00000000000000
+	MaxNum:	1.00000000000000
+	Precision:	-3
+)
+
+(LClass.147
+	Label:	"Medium"
+	MinNum:	100.00000000000000
+	MaxNum:	100.00000000000000
+	Precision:	-3
+)
+
+(LClass.148
+	Label:	"High"
+	MinNum:	1000.00000000000000
+	MaxNum:	1000.00000000000000
+	Precision:	-3
+)
+
+(LClass.149
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BMkSym.150
+	Color:	151
+	BgColor:	152
+	Font:	153
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.151
+	Name:	"Transparent"
+)
+
+(TClr.152
+	Name:	"Transparent"
+)
+
+(NFont.153
+	Family:	154
+	Name:	155
+	Style:	156
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.154
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.155
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.156
+	S:	"Normal"
+)
+
+(NameDict.157
+)
+
+(NameDict.158
+)
+
+(Thresh.159
+)
+
+(GSet.160
+)
+
+(TxPosPt.161
+	HAlign:	4
+	VAlign:	3
+)
+
+(FTheme.162
+	Name:	"Reef (points) by Marine-based Threat"
+	Source:	163
+	Flags:	0x04
+	Legend:	173
+	Threshold:	217
+	View:	6
+	GSet:	218
+	LegEditScript:	"View.EditLegend"
+	TxPos:	219
+	LabelField:	169
+	SnapTolCursor:	1
+)
+
+(ShpSrc.163
+	Name:	164
+	FTab:	166
+)
+
+(SrcName.164
+	FileName:	165
+	Name:	"r_pt_mar.shp"
+	SubName:	"Point"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.165
+	Path:	"geographic/r_pt_mar.shp"
+)
+
+(FTab.166
+	Name:	"r_pt_mar.dbf"
+	BTab:	167
+	Fields:	171
+	Fields:	168
+	Fields:	169
+	SelBits:	172
+	FSrc:	163
+)
+
+(dBASE.167
+	Name:	"r_pt_mar.dbf"
+	Fields:	168
+	Fields:	169
+	FileName:	170
+)
+
+(Field.168
+	Name:	"Threat"
+	Btab:	167
+	Alias:	"Threat"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.169
+	Name:	"Threat_txt"
+	Btab:	167
+	Alias:	"Threat_txt"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.170
+	Path:	"geographic/r_pt_mar.dbf"
+)
+
+(Field.171
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	17
+	Order:	-1
+)
+
+(Bitmap.172
+	NumBits:	103734
+
+)
+
+(Legend.173
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	174
+	Symbols:	175
+	Class:	204
+	Class:	205
+	Class:	206
+	Class:	207
+	StdDevs:	1.00000000000000
+	NullSym:	208
+	NullValues:	215
+	StatValues:	216
+	Precision:	-3
+)
+
+(AVStr.174
+	S:	"Threat"
+)
+
+(SymList.175
+	Child:	176
+	Child:	183
+	Child:	190
+	Child:	197
+)
+
+(BMkSym.176
+	Color:	177
+	BgColor:	178
+	Font:	179
+	Size:	3.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.177
+	Red:	0x1ee0
+	Green:	0x8b7e
+	Blue:	0xfeff
+)
+
+(TClr.178
+	Name:	"Transparent"
+)
+
+(NFont.179
+	Family:	180
+	Name:	181
+	Style:	182
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.180
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.181
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.182
+	S:	"Normal"
+)
+
+(BMkSym.183
+	Color:	184
+	BgColor:	185
+	Font:	186
+	Size:	3.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.184
+	Red:	0xfcff
+	Green:	0xb813
+	Blue:	0xfc
+)
+
+(TClr.185
+	Name:	"Transparent"
+)
+
+(NFont.186
+	Family:	187
+	Name:	188
+	Style:	189
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.187
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.188
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.189
+	S:	"Normal"
+)
+
+(BMkSym.190
+	Color:	191
+	BgColor:	192
+	Font:	193
+	Size:	3.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.191
+	Red:	0xfcff
+	Green:	0x3453
+	Blue:	0x19b1
+)
+
+(TClr.192
+	Name:	"Transparent"
+)
+
+(NFont.193
+	Family:	194
+	Name:	195
+	Style:	196
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.194
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.195
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.196
+	S:	"Normal"
+)
+
+(BMkSym.197
+	Color:	198
+	BgColor:	199
+	Font:	200
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.198
+	Name:	"Transparent"
+)
+
+(TClr.199
+	Name:	"Transparent"
+)
+
+(NFont.200
+	Family:	201
+	Name:	202
+	Style:	203
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.201
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.202
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.203
+	S:	"Normal"
+)
+
+(LClass.204
+	Label:	"Low"
+	MinNum:	1.00000000000000
+	MaxNum:	1.00000000000000
+	Precision:	-3
+)
+
+(LClass.205
+	Label:	"Medium"
+	MinNum:	100.00000000000000
+	MaxNum:	100.00000000000000
+	Precision:	-3
+)
+
+(LClass.206
+	Label:	"High"
+	MinNum:	1000.00000000000000
+	MaxNum:	1000.00000000000000
+	Precision:	-3
+)
+
+(LClass.207
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BMkSym.208
+	Color:	209
+	BgColor:	210
+	Font:	211
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.209
+	Name:	"Transparent"
+)
+
+(TClr.210
+	Name:	"Transparent"
+)
+
+(NFont.211
+	Family:	212
+	Name:	213
+	Style:	214
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.212
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.213
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.214
+	S:	"Normal"
+)
+
+(NameDict.215
+)
+
+(NameDict.216
+)
+
+(Thresh.217
+)
+
+(GSet.218
+)
+
+(TxPosPt.219
+	HAlign:	4
+	VAlign:	3
+)
+
+(FTheme.220
+	Name:	"Reef (points) by Overfishing Threat"
+	Source:	221
+	Flags:	0x04
+	Legend:	231
+	Threshold:	275
+	View:	6
+	GSet:	276
+	LegEditScript:	"View.EditLegend"
+	TxPos:	277
+	LabelField:	227
+	SnapTolCursor:	1
+)
+
+(ShpSrc.221
+	Name:	222
+	FTab:	224
+)
+
+(SrcName.222
+	FileName:	223
+	Name:	"r_pt_ovf.shp"
+	SubName:	"Point"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.223
+	Path:	"geographic/r_pt_ovf.shp"
+)
+
+(FTab.224
+	Name:	"r_pt_ovf.dbf"
+	BTab:	225
+	Fields:	229
+	Fields:	226
+	Fields:	227
+	SelBits:	230
+	FSrc:	221
+)
+
+(dBASE.225
+	Name:	"r_pt_ovf.dbf"
+	Fields:	226
+	Fields:	227
+	FileName:	228
+)
+
+(Field.226
+	Name:	"Threat"
+	Btab:	225
+	Alias:	"Threat"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.227
+	Name:	"Threat_txt"
+	Btab:	225
+	Alias:	"Threat_txt"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.228
+	Path:	"geographic/r_pt_ovf.dbf"
+)
+
+(Field.229
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	17
+	Order:	-1
+)
+
+(Bitmap.230
+	NumBits:	103734
+
+)
+
+(Legend.231
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	232
+	Symbols:	233
+	Class:	262
+	Class:	263
+	Class:	264
+	Class:	265
+	StdDevs:	1.00000000000000
+	NullSym:	266
+	NullValues:	273
+	StatValues:	274
+	Precision:	-3
+)
+
+(AVStr.232
+	S:	"Threat"
+)
+
+(SymList.233
+	Child:	234
+	Child:	241
+	Child:	248
+	Child:	255
+)
+
+(BMkSym.234
+	Color:	235
+	BgColor:	236
+	Font:	237
+	Size:	3.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.235
+	Red:	0x1ee0
+	Green:	0x8b7e
+	Blue:	0xfeff
+)
+
+(TClr.236
+	Name:	"Transparent"
+)
+
+(NFont.237
+	Family:	238
+	Name:	239
+	Style:	240
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.238
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.239
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.240
+	S:	"Normal"
+)
+
+(BMkSym.241
+	Color:	242
+	BgColor:	243
+	Font:	244
+	Size:	3.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.242
+	Red:	0xfcff
+	Green:	0xb813
+	Blue:	0xfc
+)
+
+(TClr.243
+	Name:	"Transparent"
+)
+
+(NFont.244
+	Family:	245
+	Name:	246
+	Style:	247
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.245
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.246
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.247
+	S:	"Normal"
+)
+
+(BMkSym.248
+	Color:	249
+	BgColor:	250
+	Font:	251
+	Size:	3.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.249
+	Red:	0xfcff
+	Green:	0x3453
+	Blue:	0x19b1
+)
+
+(TClr.250
+	Name:	"Transparent"
+)
+
+(NFont.251
+	Family:	252
+	Name:	253
+	Style:	254
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.252
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.253
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.254
+	S:	"Normal"
+)
+
+(BMkSym.255
+	Color:	256
+	BgColor:	257
+	Font:	258
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.256
+	Name:	"Transparent"
+)
+
+(TClr.257
+	Name:	"Transparent"
+)
+
+(NFont.258
+	Family:	259
+	Name:	260
+	Style:	261
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.259
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.260
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.261
+	S:	"Normal"
+)
+
+(LClass.262
+	Label:	"Low"
+	MinNum:	1.00000000000000
+	MaxNum:	1.00000000000000
+	Precision:	-3
+)
+
+(LClass.263
+	Label:	"Medium"
+	MinNum:	100.00000000000000
+	MaxNum:	100.00000000000000
+	Precision:	-3
+)
+
+(LClass.264
+	Label:	"High"
+	MinNum:	1000.00000000000000
+	MaxNum:	1000.00000000000000
+	Precision:	-3
+)
+
+(LClass.265
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BMkSym.266
+	Color:	267
+	BgColor:	268
+	Font:	269
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.267
+	Name:	"Transparent"
+)
+
+(TClr.268
+	Name:	"Transparent"
+)
+
+(NFont.269
+	Family:	270
+	Name:	271
+	Style:	272
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.270
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.271
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.272
+	S:	"Normal"
+)
+
+(NameDict.273
+)
+
+(NameDict.274
+)
+
+(Thresh.275
+)
+
+(GSet.276
+)
+
+(TxPosPt.277
+	HAlign:	4
+	VAlign:	3
+)
+
+(FTheme.278
+	Name:	"Reef (points) by Integrated Threat"
+	Source:	279
+	Flags:	0x07
+	Legend:	289
+	Threshold:	341
+	View:	6
+	GSet:	342
+	LegEditScript:	"View.EditLegend"
+	TxPos:	343
+	LabelField:	285
+	SnapTolCursor:	1
+)
+
+(ShpSrc.279
+	Name:	280
+	FTab:	282
+)
+
+(SrcName.280
+	FileName:	281
+	Name:	"r_pt_int.shp"
+	SubName:	"Point"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.281
+	Path:	"geographic/r_pt_int.shp"
+)
+
+(FTab.282
+	Name:	"r_pt_int.dbf"
+	BTab:	283
+	Fields:	287
+	Fields:	284
+	Fields:	285
+	SelBits:	288
+	FSrc:	279
+)
+
+(dBASE.283
+	Name:	"r_pt_int.dbf"
+	Fields:	284
+	Fields:	285
+	FileName:	286
+)
+
+(Field.284
+	Name:	"Threat"
+	Btab:	283
+	Alias:	"Threat"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.285
+	Name:	"Threat_txt"
+	Btab:	283
+	Alias:	"Threat_txt"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.286
+	Path:	"geographic/r_pt_int.dbf"
+)
+
+(Field.287
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	17
+	Order:	-1
+)
+
+(Bitmap.288
+	NumBits:	103734
+
+)
+
+(Legend.289
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	290
+	Symbols:	291
+	Class:	327
+	Class:	328
+	Class:	329
+	Class:	330
+	Class:	331
+	StdDevs:	1.00000000000000
+	NullSym:	332
+	NullValues:	339
+	StatValues:	340
+	Precision:	-3
+)
+
+(AVStr.290
+	S:	"Threat"
+)
+
+(SymList.291
+	Child:	292
+	Child:	299
+	Child:	306
+	Child:	313
+	Child:	320
+)
+
+(BMkSym.292
+	Color:	293
+	BgColor:	294
+	Font:	295
+	Size:	3.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.293
+	Red:	0x1ee0
+	Green:	0x8b7e
+	Blue:	0xfeff
+)
+
+(TClr.294
+	Name:	"Transparent"
+)
+
+(NFont.295
+	Family:	296
+	Name:	297
+	Style:	298
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.296
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.297
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.298
+	S:	"Normal"
+)
+
+(BMkSym.299
+	Color:	300
+	BgColor:	301
+	Font:	302
+	Size:	3.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.300
+	Red:	0xfcff
+	Green:	0xb813
+	Blue:	0xfc
+)
+
+(TClr.301
+	Name:	"Transparent"
+)
+
+(NFont.302
+	Family:	303
+	Name:	304
+	Style:	305
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.303
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.304
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.305
+	S:	"Normal"
+)
+
+(BMkSym.306
+	Color:	307
+	BgColor:	308
+	Font:	309
+	Size:	3.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.307
+	Red:	0xfcff
+	Green:	0x3453
+	Blue:	0x19b1
+)
+
+(TClr.308
+	Name:	"Transparent"
+)
+
+(NFont.309
+	Family:	310
+	Name:	311
+	Style:	312
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.310
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.311
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.312
+	S:	"Normal"
+)
+
+(BMkSym.313
+	Color:	314
+	BgColor:	315
+	Font:	316
+	Size:	3.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.314
+	Red:	0xa6ff
+	Green:	0xa6
+	Blue:	0xa6
+)
+
+(TClr.315
+	Name:	"Transparent"
+)
+
+(NFont.316
+	Family:	317
+	Name:	318
+	Style:	319
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.317
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.318
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.319
+	S:	"Normal"
+)
+
+(BMkSym.320
+	Color:	321
+	BgColor:	322
+	Font:	323
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.321
+	Name:	"Transparent"
+)
+
+(TClr.322
+	Name:	"Transparent"
+)
+
+(NFont.323
+	Family:	324
+	Name:	325
+	Style:	326
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.324
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.325
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.326
+	S:	"Normal"
+)
+
+(LClass.327
+	Label:	"Low"
+	MinNum:	1.00000000000000
+	MaxNum:	1.00000000000000
+	Precision:	-3
+)
+
+(LClass.328
+	Label:	"Medium"
+	MinNum:	100.00000000000000
+	MaxNum:	100.00000000000000
+	Precision:	-3
+)
+
+(LClass.329
+	Label:	"High"
+	MinNum:	1000.00000000000000
+	MaxNum:	1000.00000000000000
+	Precision:	-3
+)
+
+(LClass.330
+	Label:	"Very high"
+	MinNum:	1500.00000000000000
+	MaxNum:	1500.00000000000000
+	Precision:	-3
+)
+
+(LClass.331
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BMkSym.332
+	Color:	333
+	BgColor:	334
+	Font:	335
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.333
+	Name:	"Transparent"
+)
+
+(TClr.334
+	Name:	"Transparent"
+)
+
+(NFont.335
+	Family:	336
+	Name:	337
+	Style:	338
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.336
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.337
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.338
+	S:	"Normal"
+)
+
+(NameDict.339
+)
+
+(NameDict.340
+)
+
+(Thresh.341
+)
+
+(GSet.342
+)
+
+(TxPosPt.343
+	HAlign:	4
+	VAlign:	3
+)
+
+(FTheme.344
+	Name:	"Coastal Development Threat Estimate"
+	Source:	345
+	Flags:	0x04
+	Legend:	355
+	Threshold:	379
+	View:	6
+	GSet:	380
+	LegEditScript:	"View.EditLegend"
+	TxPos:	381
+	LabelField:	351
+	AttrRules:	382
+	AttrRules:	383
+	SnapTolCursor:	1
+)
+
+(ShpSrc.345
+	Name:	346
+	FTab:	348
+)
+
+(SrcName.346
+	FileName:	347
+	Name:	"threat_cd.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.347
+	Path:	"geographic/threat_cd.shp"
+)
+
+(FTab.348
+	Name:	"threat_cd.dbf"
+	BTab:	349
+	Fields:	353
+	Fields:	350
+	Fields:	351
+	SelBits:	354
+	FSrc:	345
+)
+
+(dBASE.349
+	Name:	"threat_cd.dbf"
+	Fields:	350
+	Fields:	351
+	FileName:	352
+)
+
+(Field.350
+	Name:	"Value"
+	Btab:	349
+	Alias:	"Value"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.351
+	Name:	"Threat"
+	Btab:	349
+	Alias:	"Threat"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.352
+	Path:	"geographic/threat_cd.dbf"
+)
+
+(Field.353
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.354
+	NumBits:	2710
+
+)
+
+(Legend.355
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	356
+	Symbols:	357
+	Class:	370
+	Class:	371
+	Class:	372
+	StdDevs:	1.00000000000000
+	NullSym:	373
+	NullValues:	377
+	StatValues:	378
+	Precision:	-3
+)
+
+(AVStr.356
+	S:	"Threat"
+)
+
+(SymList.357
+	Child:	358
+	Child:	362
+	Child:	366
+)
+
+(BShSym.358
+	Color:	359
+	Outline:	1
+	OutlineColor:	360
+	OutlineWidth:	0.10000000000000
+	BgColor:	361
+)
+
+(TClr.359
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(TClr.360
+)
+
+(TClr.361
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.362
+	Color:	363
+	Outline:	1
+	OutlineColor:	364
+	OutlineWidth:	0.10000000000000
+	BgColor:	365
+)
+
+(TClr.363
+	Red:	0xa559
+	Green:	0xfad1
+	Blue:	0xff00
+)
+
+(TClr.364
+)
+
+(TClr.365
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.366
+	Color:	367
+	Outline:	1
+	OutlineColor:	368
+	OutlineWidth:	0.10000000000000
+	BgColor:	369
+)
+
+(TClr.367
+	Name:	"Transparent"
+)
+
+(TClr.368
+	Name:	"Transparent"
+)
+
+(TClr.369
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.370
+	IsText:	1
+	Label:	"High"
+	MinStr:	"High"
+	MaxStr:	"High"
+	Precision:	-3
+)
+
+(LClass.371
+	IsText:	1
+	Label:	"Medium"
+	MinStr:	"Medium"
+	MaxStr:	"Medium"
+	Precision:	-3
+)
+
+(LClass.372
+	IsNoData:	1
+	IsText:	1
+	Label:	"No Data"
+	Precision:	-3
+)
+
+(BShSym.373
+	Color:	374
+	Outline:	1
+	OutlineColor:	375
+	OutlineWidth:	0.10000000000000
+	BgColor:	376
+)
+
+(TClr.374
+	Name:	"Transparent"
+)
+
+(TClr.375
+	Name:	"Transparent"
+)
+
+(TClr.376
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.377
+)
+
+(NameDict.378
+)
+
+(Thresh.379
+)
+
+(GSet.380
+)
+
+(TxPosPly.381
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.382
+	FTab:	348
+	Field:	350
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.383
+	FTab:	348
+	Field:	351
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTheme.384
+	Name:	"Sediment Threat Estimate"
+	Source:	385
+	Flags:	0x04
+	Legend:	395
+	Threshold:	419
+	View:	6
+	GSet:	420
+	LegEditScript:	"View.EditLegend"
+	TxPos:	421
+	LabelField:	391
+	AttrRules:	422
+	AttrRules:	423
+	SnapTolCursor:	1
+)
+
+(ShpSrc.385
+	Name:	386
+	FTab:	388
+)
+
+(SrcName.386
+	FileName:	387
+	Name:	"threat_sed.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.387
+	Path:	"geographic/threat_sed.shp"
+)
+
+(FTab.388
+	Name:	"threat_sed.dbf"
+	BTab:	389
+	Fields:	393
+	Fields:	390
+	Fields:	391
+	SelBits:	394
+	FSrc:	385
+)
+
+(dBASE.389
+	Name:	"threat_sed.dbf"
+	Fields:	390
+	Fields:	391
+	FileName:	392
+)
+
+(Field.390
+	Name:	"Value"
+	Btab:	389
+	Alias:	"Value"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	75
+)
+
+(Field.391
+	Name:	"Threat"
+	Btab:	389
+	Alias:	"Threat"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	75
+)
+
+(FN.392
+	Path:	"geographic/threat_sed.dbf"
+)
+
+(Field.393
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+	Pixels:	61
+)
+
+(Bitmap.394
+	NumBits:	237
+
+)
+
+(Legend.395
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	396
+	Symbols:	397
+	Class:	410
+	Class:	411
+	Class:	412
+	StdDevs:	1.00000000000000
+	NullSym:	413
+	NullValues:	417
+	StatValues:	418
+	Precision:	-3
+)
+
+(AVStr.396
+	S:	"Threat"
+)
+
+(SymList.397
+	Child:	398
+	Child:	402
+	Child:	406
+)
+
+(BShSym.398
+	Color:	399
+	Outline:	1
+	OutlineColor:	400
+	OutlineWidth:	0.10000000000000
+	BgColor:	401
+)
+
+(TClr.399
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(TClr.400
+)
+
+(TClr.401
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.402
+	Color:	403
+	Outline:	1
+	OutlineColor:	404
+	OutlineWidth:	0.10000000000000
+	BgColor:	405
+)
+
+(TClr.403
+	Red:	0xa559
+	Green:	0xfad1
+	Blue:	0xff00
+)
+
+(TClr.404
+)
+
+(TClr.405
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.406
+	Color:	407
+	Outline:	1
+	OutlineColor:	408
+	OutlineWidth:	0.10000000000000
+	BgColor:	409
+)
+
+(TClr.407
+	Name:	"Transparent"
+)
+
+(TClr.408
+	Name:	"Transparent"
+)
+
+(TClr.409
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.410
+	IsText:	1
+	Label:	"High"
+	MinStr:	"High"
+	MaxStr:	"High"
+	Precision:	-3
+)
+
+(LClass.411
+	IsText:	1
+	Label:	"Medium"
+	MinStr:	"Medium"
+	MaxStr:	"Medium"
+	Precision:	-3
+)
+
+(LClass.412
+	IsNoData:	1
+	IsText:	1
+	Label:	"No Data"
+	Precision:	-3
+)
+
+(BShSym.413
+	Color:	414
+	Outline:	1
+	OutlineColor:	415
+	OutlineWidth:	0.10000000000000
+	BgColor:	416
+)
+
+(TClr.414
+	Name:	"Transparent"
+)
+
+(TClr.415
+	Name:	"Transparent"
+)
+
+(TClr.416
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.417
+)
+
+(NameDict.418
+)
+
+(Thresh.419
+)
+
+(GSet.420
+)
+
+(TxPosPly.421
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.422
+	FTab:	388
+	Field:	390
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.423
+	FTab:	388
+	Field:	391
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTheme.424
+	Name:	"Marine-based Threat  Estimate"
+	Source:	425
+	Flags:	0x04
+	Legend:	435
+	Threshold:	459
+	View:	6
+	GSet:	460
+	LegEditScript:	"View.EditLegend"
+	TxPos:	461
+	LabelField:	431
+	AttrRules:	462
+	AttrRules:	463
+	SnapTolCursor:	1
+)
+
+(ShpSrc.425
+	Name:	426
+	FTab:	428
+)
+
+(SrcName.426
+	FileName:	427
+	Name:	"threat_mar.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.427
+	Path:	"geographic/threat_mar.shp"
+)
+
+(FTab.428
+	Name:	"threat_mar.dbf"
+	BTab:	429
+	Fields:	433
+	Fields:	430
+	Fields:	431
+	SelBits:	434
+	FSrc:	425
+)
+
+(dBASE.429
+	Name:	"threat_mar.dbf"
+	Fields:	430
+	Fields:	431
+	FileName:	432
+)
+
+(Field.430
+	Name:	"Value"
+	Btab:	429
+	Alias:	"Value"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.431
+	Name:	"Threat"
+	Btab:	429
+	Alias:	"Threat"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.432
+	Path:	"geographic/threat_mar.dbf"
+)
+
+(Field.433
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.434
+	NumBits:	608
+
+)
+
+(Legend.435
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	436
+	Symbols:	437
+	Class:	450
+	Class:	451
+	Class:	452
+	StdDevs:	1.00000000000000
+	NullSym:	453
+	NullValues:	457
+	StatValues:	458
+	Precision:	-3
+)
+
+(AVStr.436
+	S:	"Threat"
+)
+
+(SymList.437
+	Child:	438
+	Child:	442
+	Child:	446
+)
+
+(BShSym.438
+	Color:	439
+	Outline:	1
+	OutlineColor:	440
+	OutlineWidth:	0.10000000000000
+	BgColor:	441
+)
+
+(TClr.439
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(TClr.440
+)
+
+(TClr.441
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.442
+	Color:	443
+	Outline:	1
+	OutlineColor:	444
+	OutlineWidth:	0.10000000000000
+	BgColor:	445
+)
+
+(TClr.443
+	Red:	0xa559
+	Green:	0xfad1
+	Blue:	0xff00
+)
+
+(TClr.444
+)
+
+(TClr.445
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.446
+	Color:	447
+	Outline:	1
+	OutlineColor:	448
+	OutlineWidth:	0.10000000000000
+	BgColor:	449
+)
+
+(TClr.447
+	Name:	"Transparent"
+)
+
+(TClr.448
+	Name:	"Transparent"
+)
+
+(TClr.449
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.450
+	IsText:	1
+	Label:	"High"
+	MinStr:	"High"
+	MaxStr:	"High"
+	Precision:	-3
+)
+
+(LClass.451
+	IsText:	1
+	Label:	"Medium"
+	MinStr:	"Medium"
+	MaxStr:	"Medium"
+	Precision:	-3
+)
+
+(LClass.452
+	IsNoData:	1
+	IsText:	1
+	Label:	"No Data"
+	Precision:	-3
+)
+
+(BShSym.453
+	Color:	454
+	Outline:	1
+	OutlineColor:	455
+	OutlineWidth:	0.10000000000000
+	BgColor:	456
+)
+
+(TClr.454
+	Name:	"Transparent"
+)
+
+(TClr.455
+	Name:	"Transparent"
+)
+
+(TClr.456
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.457
+)
+
+(NameDict.458
+)
+
+(Thresh.459
+)
+
+(GSet.460
+)
+
+(TxPosPly.461
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.462
+	FTab:	428
+	Field:	430
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.463
+	FTab:	428
+	Field:	431
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTheme.464
+	Name:	"Overfishing Threat Estimate"
+	Source:	465
+	Flags:	0x04
+	Legend:	475
+	Threshold:	499
+	View:	6
+	GSet:	500
+	LegEditScript:	"View.EditLegend"
+	TxPos:	501
+	LabelField:	471
+	AttrRules:	502
+	AttrRules:	503
+	SnapTolCursor:	1
+)
+
+(ShpSrc.465
+	Name:	466
+	FTab:	468
+)
+
+(SrcName.466
+	FileName:	467
+	Name:	"threat_ovf.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.467
+	Path:	"geographic/threat_ovf.shp"
+)
+
+(FTab.468
+	Name:	"threat_ovf.dbf"
+	BTab:	469
+	Fields:	473
+	Fields:	470
+	Fields:	471
+	SelBits:	474
+	FSrc:	465
+)
+
+(dBASE.469
+	Name:	"threat_ovf.dbf"
+	Fields:	470
+	Fields:	471
+	FileName:	472
+)
+
+(Field.470
+	Name:	"Value"
+	Btab:	469
+	Alias:	"Value"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.471
+	Name:	"Threat"
+	Btab:	469
+	Alias:	"Threat"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.472
+	Path:	"geographic/threat_ovf.dbf"
+)
+
+(Field.473
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.474
+	NumBits:	326
+
+)
+
+(Legend.475
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	476
+	Symbols:	477
+	Class:	490
+	Class:	491
+	Class:	492
+	StdDevs:	1.00000000000000
+	NullSym:	493
+	NullValues:	497
+	StatValues:	498
+	Precision:	-3
+)
+
+(AVStr.476
+	S:	"Threat"
+)
+
+(SymList.477
+	Child:	478
+	Child:	482
+	Child:	486
+)
+
+(BShSym.478
+	Color:	479
+	Outline:	1
+	OutlineColor:	480
+	OutlineWidth:	0.10000000000000
+	BgColor:	481
+)
+
+(TClr.479
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(TClr.480
+)
+
+(TClr.481
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.482
+	Color:	483
+	Outline:	1
+	OutlineColor:	484
+	OutlineWidth:	0.10000000000000
+	BgColor:	485
+)
+
+(TClr.483
+	Red:	0xa559
+	Green:	0xfad1
+	Blue:	0xff00
+)
+
+(TClr.484
+)
+
+(TClr.485
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.486
+	Color:	487
+	Outline:	1
+	OutlineColor:	488
+	OutlineWidth:	0.10000000000000
+	BgColor:	489
+)
+
+(TClr.487
+	Name:	"Transparent"
+)
+
+(TClr.488
+	Name:	"Transparent"
+)
+
+(TClr.489
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.490
+	IsText:	1
+	Label:	"High"
+	MinStr:	"High"
+	MaxStr:	"High"
+	Precision:	-3
+)
+
+(LClass.491
+	IsText:	1
+	Label:	"Medium"
+	MinStr:	"Medium"
+	MaxStr:	"Medium"
+	Precision:	-3
+)
+
+(LClass.492
+	IsNoData:	1
+	IsText:	1
+	Label:	"No Data"
+	Precision:	-3
+)
+
+(BShSym.493
+	Color:	494
+	Outline:	1
+	OutlineColor:	495
+	OutlineWidth:	0.10000000000000
+	BgColor:	496
+)
+
+(TClr.494
+	Name:	"Transparent"
+)
+
+(TClr.495
+	Name:	"Transparent"
+)
+
+(TClr.496
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.497
+)
+
+(NameDict.498
+)
+
+(Thresh.499
+)
+
+(GSet.500
+)
+
+(TxPosPly.501
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.502
+	FTab:	468
+	Field:	470
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.503
+	FTab:	468
+	Field:	471
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTheme.504
+	Name:	"Integrated Threat Estimate"
+	Source:	505
+	Flags:	0x04
+	Legend:	515
+	Threshold:	544
+	View:	6
+	GSet:	545
+	LegEditScript:	"View.EditLegend"
+	TxPos:	546
+	LabelField:	511
+	AttrRules:	547
+	AttrRules:	548
+	SnapTolCursor:	1
+)
+
+(ShpSrc.505
+	Name:	506
+	FTab:	508
+)
+
+(SrcName.506
+	FileName:	507
+	Name:	"threat_int.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.507
+	Path:	"geographic/threat_int.shp"
+)
+
+(FTab.508
+	Name:	"threat_int.dbf"
+	BTab:	509
+	Fields:	513
+	Fields:	510
+	Fields:	511
+	SelBits:	514
+	FSrc:	505
+)
+
+(dBASE.509
+	Name:	"threat_int.dbf"
+	Fields:	510
+	Fields:	511
+	FileName:	512
+)
+
+(Field.510
+	Name:	"Value"
+	Btab:	509
+	Alias:	"Value"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.511
+	Name:	"Threat"
+	Btab:	509
+	Alias:	"Threat"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.512
+	Path:	"geographic/threat_int.dbf"
+)
+
+(Field.513
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.514
+	NumBits:	2082
+
+)
+
+(Legend.515
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	516
+	Symbols:	517
+	Class:	534
+	Class:	535
+	Class:	536
+	Class:	537
+	StdDevs:	1.00000000000000
+	NullSym:	538
+	NullValues:	542
+	StatValues:	543
+	Precision:	-3
+)
+
+(AVStr.516
+	S:	"Threat"
+)
+
+(SymList.517
+	Child:	518
+	Child:	522
+	Child:	526
+	Child:	530
+)
+
+(BShSym.518
+	Color:	519
+	Outline:	1
+	OutlineColor:	520
+	OutlineWidth:	0.10000000000000
+	BgColor:	521
+)
+
+(TClr.519
+	Red:	0xdb
+	Green:	0xd1c7
+	Blue:	0xdc00
+)
+
+(TClr.520
+)
+
+(TClr.521
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.522
+	Color:	523
+	Outline:	1
+	OutlineColor:	524
+	OutlineWidth:	0.10000000000000
+	BgColor:	525
+)
+
+(TClr.523
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(TClr.524
+)
+
+(TClr.525
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.526
+	Color:	527
+	Outline:	1
+	OutlineColor:	528
+	OutlineWidth:	0.10000000000000
+	BgColor:	529
+)
+
+(TClr.527
+	Red:	0xa559
+	Green:	0xfad1
+	Blue:	0xff00
+)
+
+(TClr.528
+)
+
+(TClr.529
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.530
+	Color:	531
+	Outline:	1
+	OutlineColor:	532
+	OutlineWidth:	0.10000000000000
+	BgColor:	533
+)
+
+(TClr.531
+	Name:	"Transparent"
+)
+
+(TClr.532
+	Name:	"Transparent"
+)
+
+(TClr.533
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.534
+	IsText:	1
+	Label:	"Very High"
+	MinStr:	"Very High"
+	MaxStr:	"Very High"
+	Precision:	-3
+)
+
+(LClass.535
+	IsText:	1
+	Label:	"High"
+	MinStr:	"High"
+	MaxStr:	"High"
+	Precision:	-3
+)
+
+(LClass.536
+	IsText:	1
+	Label:	"Medium"
+	MinStr:	"Medium"
+	MaxStr:	"Medium"
+	Precision:	-3
+)
+
+(LClass.537
+	IsNoData:	1
+	IsText:	1
+	Label:	"No Data"
+	Precision:	-3
+)
+
+(BShSym.538
+	Color:	539
+	Outline:	1
+	OutlineColor:	540
+	OutlineWidth:	0.10000000000000
+	BgColor:	541
+)
+
+(TClr.539
+	Name:	"Transparent"
+)
+
+(TClr.540
+	Name:	"Transparent"
+)
+
+(TClr.541
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.542
+)
+
+(NameDict.543
+)
+
+(Thresh.544
+)
+
+(GSet.545
+)
+
+(TxPosPly.546
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.547
+	FTab:	508
+	Field:	510
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.548
+	FTab:	508
+	Field:	511
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(BShSym.549
+	Color:	550
+	Outline:	1
+	OutlineColor:	551
+	BgColor:	552
+)
+
+(TClr.550
+	Red:	0xe11d
+	Green:	0xfd9b
+	Blue:	0xfeff
+)
+
+(TClr.551
+)
+
+(TClr.552
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(View.553
+	Name:	"View 2 - Watershed-based Sources of Threat"
+	CreationDate:	"Wednesday, March 02, 2005 2:50:20 PM"
+	GUIName:	"View"
+	Win:	554
+	CSMgr:	555
+	DocExts:	557
+	DocExts:	558
+	Graphics:	559
+	Theme:	566
+	Theme:	624
+	Theme:	666
+	Theme:	733
+	Theme:	800
+	Theme:	827
+	Theme:	945
+	LastScale:	39396677.27334712400000
+	Dpy:	560
+	TOCWidth:	306
+	CoordPrecision:	2
+	BackgroundSymbol:	987
+)
+
+(DocWin.554
+	Owner:	553
+	X:	136
+	Y:	57
+	W:	877
+	H:	478
+)
+
+(CSMgr.555
+	Client:	556
+)
+
+(CSClient.556
+	Client:	557
+	ReqName:	"ClientNfy"
+)
+
+(PanMgr.557
+	Doc:	553
+)
+
+(DocAct.558
+	Doc:	553
+)
+
+(GList.559
+	Dpy:	560
+	FormatNumb:	565
+)
+
+(MapDpy.560
+	Left:	-99.20170280614343
+	Bottom:	7.38649500050097
+	Top:	33.68159825654001
+	Right:	-57.50487986521313
+	ReportUnits:	8
+	Units:	10
+	Scale:	561
+	FrameTop:	3.64166666666667
+	FrameRight:	4.63333333333333
+	PageDpy:	562
+	FitToPage:	1
+	MouseLoc:	564
+)
+
+(Numb.561
+	N:	0.11111957714134
+)
+
+(PageDpy.562
+	Top:	3.64166666666667
+	Right:	4.63333333333333
+	ReportUnits:	1
+	Units:	1
+	Scale:	563
+	ZoomRight:	4.63333333333333
+	ZoomTop:	3.64166666666667
+	GridSpacingX:	0.25000000000000
+	GridSpacingY:	0.25000000000000
+)
+
+(Numb.563
+	N:	0.21582733812950
+)
+
+(PointD.564
+	x:	-57.57987415107811
+	y:	34.29549808474479
+)
+
+(Numb.565
+)
+
+(FTheme.566
+	Name:	"Reef (points) by Sediment Threat"
+	Source:	567
+	Flags:	0x04
+	Legend:	577
+	Threshold:	621
+	View:	553
+	GSet:	622
+	LegEditScript:	"View.EditLegend"
+	TxPos:	623
+	LabelField:	573
+	SnapTolCursor:	1
+)
+
+(ShpSrc.567
+	Name:	568
+	FTab:	570
+)
+
+(SrcName.568
+	FileName:	569
+	Name:	"r_pt_sed.shp"
+	SubName:	"Point"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.569
+	Path:	"geographic/r_pt_sed.shp"
+)
+
+(FTab.570
+	Name:	"r_pt_sed.dbf"
+	BTab:	571
+	Fields:	575
+	Fields:	572
+	Fields:	573
+	SelBits:	576
+	FSrc:	567
+)
+
+(dBASE.571
+	Name:	"r_pt_sed.dbf"
+	Fields:	572
+	Fields:	573
+	FileName:	574
+)
+
+(Field.572
+	Name:	"Threat"
+	Btab:	571
+	Alias:	"Threat"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.573
+	Name:	"Threat_txt"
+	Btab:	571
+	Alias:	"Threat_txt"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.574
+	Path:	"geographic/r_pt_sed.dbf"
+)
+
+(Field.575
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	17
+	Order:	-1
+)
+
+(Bitmap.576
+	NumBits:	103734
+
+)
+
+(Legend.577
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	578
+	Symbols:	579
+	Class:	608
+	Class:	609
+	Class:	610
+	Class:	611
+	StdDevs:	1.00000000000000
+	NullSym:	612
+	NullValues:	619
+	StatValues:	620
+	Precision:	-3
+)
+
+(AVStr.578
+	S:	"Threat"
+)
+
+(SymList.579
+	Child:	580
+	Child:	587
+	Child:	594
+	Child:	601
+)
+
+(BMkSym.580
+	Color:	581
+	BgColor:	582
+	Font:	583
+	Size:	3.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.581
+	Red:	0x1ee0
+	Green:	0x8b7e
+	Blue:	0xfeff
+)
+
+(TClr.582
+	Name:	"Transparent"
+)
+
+(NFont.583
+	Family:	584
+	Name:	585
+	Style:	586
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.584
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.585
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.586
+	S:	"Normal"
+)
+
+(BMkSym.587
+	Color:	588
+	BgColor:	589
+	Font:	590
+	Size:	3.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.588
+	Red:	0xfcff
+	Green:	0xb813
+	Blue:	0xfc
+)
+
+(TClr.589
+	Name:	"Transparent"
+)
+
+(NFont.590
+	Family:	591
+	Name:	592
+	Style:	593
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.591
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.592
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.593
+	S:	"Normal"
+)
+
+(BMkSym.594
+	Color:	595
+	BgColor:	596
+	Font:	597
+	Size:	3.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.595
+	Red:	0xfcff
+	Green:	0x3453
+	Blue:	0x19b1
+)
+
+(TClr.596
+	Name:	"Transparent"
+)
+
+(NFont.597
+	Family:	598
+	Name:	599
+	Style:	600
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.598
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.599
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.600
+	S:	"Normal"
+)
+
+(BMkSym.601
+	Color:	602
+	BgColor:	603
+	Font:	604
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.602
+	Name:	"Transparent"
+)
+
+(TClr.603
+	Name:	"Transparent"
+)
+
+(NFont.604
+	Family:	605
+	Name:	606
+	Style:	607
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.605
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.606
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.607
+	S:	"Normal"
+)
+
+(LClass.608
+	Label:	"Low"
+	MinNum:	1.00000000000000
+	MaxNum:	1.00000000000000
+	Precision:	-3
+)
+
+(LClass.609
+	Label:	"Medium"
+	MinNum:	100.00000000000000
+	MaxNum:	100.00000000000000
+	Precision:	-3
+)
+
+(LClass.610
+	Label:	"High"
+	MinNum:	1000.00000000000000
+	MaxNum:	1000.00000000000000
+	Precision:	-3
+)
+
+(LClass.611
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BMkSym.612
+	Color:	613
+	BgColor:	614
+	Font:	615
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.613
+	Name:	"Transparent"
+)
+
+(TClr.614
+	Name:	"Transparent"
+)
+
+(NFont.615
+	Family:	616
+	Name:	617
+	Style:	618
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.616
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.617
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.618
+	S:	"Normal"
+)
+
+(NameDict.619
+)
+
+(NameDict.620
+)
+
+(Thresh.621
+)
+
+(GSet.622
+)
+
+(TxPosPt.623
+	HAlign:	4
+	VAlign:	3
+)
+
+(FTheme.624
+	Name:	"Watersheds"
+	Source:	625
+	Flags:	0x04
+	Legend:	641
+	Threshold:	655
+	View:	553
+	GSet:	656
+	LegEditScript:	"View.EditLegend"
+	TxPos:	657
+	LabelField:	637
+	AttrRules:	658
+	AttrRules:	659
+	AttrRules:	660
+	AttrRules:	661
+	AttrRules:	662
+	AttrRules:	663
+	AttrRules:	664
+	AttrRules:	665
+	SnapTolCursor:	1
+)
+
+(ShpSrc.625
+	Name:	626
+	FTab:	628
+)
+
+(SrcName.626
+	FileName:	627
+	Name:	"ws_combo.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.627
+	Path:	"geographic/ws_combo.shp"
+)
+
+(FTab.628
+	Name:	"ws_combo.dbf"
+	BTab:	629
+	Fields:	639
+	Fields:	630
+	Fields:	631
+	Fields:	632
+	Fields:	633
+	Fields:	634
+	Fields:	635
+	Fields:	636
+	Fields:	637
+	SelBits:	640
+	FSrc:	625
+)
+
+(dBASE.629
+	Name:	"ws_combo.dbf"
+	Fields:	630
+	Fields:	631
+	Fields:	632
+	Fields:	633
+	Fields:	634
+	Fields:	635
+	Fields:	636
+	Fields:	637
+	FileName:	638
+)
+
+(Field.630
+	Name:	"Gridcode"
+	Btab:	629
+	Alias:	"Gridcode"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.631
+	Name:	"Area_sqkm"
+	Btab:	629
+	Alias:	"Area_sqkm"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.632
+	Name:	"Mean_rep"
+	Btab:	629
+	Alias:	"Mean_rep"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.633
+	Name:	"Sum_rep"
+	Btab:	629
+	Alias:	"Sum_rep"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.634
+	Name:	"Precip_mea"
+	Btab:	629
+	Alias:	"Precip_mea"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.635
+	Name:	"Precip_sum"
+	Btab:	629
+	Alias:	"Precip_sum"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.636
+	Name:	"Sed_deliv"
+	Btab:	629
+	Alias:	"Sed_deliv"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.637
+	Name:	"Sourcethm"
+	Btab:	629
+	Alias:	"Sourcethm"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.638
+	Path:	"geographic/ws_combo.dbf"
+)
+
+(Field.639
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.640
+	NumBits:	3478
+
+)
+
+(Legend.641
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	642
+	Class:	648
+	StdDevs:	1.00000000000000
+	NullSym:	649
+	NullValues:	653
+	StatValues:	654
+	Precision:	-3
+)
+
+(SymList.642
+	Child:	643
+)
+
+(BShSym.643
+	Color:	644
+	Outline:	1
+	OutlineColor:	645
+	OutlineWidth:	0.10000000000000
+	BgColor:	646
+	Style:	0x01
+	Stipple:	647
+)
+
+(TClr.644
+	Red:	0x9e5b
+	Green:	0x85e9
+	Blue:	0x3f08
+)
+
+(TClr.645
+	Red:	0x7878
+	Green:	0x7878
+	Blue:	0x7878
+)
+
+(TClr.646
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.647
+	Columns:	8
+	Rows:	8
+	Bits:	00000000 00000000 
+)
+
+(LClass.648
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.649
+	Color:	650
+	Outline:	1
+	OutlineColor:	651
+	OutlineWidth:	0.10000000000000
+	BgColor:	652
+)
+
+(TClr.650
+	Name:	"Transparent"
+)
+
+(TClr.651
+	Name:	"Transparent"
+)
+
+(TClr.652
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.653
+)
+
+(NameDict.654
+)
+
+(Thresh.655
+)
+
+(GSet.656
+)
+
+(TxPosPly.657
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.658
+	FTab:	628
+	Field:	630
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.659
+	FTab:	628
+	Field:	631
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.660
+	FTab:	628
+	Field:	632
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.661
+	FTab:	628
+	Field:	633
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.662
+	FTab:	628
+	Field:	634
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.663
+	FTab:	628
+	Field:	635
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.664
+	FTab:	628
+	Field:	636
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.665
+	FTab:	628
+	Field:	637
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTheme.666
+	Name:	"Mean Relative Erosion Potential (by basin)"
+	Source:	667
+	Flags:	0x04
+	Legend:	683
+	Threshold:	722
+	View:	553
+	GSet:	723
+	LegEditScript:	"View.EditLegend"
+	TxPos:	724
+	LabelField:	679
+	AttrRules:	725
+	AttrRules:	726
+	AttrRules:	727
+	AttrRules:	728
+	AttrRules:	729
+	AttrRules:	730
+	AttrRules:	731
+	AttrRules:	732
+	SnapTolCursor:	1
+)
+
+(ShpSrc.667
+	Name:	668
+	FTab:	670
+)
+
+(SrcName.668
+	FileName:	669
+	Name:	"ws_combo.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.669
+	Path:	"geographic/ws_combo.shp"
+)
+
+(FTab.670
+	Name:	"ws_combo.dbf"
+	BTab:	671
+	Fields:	681
+	Fields:	672
+	Fields:	673
+	Fields:	674
+	Fields:	675
+	Fields:	676
+	Fields:	677
+	Fields:	678
+	Fields:	679
+	SelBits:	682
+	FSrc:	667
+)
+
+(dBASE.671
+	Name:	"ws_combo.dbf"
+	Fields:	672
+	Fields:	673
+	Fields:	674
+	Fields:	675
+	Fields:	676
+	Fields:	677
+	Fields:	678
+	Fields:	679
+	FileName:	680
+)
+
+(Field.672
+	Name:	"Gridcode"
+	Btab:	671
+	Alias:	"Gridcode"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.673
+	Name:	"Area_sqkm"
+	Btab:	671
+	Alias:	"Area_sqkm"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.674
+	Name:	"Mean_rep"
+	Btab:	671
+	Alias:	"Mean_rep"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.675
+	Name:	"Sum_rep"
+	Btab:	671
+	Alias:	"Sum_rep"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.676
+	Name:	"Precip_mea"
+	Btab:	671
+	Alias:	"Precip_mea"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.677
+	Name:	"Precip_sum"
+	Btab:	671
+	Alias:	"Precip_sum"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.678
+	Name:	"Sed_deliv"
+	Btab:	671
+	Alias:	"Sed_deliv"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.679
+	Name:	"Sourcethm"
+	Btab:	671
+	Alias:	"Sourcethm"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.680
+	Path:	"geographic/ws_combo.dbf"
+)
+
+(Field.681
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.682
+	NumBits:	3478
+
+)
+
+(Legend.683
+	SymType:	0x02
+	LegType:	0x02
+	ClassType:	0x03
+	FieldNames:	684
+	Symbols:	685
+	Class:	710
+	Class:	711
+	Class:	712
+	Class:	713
+	Class:	714
+	Class:	715
+	StdDevs:	1.00000000000000
+	NullSym:	716
+	NullValues:	720
+	StatValues:	721
+	Precision:	-3
+)
+
+(AVStr.684
+	S:	"Mean_rep"
+)
+
+(SymList.685
+	Child:	686
+	Child:	690
+	Child:	694
+	Child:	698
+	Child:	702
+	Child:	706
+)
+
+(BShSym.686
+	Color:	687
+	Outline:	1
+	OutlineColor:	688
+	OutlineWidth:	0.10000000000000
+	BgColor:	689
+)
+
+(TClr.687
+	Red:	0xfeff
+	Green:	0xe11d
+	Blue:	0xe11d
+)
+
+(TClr.688
+)
+
+(TClr.689
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.690
+	Color:	691
+	Outline:	1
+	OutlineColor:	692
+	OutlineWidth:	0.10000000000000
+	BgColor:	693
+)
+
+(TClr.691
+	Red:	0xfeff
+	Green:	0x8777
+	Blue:	0x8777
+)
+
+(TClr.692
+)
+
+(TClr.693
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.694
+	Color:	695
+	Outline:	1
+	OutlineColor:	696
+	OutlineWidth:	0.10000000000000
+	BgColor:	697
+)
+
+(TClr.695
+	Red:	0xffff
+)
+
+(TClr.696
+)
+
+(TClr.697
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.698
+	Color:	699
+	Outline:	1
+	OutlineColor:	700
+	OutlineWidth:	0.10000000000000
+	BgColor:	701
+)
+
+(TClr.699
+	Red:	0xaeff
+	Green:	0xae
+	Blue:	0xae
+)
+
+(TClr.700
+)
+
+(TClr.701
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.702
+	Color:	703
+	Outline:	1
+	OutlineColor:	704
+	OutlineWidth:	0.10000000000000
+	BgColor:	705
+)
+
+(TClr.703
+	Red:	0x63ff
+	Green:	0x63
+	Blue:	0x63
+)
+
+(TClr.704
+)
+
+(TClr.705
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.706
+	Color:	707
+	Outline:	1
+	OutlineColor:	708
+	OutlineWidth:	0.10000000000000
+	BgColor:	709
+)
+
+(TClr.707
+	Name:	"Transparent"
+)
+
+(TClr.708
+	Name:	"Transparent"
+)
+
+(TClr.709
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.710
+	Label:	"0 - 390.136"
+	MaxNum:	390.13630000000001
+	Precision:	-3
+)
+
+(LClass.711
+	Label:	"390.136 - 1093.477"
+	MinNum:	390.13630000000001
+	MaxNum:	1093.47720000000000
+	Precision:	-3
+)
+
+(LClass.712
+	Label:	"1093.477 - 2034.264"
+	MinNum:	1093.47720000000000
+	MaxNum:	2034.26430000000000
+	Precision:	-3
+)
+
+(LClass.713
+	Label:	"2034.264 - 3491.404"
+	MinNum:	2034.26430000000000
+	MaxNum:	3491.40430000000010
+	Precision:	-3
+)
+
+(LClass.714
+	Label:	"3491.404 - 6608.41"
+	MinNum:	3491.40430000000010
+	MaxNum:	6608.40970000000020
+	Precision:	-3
+)
+
+(LClass.715
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BShSym.716
+	Color:	717
+	Outline:	1
+	OutlineColor:	718
+	OutlineWidth:	0.10000000000000
+	BgColor:	719
+)
+
+(TClr.717
+	Name:	"Transparent"
+)
+
+(TClr.718
+	Name:	"Transparent"
+)
+
+(TClr.719
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.720
+)
+
+(NameDict.721
+)
+
+(Thresh.722
+)
+
+(GSet.723
+)
+
+(TxPosPly.724
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.725
+	FTab:	670
+	Field:	672
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.726
+	FTab:	670
+	Field:	673
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.727
+	FTab:	670
+	Field:	674
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.728
+	FTab:	670
+	Field:	675
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.729
+	FTab:	670
+	Field:	676
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.730
+	FTab:	670
+	Field:	677
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.731
+	FTab:	670
+	Field:	678
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.732
+	FTab:	670
+	Field:	679
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTheme.733
+	Name:	"Relative Sediment Delivery (by basin)"
+	Source:	734
+	Flags:	0x07
+	Legend:	750
+	Threshold:	789
+	View:	553
+	GSet:	790
+	LegEditScript:	"View.EditLegend"
+	TxPos:	791
+	LabelField:	746
+	AttrRules:	792
+	AttrRules:	793
+	AttrRules:	794
+	AttrRules:	795
+	AttrRules:	796
+	AttrRules:	797
+	AttrRules:	798
+	AttrRules:	799
+	SnapTolCursor:	1
+)
+
+(ShpSrc.734
+	Name:	735
+	FTab:	737
+)
+
+(SrcName.735
+	FileName:	736
+	Name:	"ws_combo.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.736
+	Path:	"geographic/ws_combo.shp"
+)
+
+(FTab.737
+	Name:	"ws_combo.dbf"
+	BTab:	738
+	Fields:	748
+	Fields:	739
+	Fields:	740
+	Fields:	741
+	Fields:	742
+	Fields:	743
+	Fields:	744
+	Fields:	745
+	Fields:	746
+	SelBits:	749
+	FSrc:	734
+)
+
+(dBASE.738
+	Name:	"ws_combo.dbf"
+	Fields:	739
+	Fields:	740
+	Fields:	741
+	Fields:	742
+	Fields:	743
+	Fields:	744
+	Fields:	745
+	Fields:	746
+	FileName:	747
+)
+
+(Field.739
+	Name:	"Gridcode"
+	Btab:	738
+	Alias:	"Gridcode"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.740
+	Name:	"Area_sqkm"
+	Btab:	738
+	Alias:	"Area_sqkm"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.741
+	Name:	"Mean_rep"
+	Btab:	738
+	Alias:	"Mean_rep"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.742
+	Name:	"Sum_rep"
+	Btab:	738
+	Alias:	"Sum_rep"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.743
+	Name:	"Precip_mea"
+	Btab:	738
+	Alias:	"Precip_mea"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.744
+	Name:	"Precip_sum"
+	Btab:	738
+	Alias:	"Precip_sum"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.745
+	Name:	"Sed_deliv"
+	Btab:	738
+	Alias:	"Sed_deliv"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.746
+	Name:	"Sourcethm"
+	Btab:	738
+	Alias:	"Sourcethm"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.747
+	Path:	"geographic/ws_combo.dbf"
+)
+
+(Field.748
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.749
+	NumBits:	3478
+
+)
+
+(Legend.750
+	SymType:	0x02
+	LegType:	0x02
+	ClassType:	0x03
+	FieldNames:	751
+	Symbols:	752
+	Class:	777
+	Class:	778
+	Class:	779
+	Class:	780
+	Class:	781
+	Class:	782
+	StdDevs:	1.00000000000000
+	NullSym:	783
+	NullValues:	787
+	StatValues:	788
+	Precision:	-3
+)
+
+(AVStr.751
+	S:	"Sed_deliv"
+)
+
+(SymList.752
+	Child:	753
+	Child:	757
+	Child:	761
+	Child:	765
+	Child:	769
+	Child:	773
+)
+
+(BShSym.753
+	Color:	754
+	Outline:	1
+	OutlineColor:	755
+	OutlineWidth:	0.10000000000000
+	BgColor:	756
+)
+
+(TClr.754
+	Red:	0xfeff
+	Green:	0xfa54
+	Blue:	0xe11d
+)
+
+(TClr.755
+)
+
+(TClr.756
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.757
+	Color:	758
+	Outline:	1
+	OutlineColor:	759
+	OutlineWidth:	0.10000000000000
+	BgColor:	760
+)
+
+(TClr.758
+	Red:	0xfeff
+	Green:	0xec50
+	Blue:	0x8777
+)
+
+(TClr.759
+)
+
+(TClr.760
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.761
+	Color:	762
+	Outline:	1
+	OutlineColor:	763
+	OutlineWidth:	0.10000000000000
+	BgColor:	764
+)
+
+(TClr.762
+	Red:	0xfeff
+	Green:	0xdd85
+	Blue:	0x28d6
+)
+
+(TClr.763
+)
+
+(TClr.764
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.765
+	Color:	766
+	Outline:	1
+	OutlineColor:	767
+	OutlineWidth:	0.10000000000000
+	BgColor:	768
+)
+
+(TClr.766
+	Red:	0xd1ff
+	Green:	0xb14d
+	Blue:	0xd1
+)
+
+(TClr.767
+)
+
+(TClr.768
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.769
+	Color:	770
+	Outline:	1
+	OutlineColor:	771
+	OutlineWidth:	0.10000000000000
+	BgColor:	772
+)
+
+(TClr.770
+	Red:	0x86ff
+	Green:	0x71fa
+	Blue:	0x86
+)
+
+(TClr.771
+)
+
+(TClr.772
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.773
+	Color:	774
+	Outline:	1
+	OutlineColor:	775
+	OutlineWidth:	0.10000000000000
+	BgColor:	776
+)
+
+(TClr.774
+	Name:	"Transparent"
+)
+
+(TClr.775
+	Name:	"Transparent"
+)
+
+(TClr.776
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.777
+	Label:	"0 - 40604"
+	MaxNum:	40604.00000000000000
+	Precision:	-3
+)
+
+(LClass.778
+	Label:	"40605 - 212539"
+	MinNum:	40605.00000000000000
+	MaxNum:	212539.00000000000000
+	Precision:	-3
+)
+
+(LClass.779
+	Label:	"212540 - 760850"
+	MinNum:	212540.00000000000000
+	MaxNum:	760850.00000000000000
+	Precision:	-3
+)
+
+(LClass.780
+	Label:	"760851 - 1937978"
+	MinNum:	760851.00000000000000
+	MaxNum:	1937978.00000000000000
+	Precision:	-3
+)
+
+(LClass.781
+	Label:	"1937979 - 3239102"
+	MinNum:	1937979.00000000000000
+	MaxNum:	3239102.00000000000000
+	Precision:	-3
+)
+
+(LClass.782
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BShSym.783
+	Color:	784
+	Outline:	1
+	OutlineColor:	785
+	OutlineWidth:	0.10000000000000
+	BgColor:	786
+)
+
+(TClr.784
+	Name:	"Transparent"
+)
+
+(TClr.785
+	Name:	"Transparent"
+)
+
+(TClr.786
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.787
+)
+
+(NameDict.788
+)
+
+(Thresh.789
+)
+
+(GSet.790
+)
+
+(TxPosPly.791
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.792
+	FTab:	737
+	Field:	739
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.793
+	FTab:	737
+	Field:	740
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.794
+	FTab:	737
+	Field:	741
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.795
+	FTab:	737
+	Field:	742
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.796
+	FTab:	737
+	Field:	743
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.797
+	FTab:	737
+	Field:	744
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.798
+	FTab:	737
+	Field:	745
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.799
+	FTab:	737
+	Field:	746
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTheme.800
+	Name:	"National Boundaries"
+	Source:	801
+	Flags:	0x06
+	Legend:	810
+	Threshold:	823
+	View:	553
+	GSet:	824
+	LegEditScript:	"View.EditLegend"
+	TxPos:	825
+	LabelField:	806
+	AttrRules:	826
+	SnapTolCursor:	1
+)
+
+(ShpSrc.801
+	Name:	802
+	FTab:	804
+)
+
+(SrcName.802
+	FileName:	803
+	Name:	"cntry_vmap.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.803
+	Path:	"geographic/cntry_vmap.shp"
+)
+
+(FTab.804
+	Name:	"cntry_vmap.dbf"
+	BTab:	805
+	Fields:	808
+	Fields:	806
+	SelBits:	809
+	FSrc:	801
+)
+
+(dBASE.805
+	Name:	"cntry_vmap.dbf"
+	Fields:	806
+	FileName:	807
+)
+
+(Field.806
+	Name:	"Country"
+	Btab:	805
+	Alias:	"Country"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.807
+	Path:	"geographic/cntry_vmap.dbf"
+)
+
+(Field.808
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.809
+	NumBits:	2025
+
+)
+
+(Legend.810
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	811
+	Class:	816
+	StdDevs:	1.00000000000000
+	NullSym:	817
+	NullValues:	821
+	StatValues:	822
+	Precision:	-3
+)
+
+(SymList.811
+	Child:	812
+)
+
+(BShSym.812
+	Color:	813
+	Outline:	1
+	OutlineColor:	814
+	OutlineWidth:	0.10000000000000
+	BgColor:	815
+)
+
+(TClr.813
+	Red:	0xfeff
+	Green:	0xfe83
+	Blue:	0xe01e
+)
+
+(TClr.814
+	Red:	0x7878
+	Green:	0x7878
+	Blue:	0x7878
+)
+
+(TClr.815
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.816
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.817
+	Color:	818
+	Outline:	1
+	OutlineColor:	819
+	OutlineWidth:	0.10000000000000
+	BgColor:	820
+)
+
+(TClr.818
+	Name:	"Transparent"
+)
+
+(TClr.819
+	Name:	"Transparent"
+)
+
+(TClr.820
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.821
+)
+
+(NameDict.822
+)
+
+(Thresh.823
+)
+
+(GSet.824
+)
+
+(TxPosPly.825
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.826
+	FTab:	23
+	Field:	25
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTheme.827
+	Name:	"Estimated Sediment Delivery (at river mouth)"
+	Source:	828
+	Flags:	0x04
+	Legend:	842
+	Threshold:	942
+	View:	553
+	GSet:	943
+	LegEditScript:	"View.EditLegend"
+	TxPos:	944
+	LabelField:	838
+	SnapTolCursor:	1
+)
+
+(ShpSrc.828
+	Name:	829
+	FTab:	831
+)
+
+(SrcName.829
+	FileName:	830
+	Name:	"ppt_combo.shp"
+	SubName:	"Point"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.830
+	Path:	"geographic/ppt_combo.shp"
+)
+
+(FTab.831
+	Name:	"ppt_combo.dbf"
+	BTab:	832
+	Fields:	840
+	Fields:	833
+	Fields:	834
+	Fields:	835
+	Fields:	836
+	Fields:	837
+	Fields:	838
+	SelBits:	841
+	FSrc:	828
+)
+
+(dBASE.832
+	Name:	"ppt_combo.dbf"
+	Fields:	833
+	Fields:	834
+	Fields:	835
+	Fields:	836
+	Fields:	837
+	Fields:	838
+	FileName:	839
+)
+
+(Field.833
+	Name:	"Basin_id"
+	Btab:	832
+	Alias:	"Basin_id"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.834
+	Name:	"Ws_sq_km"
+	Btab:	832
+	Alias:	"Ws_sq_km"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.835
+	Name:	"Rep_mean"
+	Btab:	832
+	Alias:	"Rep_mean"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.836
+	Name:	"Precip_sum"
+	Btab:	832
+	Alias:	"Precip_sum"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.837
+	Name:	"Sed_arrive"
+	Btab:	832
+	Alias:	"Sed_arrive"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.838
+	Name:	"Sourcethm"
+	Btab:	832
+	Alias:	"Sourcethm"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.839
+	Path:	"geographic/ppt_combo.dbf"
+)
+
+(Field.840
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	17
+	Order:	-1
+)
+
+(Bitmap.841
+	NumBits:	3144
+
+)
+
+(Legend.842
+	LegType:	0x04
+	ClassType:	0x03
+	FieldNames:	843
+	Symbols:	844
+	Class:	922
+	Class:	923
+	Class:	924
+	Class:	925
+	Class:	926
+	Class:	927
+	Class:	928
+	Class:	929
+	Class:	930
+	Class:	931
+	Class:	932
+	StdDevs:	1.00000000000000
+	NullSym:	933
+	NullValues:	940
+	StatValues:	941
+	Precision:	-3
+)
+
+(AVStr.843
+	S:	"Sed_arrive"
+)
+
+(SymList.844
+	Child:	845
+	Child:	852
+	Child:	859
+	Child:	866
+	Child:	873
+	Child:	880
+	Child:	887
+	Child:	894
+	Child:	901
+	Child:	908
+	Child:	915
+)
+
+(BMkSym.845
+	Color:	846
+	BgColor:	847
+	Font:	848
+	Size:	4.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.846
+	Red:	0xd2d2
+	Green:	0xd2d2
+	Blue:	0xd2d2
+)
+
+(TClr.847
+	Name:	"Transparent"
+)
+
+(NFont.848
+	Family:	849
+	Name:	850
+	Style:	851
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.849
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.850
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.851
+	S:	"Normal"
+)
+
+(BMkSym.852
+	Color:	853
+	BgColor:	854
+	Font:	855
+	Size:	6.44444444444444
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.853
+	Red:	0xff00
+	Green:	0xa559
+	Blue:	0xa559
+)
+
+(TClr.854
+	Name:	"Transparent"
+)
+
+(NFont.855
+	Family:	856
+	Name:	857
+	Style:	858
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.856
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.857
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.858
+	S:	"Normal"
+)
+
+(BMkSym.859
+	Color:	860
+	BgColor:	861
+	Font:	862
+	Size:	8.88888888888889
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.860
+	Red:	0xff00
+	Green:	0xa559
+	Blue:	0xa559
+)
+
+(TClr.861
+	Name:	"Transparent"
+)
+
+(NFont.862
+	Family:	863
+	Name:	864
+	Style:	865
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.863
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.864
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.865
+	S:	"Normal"
+)
+
+(BMkSym.866
+	Color:	867
+	BgColor:	868
+	Font:	869
+	Size:	11.33333333333333
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.867
+	Red:	0xff00
+	Green:	0xa559
+	Blue:	0xa559
+)
+
+(TClr.868
+	Name:	"Transparent"
+)
+
+(NFont.869
+	Family:	870
+	Name:	871
+	Style:	872
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.870
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.871
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.872
+	S:	"Normal"
+)
+
+(BMkSym.873
+	Color:	874
+	BgColor:	875
+	Font:	876
+	Size:	13.77777777777778
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.874
+	Red:	0xff00
+	Green:	0xa559
+	Blue:	0xa559
+)
+
+(TClr.875
+	Name:	"Transparent"
+)
+
+(NFont.876
+	Family:	877
+	Name:	878
+	Style:	879
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.877
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.878
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.879
+	S:	"Normal"
+)
+
+(BMkSym.880
+	Color:	881
+	BgColor:	882
+	Font:	883
+	Size:	16.22222222222222
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.881
+	Red:	0xffff
+)
+
+(TClr.882
+	Name:	"Transparent"
+)
+
+(NFont.883
+	Family:	884
+	Name:	885
+	Style:	886
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.884
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.885
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.886
+	S:	"Normal"
+)
+
+(BMkSym.887
+	Color:	888
+	BgColor:	889
+	Font:	890
+	Size:	18.66666666666666
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.888
+	Red:	0xffff
+)
+
+(TClr.889
+	Name:	"Transparent"
+)
+
+(NFont.890
+	Family:	891
+	Name:	892
+	Style:	893
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.891
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.892
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.893
+	S:	"Normal"
+)
+
+(BMkSym.894
+	Color:	895
+	BgColor:	896
+	Font:	897
+	Size:	21.11111111111111
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.895
+	Red:	0xdc00
+	Green:	0xdb
+	Blue:	0xdb
+)
+
+(TClr.896
+	Name:	"Transparent"
+)
+
+(NFont.897
+	Family:	898
+	Name:	899
+	Style:	900
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.898
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.899
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.900
+	S:	"Normal"
+)
+
+(BMkSym.901
+	Color:	902
+	BgColor:	903
+	Font:	904
+	Size:	23.55555555555555
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.902
+	Red:	0x8200
+	Green:	0x81
+	Blue:	0x81
+)
+
+(TClr.903
+	Name:	"Transparent"
+)
+
+(NFont.904
+	Family:	905
+	Name:	906
+	Style:	907
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.905
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.906
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.907
+	S:	"Normal"
+)
+
+(BMkSym.908
+	Color:	909
+	BgColor:	910
+	Font:	911
+	Size:	25.99999999999999
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.909
+	Red:	0x6400
+	Green:	0x63
+	Blue:	0x63
+)
+
+(TClr.910
+	Name:	"Transparent"
+)
+
+(NFont.911
+	Family:	912
+	Name:	913
+	Style:	914
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.912
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.913
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.914
+	S:	"Normal"
+)
+
+(BMkSym.915
+	Color:	916
+	BgColor:	917
+	Font:	918
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.916
+	Name:	"Transparent"
+)
+
+(TClr.917
+	Name:	"Transparent"
+)
+
+(NFont.918
+	Family:	919
+	Name:	920
+	Style:	921
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.919
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.920
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.921
+	S:	"Normal"
+)
+
+(LClass.922
+	Label:	"0 - 4624"
+	MaxNum:	4624.00000000000000
+	Precision:	-3
+)
+
+(LClass.923
+	Label:	"4625 - 14761"
+	MinNum:	4625.00000000000000
+	MaxNum:	14761.00000000000000
+	Precision:	-3
+)
+
+(LClass.924
+	Label:	"14762 - 31275"
+	MinNum:	14762.00000000000000
+	MaxNum:	31275.00000000000000
+	Precision:	-3
+)
+
+(LClass.925
+	Label:	"31276 - 55359"
+	MinNum:	31276.00000000000000
+	MaxNum:	55359.00000000000000
+	Precision:	-3
+)
+
+(LClass.926
+	Label:	"55360 - 103552"
+	MinNum:	55360.00000000000000
+	MaxNum:	103552.00000000000000
+	Precision:	-3
+)
+
+(LClass.927
+	Label:	"103553 - 212539"
+	MinNum:	103553.00000000000000
+	MaxNum:	212539.00000000000000
+	Precision:	-3
+)
+
+(LClass.928
+	Label:	"212540 - 488092"
+	MinNum:	212540.00000000000000
+	MaxNum:	488092.00000000000000
+	Precision:	-3
+)
+
+(LClass.929
+	Label:	"488093 - 1173958"
+	MinNum:	488093.00000000000000
+	MaxNum:	1173958.00000000000000
+	Precision:	-3
+)
+
+(LClass.930
+	Label:	"1173959 - 1937978"
+	MinNum:	1173959.00000000000000
+	MaxNum:	1937978.00000000000000
+	Precision:	-3
+)
+
+(LClass.931
+	Label:	"1937979 - 3239102"
+	MinNum:	1937979.00000000000000
+	MaxNum:	3239102.00000000000000
+	Precision:	-3
+)
+
+(LClass.932
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BMkSym.933
+	Color:	934
+	BgColor:	935
+	Font:	936
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.934
+	Name:	"Transparent"
+)
+
+(TClr.935
+	Name:	"Transparent"
+)
+
+(NFont.936
+	Family:	937
+	Name:	938
+	Style:	939
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.937
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.938
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.939
+	S:	"Normal"
+)
+
+(NameDict.940
+)
+
+(NameDict.941
+)
+
+(Thresh.942
+)
+
+(GSet.943
+)
+
+(TxPosPt.944
+	HAlign:	4
+	VAlign:	3
+)
+
+(FTheme.945
+	Name:	"Estimated Sediment Threat"
+	Source:	946
+	Flags:	0x04
+	Legend:	956
+	Threshold:	980
+	View:	553
+	GSet:	981
+	LegEditScript:	"View.EditLegend"
+	TxPos:	982
+	LabelField:	952
+	AttrRules:	983
+	AttrRules:	984
+	AttrRules:	985
+	AttrRules:	986
+	SnapTolCursor:	1
+)
+
+(ShpSrc.946
+	Name:	947
+	FTab:	949
+)
+
+(SrcName.947
+	FileName:	948
+	Name:	"threat_sed.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.948
+	Path:	"geographic/threat_sed.shp"
+)
+
+(FTab.949
+	Name:	"threat_sed.dbf"
+	BTab:	950
+	Fields:	954
+	Fields:	951
+	Fields:	952
+	SelBits:	955
+	FSrc:	946
+)
+
+(dBASE.950
+	Name:	"threat_sed.dbf"
+	Fields:	951
+	Fields:	952
+	FileName:	953
+)
+
+(Field.951
+	Name:	"Value"
+	Btab:	950
+	Alias:	"Value"
+	Visible:	1
+	Type:	9
+	Order:	-1
+	Pixels:	75
+)
+
+(Field.952
+	Name:	"Threat"
+	Btab:	950
+	Alias:	"Threat"
+	Visible:	1
+	Type:	4
+	Order:	-1
+	Pixels:	75
+)
+
+(FN.953
+	Path:	"geographic/threat_sed.dbf"
+)
+
+(Field.954
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+	Pixels:	61
+)
+
+(Bitmap.955
+	NumBits:	237
+
+)
+
+(Legend.956
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	957
+	Symbols:	958
+	Class:	971
+	Class:	972
+	Class:	973
+	StdDevs:	1.00000000000000
+	NullSym:	974
+	NullValues:	978
+	StatValues:	979
+	Precision:	-3
+)
+
+(AVStr.957
+	S:	"Threat"
+)
+
+(SymList.958
+	Child:	959
+	Child:	963
+	Child:	967
+)
+
+(BShSym.959
+	Color:	960
+	Outline:	1
+	OutlineColor:	961
+	OutlineWidth:	0.10000000000000
+	BgColor:	962
+)
+
+(TClr.960
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(TClr.961
+)
+
+(TClr.962
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.963
+	Color:	964
+	Outline:	1
+	OutlineColor:	965
+	OutlineWidth:	0.10000000000000
+	BgColor:	966
+)
+
+(TClr.964
+	Red:	0xa559
+	Green:	0xfad1
+	Blue:	0xff00
+)
+
+(TClr.965
+)
+
+(TClr.966
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.967
+	Color:	968
+	Outline:	1
+	OutlineColor:	969
+	OutlineWidth:	0.10000000000000
+	BgColor:	970
+)
+
+(TClr.968
+	Name:	"Transparent"
+)
+
+(TClr.969
+	Name:	"Transparent"
+)
+
+(TClr.970
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.971
+	IsText:	1
+	Label:	"High"
+	MinStr:	"High"
+	MaxStr:	"High"
+	Precision:	-3
+)
+
+(LClass.972
+	IsText:	1
+	Label:	"Medium"
+	MinStr:	"Medium"
+	MaxStr:	"Medium"
+	Precision:	-3
+)
+
+(LClass.973
+	IsNoData:	1
+	IsText:	1
+	Label:	"No Data"
+	Precision:	-3
+)
+
+(BShSym.974
+	Color:	975
+	Outline:	1
+	OutlineColor:	976
+	OutlineWidth:	0.10000000000000
+	BgColor:	977
+)
+
+(TClr.975
+	Name:	"Transparent"
+)
+
+(TClr.976
+	Name:	"Transparent"
+)
+
+(TClr.977
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.978
+)
+
+(NameDict.979
+)
+
+(Thresh.980
+)
+
+(GSet.981
+)
+
+(TxPosPly.982
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.983
+	FTab:	388
+	Field:	390
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.984
+	FTab:	388
+	Field:	391
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.985
+	FTab:	949
+	Field:	951
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.986
+	FTab:	949
+	Field:	952
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(BShSym.987
+	Color:	988
+	Outline:	1
+	OutlineColor:	989
+	BgColor:	990
+)
+
+(TClr.988
+	Red:	0xe11d
+	Green:	0xfd9b
+	Blue:	0xfeff
+)
+
+(TClr.989
+)
+
+(TClr.990
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(View.991
+	Name:	"View 3 - MPAs by Managment Effectiveness and Other Data"
+	CreationDate:	"Wednesday, March 02, 2005 2:50:16 PM"
+	GUIName:	"View"
+	Win:	992
+	CSMgr:	993
+	DocExts:	995
+	DocExts:	996
+	Graphics:	997
+	Theme:	1004
+	Theme:	1031
+	Theme:	1063
+	Theme:	1103
+	Theme:	1181
+	Theme:	1255
+	Theme:	1287
+	LastScale:	39396677.27334712400000
+	Dpy:	998
+	TOCWidth:	305
+	CoordPrecision:	2
+	BackgroundSymbol:	1314
+)
+
+(DocWin.992
+	Owner:	991
+	X:	95
+	Y:	97
+	W:	876
+	H:	500
+)
+
+(CSMgr.993
+	Client:	994
+)
+
+(CSClient.994
+	Client:	995
+	ReqName:	"ClientNfy"
+)
+
+(PanMgr.995
+	Doc:	991
+)
+
+(DocAct.996
+	Doc:	991
+)
+
+(GList.997
+	Dpy:	998
+	FormatNumb:	1003
+)
+
+(MapDpy.998
+	Left:	-99.20170280614343
+	Bottom:	7.38649500050097
+	Top:	33.68159825654001
+	Right:	-57.50487986521313
+	ReportUnits:	8
+	Units:	10
+	Scale:	999
+	FrameTop:	3.82500000000000
+	FrameRight:	4.63333333333333
+	PageDpy:	1000
+	FitToPage:	1
+	MouseLoc:	1002
+)
+
+(Numb.999
+	N:	0.11111957714134
+)
+
+(PageDpy.1000
+	Top:	3.82500000000000
+	Right:	4.63333333333333
+	ReportUnits:	1
+	Units:	1
+	Scale:	1001
+	ZoomRight:	4.63333333333333
+	ZoomTop:	3.82500000000000
+	GridSpacingX:	0.25000000000000
+	GridSpacingY:	0.25000000000000
+)
+
+(Numb.1001
+	N:	0.21582733812950
+)
+
+(PointD.1002
+	x:	-59.52972558356765
+	y:	36.17035523136935
+)
+
+(Numb.1003
+)
+
+(FTheme.1004
+	Name:	"National Boundaries"
+	Source:	1005
+	Flags:	0x06
+	Legend:	1014
+	Threshold:	1027
+	View:	991
+	GSet:	1028
+	LegEditScript:	"View.EditLegend"
+	TxPos:	1029
+	LabelField:	1010
+	AttrRules:	1030
+	SnapTolCursor:	1
+)
+
+(ShpSrc.1005
+	Name:	1006
+	FTab:	1008
+)
+
+(SrcName.1006
+	FileName:	1007
+	Name:	"cntry_vmap.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.1007
+	Path:	"geographic/cntry_vmap.shp"
+)
+
+(FTab.1008
+	Name:	"cntry_vmap.dbf"
+	BTab:	1009
+	Fields:	1012
+	Fields:	1010
+	SelBits:	1013
+	FSrc:	1005
+)
+
+(dBASE.1009
+	Name:	"cntry_vmap.dbf"
+	Fields:	1010
+	FileName:	1011
+)
+
+(Field.1010
+	Name:	"Country"
+	Btab:	1009
+	Alias:	"Country"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.1011
+	Path:	"geographic/cntry_vmap.dbf"
+)
+
+(Field.1012
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.1013
+	NumBits:	2025
+
+)
+
+(Legend.1014
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	1015
+	Class:	1020
+	StdDevs:	1.00000000000000
+	NullSym:	1021
+	NullValues:	1025
+	StatValues:	1026
+	Precision:	-3
+)
+
+(SymList.1015
+	Child:	1016
+)
+
+(BShSym.1016
+	Color:	1017
+	Outline:	1
+	OutlineColor:	1018
+	OutlineWidth:	0.10000000000000
+	BgColor:	1019
+)
+
+(TClr.1017
+	Red:	0xfeff
+	Green:	0xfe83
+	Blue:	0xe01e
+)
+
+(TClr.1018
+	Red:	0x7878
+	Green:	0x7878
+	Blue:	0x7878
+)
+
+(TClr.1019
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.1020
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.1021
+	Color:	1022
+	Outline:	1
+	OutlineColor:	1023
+	OutlineWidth:	0.10000000000000
+	BgColor:	1024
+)
+
+(TClr.1022
+	Name:	"Transparent"
+)
+
+(TClr.1023
+	Name:	"Transparent"
+)
+
+(TClr.1024
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.1025
+)
+
+(NameDict.1026
+)
+
+(Thresh.1027
+)
+
+(GSet.1028
+)
+
+(TxPosPly.1029
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.1030
+	FTab:	23
+	Field:	25
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTheme.1031
+	Name:	"Coastline"
+	Source:	1032
+	Flags:	0x04
+	Legend:	1041
+	Threshold:	1050
+	View:	991
+	GSet:	1051
+	LegEditScript:	"View.EditLegend"
+	TxPos:	1052
+	LabelField:	1037
+	AttrRules:	1053
+	SnapTolCursor:	1
+)
+
+(ShpSrc.1032
+	Name:	1033
+	FTab:	1035
+)
+
+(SrcName.1033
+	FileName:	1034
+	Name:	"cln_wvs.shp"
+	SubName:	"Arc"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.1034
+	Path:	"geographic/cln_wvs.shp"
+)
+
+(FTab.1035
+	Name:	"cln_wvs.dbf"
+	BTab:	1036
+	Fields:	1039
+	Fields:	1037
+	SelBits:	1040
+	FSrc:	1032
+)
+
+(dBASE.1036
+	Name:	"cln_wvs.dbf"
+	Fields:	1037
+	FileName:	1038
+)
+
+(Field.1037
+	Name:	"Entity"
+	Btab:	1036
+	Alias:	"Entity"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.1038
+	Path:	"geographic/cln_wvs.dbf"
+)
+
+(Field.1039
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	18
+	Order:	-1
+)
+
+(Bitmap.1040
+	NumBits:	14050
+
+)
+
+(Legend.1041
+	SymType:	0x01
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	1042
+	Class:	1045
+	StdDevs:	1.00000000000000
+	NullSym:	1046
+	NullValues:	1048
+	StatValues:	1049
+	Precision:	-3
+)
+
+(SymList.1042
+	Child:	1043
+)
+
+(BLnSym.1043
+	Color:	1044
+	Width:	0.10000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.1044
+	Red:	0xa5a5
+	Green:	0xa5a5
+	Blue:	0xa5a5
+)
+
+(LClass.1045
+	IsText:	1
+	Precision:	-3
+)
+
+(BLnSym.1046
+	Color:	1047
+	Width:	0.10000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+	Pattern:	0.00000000000000
+)
+
+(TClr.1047
+	Name:	"Transparent"
+)
+
+(NameDict.1048
+)
+
+(NameDict.1049
+)
+
+(Thresh.1050
+)
+
+(GSet.1051
+)
+
+(TxPosArc.1052
+	HAlign:	3
+	VAlign:	1
+)
+
+(AttrSingle.1053
+	FTab:	1054
+	Field:	1056
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTab.1054
+	Name:	"cln_wvs.dbf"
+	BTab:	1055
+	Fields:	1058
+	Fields:	1056
+	SelBits:	1059
+	FSrc:	1060
+)
+
+(dBASE.1055
+	Name:	"cln_wvs.dbf"
+	Fields:	1056
+	FileName:	1057
+)
+
+(Field.1056
+	Name:	"Entity"
+	Btab:	1055
+	Alias:	"Entity"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.1057
+	Path:	"geographic/cln_wvs.dbf"
+)
+
+(Field.1058
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	18
+	Order:	-1
+)
+
+(Bitmap.1059
+	NumBits:	14050
+
+)
+
+(ShpSrc.1060
+	Name:	1061
+	FTab:	1054
+)
+
+(SrcName.1061
+	FileName:	1062
+	Name:	"cln_wvs.shp"
+	SubName:	"Arc"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.1062
+	Path:	"geographic/cln_wvs.shp"
+)
+
+(FTheme.1063
+	Name:	"Cruise Ship Ports"
+	Source:	1064
+	Flags:	0x04
+	Legend:	1081
+	Threshold:	1100
+	View:	991
+	GSet:	1101
+	LegEditScript:	"View.EditLegend"
+	TxPos:	1102
+	LabelField:	1070
+	SnapTolCursor:	1
+)
+
+(ShpSrc.1064
+	Name:	1065
+	FTab:	1067
+)
+
+(SrcName.1065
+	FileName:	1066
+	Name:	"ports_cruise.shp"
+	SubName:	"Point"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.1066
+	Path:	"geographic/ports_cruise.shp"
+)
+
+(FTab.1067
+	Name:	"ports_cruise.dbf"
+	BTab:	1068
+	Fields:	1079
+	Fields:	1069
+	Fields:	1070
+	Fields:	1071
+	Fields:	1072
+	Fields:	1073
+	Fields:	1074
+	Fields:	1075
+	Fields:	1076
+	Fields:	1077
+	SelBits:	1080
+	FSrc:	1064
+)
+
+(dBASE.1068
+	Name:	"ports_cruise.dbf"
+	Fields:	1069
+	Fields:	1070
+	Fields:	1071
+	Fields:	1072
+	Fields:	1073
+	Fields:	1074
+	Fields:	1075
+	Fields:	1076
+	Fields:	1077
+	FileName:	1078
+)
+
+(Field.1069
+	Name:	"Wpi_number"
+	Btab:	1068
+	Alias:	"Wpi_number"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.1070
+	Name:	"Port_name"
+	Btab:	1068
+	Alias:	"Port_name"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.1071
+	Name:	"Type"
+	Btab:	1068
+	Alias:	"Type"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.1072
+	Name:	"Infsatr"
+	Btab:	1068
+	Alias:	"Infsatr"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.1073
+	Name:	"Country"
+	Btab:	1068
+	Alias:	"Country"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.1074
+	Name:	"Calls"
+	Btab:	1068
+	Alias:	"Calls"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.1075
+	Name:	"Code"
+	Btab:	1068
+	Alias:	"Code"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.1076
+	Name:	"Lat"
+	Btab:	1068
+	Alias:	"Lat"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.1077
+	Name:	"Long"
+	Btab:	1068
+	Alias:	"Long"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(FN.1078
+	Path:	"geographic/ports_cruise.dbf"
+)
+
+(Field.1079
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	17
+	Order:	-1
+)
+
+(Bitmap.1080
+	NumBits:	104
+
+)
+
+(Legend.1081
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	1082
+	Class:	1090
+	StdDevs:	1.00000000000000
+	NullSym:	1091
+	NullValues:	1098
+	StatValues:	1099
+	Precision:	-3
+)
+
+(SymList.1082
+	Child:	1083
+)
+
+(BMkSym.1083
+	Color:	1084
+	BgColor:	1085
+	Font:	1086
+	Size:	8.00000000000000
+	Pattern:	36
+	Angle:	360.00000000000000
+)
+
+(TClr.1084
+	Red:	0x9580
+	Green:	0x30f5
+	Blue:	0x75dc
+)
+
+(TClr.1085
+	Name:	"Transparent"
+)
+
+(NFont.1086
+	Family:	1087
+	Name:	1088
+	Style:	1089
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.1087
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.1088
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.1089
+	S:	"Normal"
+)
+
+(LClass.1090
+	IsText:	1
+	Precision:	-3
+)
+
+(BMkSym.1091
+	Color:	1092
+	BgColor:	1093
+	Font:	1094
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.1092
+	Name:	"Transparent"
+)
+
+(TClr.1093
+	Name:	"Transparent"
+)
+
+(NFont.1094
+	Family:	1095
+	Name:	1096
+	Style:	1097
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.1095
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.1096
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.1097
+	S:	"Normal"
+)
+
+(NameDict.1098
+)
+
+(NameDict.1099
+)
+
+(Thresh.1100
+)
+
+(GSet.1101
+)
+
+(TxPosPt.1102
+	HAlign:	4
+	VAlign:	3
+)
+
+(FTheme.1103
+	Name:	"Marine Protected Areas (points by managment)"
+	Source:	1104
+	Flags:	0x06
+	Legend:	1126
+	Threshold:	1178
+	View:	991
+	GSet:	1179
+	LegEditScript:	"View.EditLegend"
+	TxPos:	1180
+	LabelField:	1112
+	SnapTolCursor:	1
+)
+
+(ShpSrc.1104
+	Name:	1105
+	FTab:	1107
+)
+
+(SrcName.1105
+	FileName:	1106
+	Name:	"mpa_pnt.shp"
+	SubName:	"Point"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.1106
+	Path:	"geographic/mpa_pnt.shp"
+)
+
+(FTab.1107
+	Name:	"mpa_pnt.dbf"
+	BTab:	1108
+	Fields:	1124
+	Fields:	1109
+	Fields:	1110
+	Fields:	1111
+	Fields:	1112
+	Fields:	1113
+	Fields:	1114
+	Fields:	1115
+	Fields:	1116
+	Fields:	1117
+	Fields:	1118
+	Fields:	1119
+	Fields:	1120
+	Fields:	1121
+	Fields:	1122
+	SelBits:	1125
+	FSrc:	1104
+)
+
+(dBASE.1108
+	Name:	"mpa_pnt.dbf"
+	Fields:	1109
+	Fields:	1110
+	Fields:	1111
+	Fields:	1112
+	Fields:	1113
+	Fields:	1114
+	Fields:	1115
+	Fields:	1116
+	Fields:	1117
+	Fields:	1118
+	Fields:	1119
+	Fields:	1120
+	Fields:	1121
+	Fields:	1122
+	FileName:	1123
+)
+
+(Field.1109
+	Name:	"Country"
+	Btab:	1108
+	Alias:	"Country"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.1110
+	Name:	"Wdpa_code"
+	Btab:	1108
+	Alias:	"Wdpa_code"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.1111
+	Name:	"Campam_id"
+	Btab:	1108
+	Alias:	"Campam_id"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.1112
+	Name:	"Mpa_name"
+	Btab:	1108
+	Alias:	"Mpa_name"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.1113
+	Name:	"Designate"
+	Btab:	1108
+	Alias:	"Designate"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.1114
+	Name:	"Status"
+	Btab:	1108
+	Alias:	"Status"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.1115
+	Name:	"Area_ha"
+	Btab:	1108
+	Alias:	"Area_ha"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.1116
+	Name:	"Wdpa_liste"
+	Btab:	1108
+	Alias:	"Wdpa_liste"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.1117
+	Name:	"Icran_site"
+	Btab:	1108
+	Alias:	"Icran_site"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.1118
+	Name:	"Lat"
+	Btab:	1108
+	Alias:	"Lat"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.1119
+	Name:	"Long"
+	Btab:	1108
+	Alias:	"Long"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.1120
+	Name:	"Man_eff"
+	Btab:	1108
+	Alias:	"Man_eff"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.1121
+	Name:	"Mpa_id"
+	Btab:	1108
+	Alias:	"Mpa_id"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.1122
+	Name:	"Polygon"
+	Btab:	1108
+	Alias:	"Polygon"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.1123
+	Path:	"geographic/mpa_pnt.dbf"
+)
+
+(Field.1124
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	17
+	Order:	-1
+)
+
+(Bitmap.1125
+	NumBits:	315
+
+)
+
+(Legend.1126
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	1127
+	Symbols:	1128
+	Class:	1164
+	Class:	1165
+	Class:	1166
+	Class:	1167
+	Class:	1168
+	StdDevs:	1.00000000000000
+	NullSym:	1169
+	NullValues:	1176
+	StatValues:	1177
+	Precision:	-3
+)
+
+(AVStr.1127
+	S:	"man_eff"
+)
+
+(SymList.1128
+	Child:	1129
+	Child:	1136
+	Child:	1143
+	Child:	1150
+	Child:	1157
+)
+
+(BMkSym.1129
+	Color:	1130
+	BgColor:	1131
+	Font:	1132
+	Size:	6.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.1130
+	Red:	0x189
+	Green:	0x8200
+	Blue:	0x81
+)
+
+(TClr.1131
+	Name:	"Transparent"
+)
+
+(NFont.1132
+	Family:	1133
+	Name:	1134
+	Style:	1135
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.1133
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.1134
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.1135
+	S:	"Normal"
+)
+
+(BMkSym.1136
+	Color:	1137
+	BgColor:	1138
+	Font:	1139
+	Size:	6.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.1137
+	Red:	0xff00
+	Green:	0xa559
+	Blue:	0xa559
+)
+
+(TClr.1138
+	Name:	"Transparent"
+)
+
+(NFont.1139
+	Family:	1140
+	Name:	1141
+	Style:	1142
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.1140
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.1141
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.1142
+	S:	"Normal"
+)
+
+(BMkSym.1143
+	Color:	1144
+	BgColor:	1145
+	Font:	1146
+	Size:	6.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.1144
+	Green:	0xffff
+)
+
+(TClr.1145
+	Name:	"Transparent"
+)
+
+(NFont.1146
+	Family:	1147
+	Name:	1148
+	Style:	1149
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.1147
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.1148
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.1149
+	S:	"Normal"
+)
+
+(BMkSym.1150
+	Color:	1151
+	BgColor:	1152
+	Font:	1153
+	Size:	6.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.1151
+	Red:	0xa5a5
+	Green:	0xa5a5
+	Blue:	0xa5a5
+)
+
+(TClr.1152
+	Name:	"Transparent"
+)
+
+(NFont.1153
+	Family:	1154
+	Name:	1155
+	Style:	1156
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.1154
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.1155
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.1156
+	S:	"Normal"
+)
+
+(BMkSym.1157
+	Color:	1158
+	BgColor:	1159
+	Font:	1160
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.1158
+	Name:	"Transparent"
+)
+
+(TClr.1159
+	Name:	"Transparent"
+)
+
+(NFont.1160
+	Family:	1161
+	Name:	1162
+	Style:	1163
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.1161
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.1162
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.1163
+	S:	"Normal"
+)
+
+(LClass.1164
+	IsText:	1
+	Label:	"good"
+	MinStr:	"good"
+	MaxStr:	"good"
+	Precision:	-3
+)
+
+(LClass.1165
+	IsText:	1
+	Label:	"inadequate"
+	MinStr:	"inadequate"
+	MaxStr:	"inadequate"
+	Precision:	-3
+)
+
+(LClass.1166
+	IsText:	1
+	Label:	"partial"
+	MinStr:	"partial"
+	MaxStr:	"partial"
+	Precision:	-3
+)
+
+(LClass.1167
+	IsText:	1
+	Label:	"unknown"
+	MinStr:	"unknown"
+	MaxStr:	"unknown"
+	Precision:	-3
+)
+
+(LClass.1168
+	IsNoData:	1
+	IsText:	1
+	Label:	"No Data"
+	Precision:	-3
+)
+
+(BMkSym.1169
+	Color:	1170
+	BgColor:	1171
+	Font:	1172
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.1170
+	Name:	"Transparent"
+)
+
+(TClr.1171
+	Name:	"Transparent"
+)
+
+(NFont.1172
+	Family:	1173
+	Name:	1174
+	Style:	1175
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.1173
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.1174
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.1175
+	S:	"Normal"
+)
+
+(NameDict.1176
+)
+
+(NameDict.1177
+)
+
+(Thresh.1178
+)
+
+(GSet.1179
+)
+
+(TxPosPt.1180
+	HAlign:	4
+	VAlign:	3
+)
+
+(FTheme.1181
+	Name:	"Marine Protected Areas (polygons by managment)"
+	Source:	1182
+	Flags:	0x07
+	Legend:	1194
+	Threshold:	1232
+	View:	991
+	GSet:	1233
+	LegEditScript:	"View.EditLegend"
+	TxPos:	1234
+	LabelField:	1188
+	AttrRules:	1235
+	AttrRules:	1248
+	AttrRules:	1249
+	AttrRules:	1250
+	AttrRules:	1251
+	AttrRules:	1252
+	AttrRules:	1253
+	AttrRules:	1254
+	SnapTolCursor:	1
+)
+
+(ShpSrc.1182
+	Name:	1183
+	FTab:	1185
+)
+
+(SrcName.1183
+	FileName:	1184
+	Name:	"mpa_poly.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.1184
+	Path:	"geographic/mpa_poly.shp"
+)
+
+(FTab.1185
+	Name:	"mpa_poly.dbf"
+	BTab:	1186
+	Fields:	1192
+	Fields:	1187
+	Fields:	1188
+	Fields:	1189
+	Fields:	1190
+	SelBits:	1193
+	FSrc:	1182
+)
+
+(dBASE.1186
+	Name:	"mpa_poly.dbf"
+	Fields:	1187
+	Fields:	1188
+	Fields:	1189
+	Fields:	1190
+	FileName:	1191
+)
+
+(Field.1187
+	Name:	"Mpa_id"
+	Btab:	1186
+	Alias:	"Mpa_id"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.1188
+	Name:	"Mpa_name"
+	Btab:	1186
+	Alias:	"Mpa_name"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.1189
+	Name:	"Poly_sourc"
+	Btab:	1186
+	Alias:	"Poly_sourc"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.1190
+	Name:	"Final_leve"
+	Btab:	1186
+	Alias:	"Final_leve"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.1191
+	Path:	"geographic/mpa_poly.dbf"
+)
+
+(Field.1192
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.1193
+	NumBits:	337
+
+)
+
+(Legend.1194
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	1195
+	Symbols:	1196
+	Class:	1221
+	Class:	1222
+	Class:	1223
+	Class:	1224
+	Class:	1225
+	StdDevs:	1.00000000000000
+	NullSym:	1226
+	NullValues:	1230
+	StatValues:	1231
+	Precision:	-3
+)
+
+(AVStr.1195
+	S:	"Final_leve"
+)
+
+(SymList.1196
+	Child:	1197
+	Child:	1202
+	Child:	1207
+	Child:	1212
+	Child:	1217
+)
+
+(BShSym.1197
+	Color:	1198
+	Outline:	1
+	OutlineColor:	1199
+	OutlineWidth:	0.10000000000000
+	BgColor:	1200
+	Style:	0x03
+	Stipple:	1201
+)
+
+(TClr.1198
+	Red:	0x189
+	Green:	0x8200
+	Blue:	0x81
+)
+
+(TClr.1199
+)
+
+(TClr.1200
+	Name:	"Transparent"
+)
+
+(Stipple.1201
+	Columns:	8
+	Rows:	8
+	Bits:	3366cc99 3366cc99 
+)
+
+(BShSym.1202
+	Color:	1203
+	Outline:	1
+	OutlineColor:	1204
+	OutlineWidth:	0.10000000000000
+	BgColor:	1205
+	Style:	0x03
+	Stipple:	1206
+)
+
+(TClr.1203
+	Red:	0xff00
+	Green:	0xa559
+	Blue:	0xa559
+)
+
+(TClr.1204
+)
+
+(TClr.1205
+	Name:	"Transparent"
+)
+
+(Stipple.1206
+	Columns:	8
+	Rows:	8
+	Bits:	3366cc99 3366cc99 
+)
+
+(BShSym.1207
+	Color:	1208
+	Outline:	1
+	OutlineColor:	1209
+	OutlineWidth:	0.10000000000000
+	BgColor:	1210
+	Style:	0x03
+	Stipple:	1211
+)
+
+(TClr.1208
+	Green:	0xffff
+)
+
+(TClr.1209
+)
+
+(TClr.1210
+	Name:	"Transparent"
+)
+
+(Stipple.1211
+	Columns:	8
+	Rows:	8
+	Bits:	3366cc99 3366cc99 
+)
+
+(BShSym.1212
+	Color:	1213
+	Outline:	1
+	OutlineColor:	1214
+	OutlineWidth:	0.10000000000000
+	BgColor:	1215
+	Style:	0x03
+	Stipple:	1216
+)
+
+(TClr.1213
+	Red:	0xd2d2
+	Green:	0xd2d2
+	Blue:	0xd2d2
+)
+
+(TClr.1214
+)
+
+(TClr.1215
+	Name:	"Transparent"
+)
+
+(Stipple.1216
+	Columns:	8
+	Rows:	8
+	Bits:	663399cc 663399cc 
+)
+
+(BShSym.1217
+	Color:	1218
+	Outline:	1
+	OutlineColor:	1219
+	OutlineWidth:	0.10000000000000
+	BgColor:	1220
+)
+
+(TClr.1218
+	Name:	"Transparent"
+)
+
+(TClr.1219
+	Name:	"Transparent"
+)
+
+(TClr.1220
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.1221
+	IsText:	1
+	Label:	"good"
+	MinStr:	"good"
+	MaxStr:	"good"
+	Precision:	-3
+)
+
+(LClass.1222
+	IsText:	1
+	Label:	"inadequate"
+	MinStr:	"inadequate"
+	MaxStr:	"inadequate"
+	Precision:	-3
+)
+
+(LClass.1223
+	IsText:	1
+	Label:	"partial"
+	MinStr:	"partial"
+	MaxStr:	"partial"
+	Precision:	-3
+)
+
+(LClass.1224
+	IsText:	1
+	Label:	"unknown"
+	MinStr:	"unknown"
+	MaxStr:	"unknown"
+	Precision:	-3
+)
+
+(LClass.1225
+	IsNoData:	1
+	IsText:	1
+	Label:	"No Data"
+	Precision:	-3
+)
+
+(BShSym.1226
+	Color:	1227
+	Outline:	1
+	OutlineColor:	1228
+	OutlineWidth:	0.10000000000000
+	BgColor:	1229
+)
+
+(TClr.1227
+	Name:	"Transparent"
+)
+
+(TClr.1228
+	Name:	"Transparent"
+)
+
+(TClr.1229
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.1230
+)
+
+(NameDict.1231
+)
+
+(Thresh.1232
+)
+
+(GSet.1233
+)
+
+(TxPosPly.1234
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.1235
+	FTab:	1236
+	Field:	1238
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTab.1236
+	Name:	"mpa_poly.dbf"
+	BTab:	1237
+	Fields:	1243
+	Fields:	1238
+	Fields:	1239
+	Fields:	1240
+	Fields:	1241
+	SelBits:	1244
+	FSrc:	1245
+)
+
+(dBASE.1237
+	Name:	"mpa_poly.dbf"
+	Fields:	1238
+	Fields:	1239
+	Fields:	1240
+	Fields:	1241
+	FileName:	1242
+)
+
+(Field.1238
+	Name:	"Mpa_id"
+	Btab:	1237
+	Alias:	"Mpa_id"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.1239
+	Name:	"Mpa_name"
+	Btab:	1237
+	Alias:	"Mpa_name"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.1240
+	Name:	"Poly_sourc"
+	Btab:	1237
+	Alias:	"Poly_sourc"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(Field.1241
+	Name:	"Final_leve"
+	Btab:	1237
+	Alias:	"Final_leve"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.1242
+	Path:	"geographic/mpa_poly.dbf"
+)
+
+(Field.1243
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.1244
+	NumBits:	337
+
+)
+
+(ShpSrc.1245
+	Name:	1246
+	FTab:	1236
+)
+
+(SrcName.1246
+	FileName:	1247
+	Name:	"mpa_poly.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.1247
+	Path:	"geographic/mpa_poly.shp"
+)
+
+(AttrSingle.1248
+	FTab:	1236
+	Field:	1239
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.1249
+	FTab:	1236
+	Field:	1240
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.1250
+	FTab:	1236
+	Field:	1241
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.1251
+	FTab:	1185
+	Field:	1187
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.1252
+	FTab:	1185
+	Field:	1188
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.1253
+	FTab:	1185
+	Field:	1189
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.1254
+	FTab:	1185
+	Field:	1190
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTheme.1255
+	Name:	"Coral Reefs (points)"
+	Source:	1256
+	Flags:	0x04
+	Legend:	1265
+	Threshold:	1284
+	View:	991
+	GSet:	1285
+	LegEditScript:	"View.EditLegend"
+	TxPos:	1286
+	SnapTolCursor:	1
+)
+
+(ShpSrc.1256
+	Name:	1257
+	FTab:	1259
+)
+
+(SrcName.1257
+	FileName:	1258
+	Name:	"reef_locs.shp"
+	SubName:	"Point"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.1258
+	Path:	"geographic/reef_locs.shp"
+)
+
+(FTab.1259
+	Name:	"reef_locs.dbf"
+	BTab:	1260
+	Fields:	1263
+	Fields:	1261
+	SelBits:	1264
+	FSrc:	1256
+)
+
+(dBASE.1260
+	Name:	"reef_locs.dbf"
+	Fields:	1261
+	FileName:	1262
+)
+
+(Field.1261
+	Name:	"Point_id"
+	Btab:	1260
+	Alias:	"Point_id"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(FN.1262
+	Path:	"geographic/reef_locs.dbf"
+)
+
+(Field.1263
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	17
+	Order:	-1
+)
+
+(Bitmap.1264
+	NumBits:	103734
+
+)
+
+(Legend.1265
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	1266
+	Class:	1274
+	StdDevs:	1.00000000000000
+	NullSym:	1275
+	NullValues:	1282
+	StatValues:	1283
+	Precision:	-3
+)
+
+(SymList.1266
+	Child:	1267
+)
+
+(BMkSym.1267
+	Color:	1268
+	BgColor:	1269
+	Font:	1270
+	Size:	4.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.1268
+	Red:	0xcacc
+	Green:	0xdb
+	Blue:	0xdc00
+)
+
+(TClr.1269
+	Name:	"Transparent"
+)
+
+(NFont.1270
+	Family:	1271
+	Name:	1272
+	Style:	1273
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.1271
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.1272
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.1273
+	S:	"Normal"
+)
+
+(LClass.1274
+	IsText:	1
+	Precision:	-3
+)
+
+(BMkSym.1275
+	Color:	1276
+	BgColor:	1277
+	Font:	1278
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.1276
+	Name:	"Transparent"
+)
+
+(TClr.1277
+	Name:	"Transparent"
+)
+
+(NFont.1278
+	Family:	1279
+	Name:	1280
+	Style:	1281
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.1279
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.1280
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.1281
+	S:	"Normal"
+)
+
+(NameDict.1282
+)
+
+(NameDict.1283
+)
+
+(Thresh.1284
+)
+
+(GSet.1285
+)
+
+(TxPosPt.1286
+	HAlign:	4
+	VAlign:	3
+)
+
+(FTheme.1287
+	Name:	"National Boundaries"
+	Source:	1288
+	Flags:	0x06
+	Legend:	1297
+	Threshold:	1310
+	View:	991
+	GSet:	1311
+	LegEditScript:	"View.EditLegend"
+	TxPos:	1312
+	LabelField:	1293
+	AttrRules:	1313
+	SnapTolCursor:	1
+)
+
+(ShpSrc.1288
+	Name:	1289
+	FTab:	1291
+)
+
+(SrcName.1289
+	FileName:	1290
+	Name:	"cntry_vmap.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.1290
+	Path:	"geographic/cntry_vmap.shp"
+)
+
+(FTab.1291
+	Name:	"cntry_vmap.dbf"
+	BTab:	1292
+	Fields:	1295
+	Fields:	1293
+	SelBits:	1296
+	FSrc:	1288
+)
+
+(dBASE.1292
+	Name:	"cntry_vmap.dbf"
+	Fields:	1293
+	FileName:	1294
+)
+
+(Field.1293
+	Name:	"Country"
+	Btab:	1292
+	Alias:	"Country"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.1294
+	Path:	"geographic/cntry_vmap.dbf"
+)
+
+(Field.1295
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.1296
+	NumBits:	2025
+
+)
+
+(Legend.1297
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	1298
+	Class:	1303
+	StdDevs:	1.00000000000000
+	NullSym:	1304
+	NullValues:	1308
+	StatValues:	1309
+	Precision:	-3
+)
+
+(SymList.1298
+	Child:	1299
+)
+
+(BShSym.1299
+	Color:	1300
+	Outline:	1
+	OutlineColor:	1301
+	OutlineWidth:	0.10000000000000
+	BgColor:	1302
+)
+
+(TClr.1300
+	Red:	0xfeff
+	Green:	0xfe83
+	Blue:	0xe01e
+)
+
+(TClr.1301
+	Red:	0x7878
+	Green:	0x7878
+	Blue:	0x7878
+)
+
+(TClr.1302
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.1303
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.1304
+	Color:	1305
+	Outline:	1
+	OutlineColor:	1306
+	OutlineWidth:	0.10000000000000
+	BgColor:	1307
+)
+
+(TClr.1305
+	Name:	"Transparent"
+)
+
+(TClr.1306
+	Name:	"Transparent"
+)
+
+(TClr.1307
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.1308
+)
+
+(NameDict.1309
+)
+
+(Thresh.1310
+)
+
+(GSet.1311
+)
+
+(TxPosPly.1312
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.1313
+	FTab:	23
+	Field:	25
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(BShSym.1314
+	Color:	1315
+	Outline:	1
+	OutlineColor:	1316
+	BgColor:	1317
+)
+
+(TClr.1315
+	Red:	0xe11d
+	Green:	0xfd9b
+	Blue:	0xfeff
+)
+
+(TClr.1316
+)
+
+(TClr.1317
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LButn.1318
+	HelpTopic:	"New_button"
+	Update:	"Doc.NewUpdate"
+	Label:	"&New"
+	Click:	"View.New"
+)
+
+(LButn.1319
+	HelpTopic:	"Open_button"
+	Update:	"Doc.OpenUpdate"
+	Label:	"&Open"
+	Click:	"Doc.Open"
+)
+
+(LButn.1320
+	HelpTopic:	"Print_button"
+	Update:	"Doc.ActionUpdate"
+	Label:	"P&rint"
+	Click:	"Doc.Action"
+)
+
+(NameDict.1321
+)
+
+(NameDict.1322
+	Obj:	1323
+	Obj:	1324
+)
+
+(AVDict.1323
+	InternalName:	"Table of Contents Defaults Dialog"
+)
+
+(AVDict.1324
+	InternalName:	"_Thor_"
+)
+
+(FN.2148
+	Path:	"$HOME"
+)
+
+(TClr.2149
+	Red:	0xffff
+	Green:	0xffff
+)
+
+(AVStr.2150
+	S:	"View"
+)
+
+(AVStr.2151
+	S:	"Table"
+)
+
+(AVStr.2152
+	S:	"Chart"
+)
+
+(AVStr.2153
+	S:	"Layout"
+)
+
+(AVStr.2154
+	S:	"Script"
+)
+
+(AVStr.2155
+	S:	"Project"
+)
+
+(AVStr.2156
+	S:	"Appl"
+)
+

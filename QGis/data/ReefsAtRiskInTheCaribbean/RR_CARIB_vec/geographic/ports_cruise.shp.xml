@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>World Resources Institute</origin>
+				<pubdate>2004</pubdate>
+				<title>Caribbean cruise ports</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Washington D.C., United States</pubplace>
+					<publish>World Resources Institute</publish>
+				</pubinfo>
+				<ftname Sync="TRUE">ports_cruise</ftname><serinfo><sername>Reefs at Risk in the Caribbean</sername></serinfo><lworkcit><citeinfo><title>L. Burke and J. Maidens "Reefs at Risk in the Caribbean," (Washington DC, USA: World Resources Institute, 2004)</title></citeinfo></lworkcit><onlink>http://reefsatrisk.wri.org</onlink></citeinfo>
+		</citation>
+		<descript>
+			<abstract>Cruise ship ports in the Caribbean and intensity of visitation. This dataset was created on 24th April 2003 and represents all cruise ports in the Wider Caribbean and the number of calls by cruise ships that are scheduled between 1st May 2003 and 1st may 2004. Cruise ships alter their ports of call from year to year and there are other destinations that have not been included in this dataset, as no ships are scheduled. </abstract>
+			<purpose>This dataset was developed for the Reefs at Risk in the Caribbean project.</purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>unknown</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-105.0</westbc><eastbc>-52.5</eastbc><northbc>35.0</northbc><southbc>2.5</southbc></bounding>
+			<lboundng><leftbc Sync="TRUE">-96.133330</leftbc><rightbc Sync="TRUE">-59.616670</rightbc><bottombc Sync="TRUE">9.045709</bottombc><topbc Sync="TRUE">32.377275</topbc></lboundng></spdom>
+		<keywords>
+			<place><placekey>caribbean</placekey><placekey>central america</placekey><placekey>south america</placekey><placekey>north america</placekey><placekey>insular caribbean</placekey><placekey>gulf of mexico</placekey><placekey>caribbean sea</placekey><placekey>gulf of mexico</placekey><placekey>western atlantic</placekey></place><theme><themekey>cruise line</themekey><themekey>port</themekey></theme></keywords>
+		<accconst>None</accconst>
+		<useconst>Data set is not for use in litigation. While efforts have been made to ensure that these data are accurate and reliable within the state of the art, WRI, cannot assume liability for any damages, or misrepresentations, caused by any inaccuracies in the data, or as a result of the data to be used on a particular system. WRI makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>GIS Lab Manager</cntper>
+					<cntorg>World Resources Institute</cntorg>
+				</cntperp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>10 G Street NE Suite 800</address>
+					<city>Washington DC</city>
+					<state>District of Columbia</state>
+					<postal>20002</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntvoice>202 729 7600</cntvoice>
+				<cntfax>202 729 7775</cntfax>
+				<cntemail>reefsatrisk@wri.org</cntemail>
+				<hours>9am - 5pm EST</hours>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 2; ESRI ArcCatalog 9.0.0.535</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc></attracc>
+		<posacc>
+			<horizpa></horizpa>
+			<vertacc></vertacc>
+		</posacc>
+		<lineage>
+			<procstep><procdesc>This dataset was created on 24th April 2003 and represents cruise ports in the Wider Caribbean and the number of calls by cruise ships that are scheduled between 1st May 2003 and 1st may 2004. Cruise ships alter their ports of call from year to year and there are other destinations that have not been included in this dataset, as no ships are scheduled.
+
+The information for this dataset was derived from the "Choosing Cruising" website http://www.choosingcruising.co.uk which lists potential desitantions for holiday makers and thus represents the cruise line schedule at that time. 
+
+The base dataset for port locations was the NIMA, World Port Index-Publication 150, 2002. Other locations were georefernced at WRI by digitized onscreen using World Vector Shoreline as the reference. 
+</procdesc><proccont><cntinfo><cntorgp><cntorg>World Resources Institute</cntorg></cntorgp></cntinfo></proccont><procdate>2003</procdate></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">R:\DataCD\RRCARIB_CD\GIS\Data_GIS\Infastr\Ports\ports_cruise</srcused><date Sync="TRUE">20050228</date><time Sync="TRUE">10510800</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct><rastinfo><rasttype Sync="TRUE">Grid Cell</rasttype><rowcount Sync="TRUE">3844</rowcount><colcount Sync="TRUE">5816</colcount><rastxsz Sync="TRUE">1000.000000</rastxsz><rastysz Sync="TRUE">1000.000000</rastysz><rastbpp Sync="TRUE">16</rastbpp><vrtcount Sync="TRUE">1</vrtcount><rastorig Sync="TRUE">Upper Left</rastorig><rastcmap Sync="TRUE">FALSE</rastcmap><rastcomp Sync="TRUE">Default</rastcomp><rastband Sync="TRUE">1</rastband><rastdtyp Sync="TRUE">matrix values</rastdtyp><rastplyr Sync="TRUE">TRUE</rastplyr><rastifor Sync="TRUE">ESRI GRID</rastifor></rastinfo><ptvctinf><esriterm Name="ports_cruise"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Point</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">104</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm><sdtsterm Name="ports_cruise"><sdtstype Sync="TRUE">Entity point</sdtstype><ptvctcnt Sync="TRUE">104</ptvctcnt></sdtsterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<geodetic>
+				<horizdn Sync="TRUE">D_WGS_1984</horizdn>
+				<ellips Sync="TRUE">WGS_1984</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257224</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_WGS_1984</geogcsn></cordsysn><geograph><geogunit Sync="TRUE">Decimal degrees</geogunit><latres Sync="TRUE">0.000000</latres><longres Sync="TRUE">0.000000</longres></geograph></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="ports_cruise">
+			<enttyp>
+				<enttypl Sync="TRUE">ports_cruise</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">104</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">WPI_NUMBER</attrlabl><attalias Sync="TRUE">WPI_NUMBER</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">13</attwidth><attrdef>world port index dataset id number</attrdef></attr><attr><attrlabl Sync="TRUE">PORT_NAME</attrlabl><attalias Sync="TRUE">PORT_NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">29</attwidth><attrdef>name of port</attrdef></attr><attr><attrlabl Sync="TRUE">TYPE</attrlabl><attalias Sync="TRUE">TYPE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth><attrdef>type of port</attrdef><attrdomv><edom><edomv>gateway</edomv><edomvd>ports where cruises can start or finish (embarkation ports)</edomvd></edom><edom><edomv>port of call</edomv><edomvd>places where the cruises stop at</edomvd></edom></attrdomv></attr><attr><attrlabl Sync="TRUE">INFSATR</attrlabl><attalias Sync="TRUE">INFSATR</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth><attrdomv><edom><edomv>dock</edomv><edomvd>docking facilities for cruise ships, in many cases a pier</edomvd></edom><edom><edomv>port</edomv><edomvd>location was derived from the NIMA, 2002 dataset</edomvd></edom><edom><edomv>anchorage</edomv><edomvd>cruise ship anchors and passengers are tendered to shore</edomvd></edom></attrdomv><attrdef>port infastructure</attrdef></attr><attr><attrlabl Sync="TRUE">COUNTRY</attrlabl><attalias Sync="TRUE">COUNTRY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">25</attwidth><attrdef>country where port located</attrdef></attr><attr><attrlabl Sync="TRUE">CALLS</attrlabl><attalias Sync="TRUE">CALLS</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">5</attwidth><attrdef>the number of cruises scheduled between 1st May 2003 and 1st may 2004, as of April 2004 according to http://www.choosingcruising.co.uk as of 24th April 2003</attrdef></attr><attr><attrlabl Sync="TRUE">CODE</attrlabl><attalias Sync="TRUE">CODE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth><attrdef>two letter country code</attrdef></attr><attr><attrlabl Sync="TRUE">LAT</attrlabl><attalias Sync="TRUE">LAT</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">10</attwidth><atnumdec Sync="TRUE">5</atnumdec><attrdef>latitude (decimal degrees)</attrdef></attr><attr><attrlabl Sync="TRUE">LONG</attrlabl><attalias Sync="TRUE">LONG</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">11</attwidth><atnumdec Sync="TRUE">5</atnumdec><attrdef>longitude (decimal degrees)</attrdef></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<resdesc>Reefs at Risk in the Caribbean Data CD</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize Sync="TRUE">0.003</transize>
+					<dssize Sync="TRUE">0.003</dssize></digtinfo>
+			</digform>
+		</stdorder>
+		<distrib><cntinfo><cntorgp><cntorg>World Resources Institute</cntorg></cntorgp><cntaddr><addrtype>mailing and physical address</addrtype><address>10 G Street NE</address><city>Washington</city><state>DC</state><postal>20002</postal><country>USA</country></cntaddr><cntvoice>202-729-7600</cntvoice><cntemail>gislab@wri.org</cntemail></cntinfo></distrib><distliab>Although this data set has been used by the World Resources Institute, no warranty, expressed or implied, is made by WRI as to the accuracy of the data and/or related materials. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by WRI in the use of these data or related materials.
+</distliab><techpreq>The data are available in Environmental Systems Research Institute (ESRI) shapefile format. The user must have ArcGIS® or ArcView® 3.0 or greater software to read and process the data file. In lieu of ArcView or ArcGIS, the user may utilize another GIS application package capable of importing data.</techpreq></distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20050126</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>World Resources Institute</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>10 G Street, NE Suite # 800</addrtype>
+					<city>Washington, DC</city>
+					<state>District of Columbia</state>
+					<postal>20002</postal>
+					<country>United States</country></cntaddr>
+				<cntvoice>202 729 7600</cntvoice>
+				<cntfax>202 729 7775</cntfax>
+				<cntemail>reefsatrisk@wri.org</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20050228</CreaDate><CreaTime>10510800</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20050126</SyncDate><SyncTime>14462000</SyncTime><ModDate>20050126</ModDate><ModTime>14462500</ModTime><DataProperties><lineage><Process Name="DefineProjection_6" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DefineProjection" Date="20050119" Time="155738">DefineProjection C:\RRCARIB_CD2\GIS\Data_GIS\Infastr\Ports\ports_cruise.shp GEOGCS['GCS_WGS_1984',DATUM['D_WGS_1984',SPHEROID['WGS_1984',6378137.0,298.257223563]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]] C:\RRCARIB_CD2\GIS\Data_GIS\Infastr\Ports\ports_cruise.shp</Process></lineage></DataProperties><Sync>FALSE</Sync><MetaID>{265D106F-9736-410A-982F-733314AD5C32}</MetaID></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 2; ESRI ArcCatalog 9.0.0.535</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">ports_cruise</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">-96.13333</westBL><eastBL Sync="TRUE">-59.61667</eastBL><northBL Sync="TRUE">32.377275</northBL><southBL Sync="TRUE">9.045709</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-96.13333</westBL><eastBL Sync="TRUE">-59.61667</eastBL><northBL Sync="TRUE">32.377275</northBL><southBL Sync="TRUE">9.045709</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\MAGELLAN\VOL1\gis\Working\R@R-CB\data_download\vector\ports_cruise</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.003</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><spatRepInfo><GridSpatRep><numDims Sync="TRUE">2</numDims><cellGeo><CellGeoCd Sync="TRUE" value="002"></CellGeoCd></cellGeo><tranParaAv Sync="TRUE">1</tranParaAv><axDimProps><Dimen><dimName><DimNameTypCd Sync="TRUE" value="002"></DimNameTypCd></dimName><dimSize Sync="TRUE">5816</dimSize><dimResol><value Sync="TRUE">1000</value><uom><UomLength><uomName Sync="TRUE">Meter</uomName><conversionToISOstandardUnit Sync="TRUE">1 Meter = 1 Meter(s)</conversionToISOstandardUnit></UomLength></uom></dimResol></Dimen><Dimen><dimName><DimNameTypCd Sync="TRUE" value="001"></DimNameTypCd></dimName><dimSize Sync="TRUE">3844</dimSize><dimResol><value Sync="TRUE">1000</value><uom><UomLength><uomName Sync="TRUE">Meter</uomName><conversionToISOstandardUnit Sync="TRUE">1 Meter = 1 Meter(s)</conversionToISOstandardUnit></UomLength></uom></dimResol></Dimen></axDimProps></GridSpatRep><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="ports_cruise"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="004"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">104</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20050126</mdDateSt><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">GCS_WGS_1984</identCode></refSysID></RefSystem></refSysInfo></metadata>

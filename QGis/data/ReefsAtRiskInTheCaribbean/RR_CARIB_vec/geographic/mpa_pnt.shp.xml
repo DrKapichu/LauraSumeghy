@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>World Resources Institute</origin>
+				<pubdate>2004</pubdate>
+				<title>Caribbean Marine Protected Areas (point)</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Washington D.C., United States</pubplace>
+					<publish>World Resources Institute</publish>
+				</pubinfo>
+				<ftname Sync="TRUE">mpa_pnt</ftname><serinfo><sername>Reefs at Risk in the Caribbean</sername></serinfo><lworkcit><citeinfo><title>L. Burke and J. Maidens "Reefs at Risk in the Caribbean," (Washington DC, USA: World Resources Institute, 2004)</title></citeinfo></lworkcit><onlink>http://reefsatrisk.wri.org</onlink></citeinfo>
+		</citation>
+		<descript>
+			<purpose>This dataset was developed for the Reefs at Risk Caribbean project to gain a better understanding of the actual protection afforded reefs in the region. </purpose>
+			<langdata Sync="TRUE">en</langdata><abstract>This dataset is an inventory of Marine Protected Areas in the Wider Caribbean region with their point locations. This list was developed under the Reefs at Risk Caribbean project and relied on literature and other studies.  Gathering information on MPAs across the region is very difficult and, as such, this list does not pertain to be exhaustive or complete. Additionally, as the dataset was developed for the purpose of gaining a better understanding of protection afforded coral reefs - there may be some selective bias towards those directly relevant to coral reefs (for example, no protected turtle nesting beaches are in the dataset). However, at the time of production of this inventory, spatial information and assessment of management effectiveness - no other data source exists. Future work in this area lies with the CaMPAM initiative (http://www.gcfi.org/campam/CaMPAM.htm).</abstract></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>unknown</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-95.961650</westbc><eastbc Sync="TRUE">-59.648009</eastbc><northbc Sync="TRUE">32.491670</northbc><southbc Sync="TRUE">9.331490</southbc></bounding>
+			<lboundng><leftbc Sync="TRUE">-95.961650</leftbc><rightbc Sync="TRUE">-59.648009</rightbc><bottombc Sync="TRUE">9.331490</bottombc><topbc Sync="TRUE">32.491670</topbc></lboundng></spdom>
+		<keywords>
+			<place><placekey>caribbean</placekey><placekey>central america</placekey><placekey>south america</placekey><placekey>north america</placekey><placekey>insular caribbean</placekey><placekey>gulf of mexico</placekey><placekey>caribbean sea</placekey><placekey>gulf of mexico</placekey><placekey>western atlantic</placekey></place><theme><themekey>cruise line</themekey><themekey>port</themekey></theme></keywords>
+		<accconst>None</accconst>
+		<useconst>Data set is not for use in litigation. While efforts have been made to ensure that these data are accurate and reliable within the state of the art, WRI, cannot assume liability for any damages, or misrepresentations, caused by any inaccuracies in the data, or as a result of the data to be used on a particular system. WRI makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>GIS Lab Manager</cntper>
+					<cntorg>World Resources Institute</cntorg>
+				</cntperp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>10 G Street NE Suite 800</address>
+					<city>Washington DC</city>
+					<state>District of Columbia</state>
+					<postal>20002</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntvoice>202 729 7600</cntvoice>
+				<cntfax>202 729 7775</cntfax>
+				<cntemail>reefsatrisk@wri.org</cntemail>
+				<hours>9am - 5pm EST</hours>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 2; ESRI ArcCatalog 9.0.0.535</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc></attracc>
+		<posacc>
+			<horizpa></horizpa>
+			<vertacc></vertacc>
+		</posacc>
+		<lineage>
+			<procstep><procdesc>Inventory of Marine Protected Areas in the Wider Caribbean from various literature sources (Wilkinson, 1998, 2000 and 2002)) and previous studies (Kelleher, 1995; Mascia, 2000</procdesc></procstep><procstep><procdesc>Identify exisiting spatial coverage of MPAs. The dataset includes an attribute reflecting whether or not the polygon (boundary information) is available within the polygon dataset and the source of that data. (if polygon not available, point location with size). (see attribute poly_sourc for specific source). the polygon data is available under the accompanying dataset "Caribbean Marine Protected Areas and managment effectiveness (polygon data only)."</procdesc><date Sync="TRUE">20041103</date><time Sync="TRUE">14134100</time><srcused>WDPA Consortium. 2004. "World Database on Protected Areas" World Conservation Union (IUCN) and UNEP-World Conservation Monitoring Centre (UNEP-WCMC)</srcused><srcused>The Nature Conservancy. 2004. Caribbean Ecoregional Planning Project.</srcused><srcused>Marine Protected Areas of the United States website - http://www.mpa.gov</srcused><srcused>NOAA Coastal Services website - http://csc.noaa.gov</srcused><srcused>digitized at WRI</srcused></procstep><procstep><procdesc>Assessment of management effectiveness for each MPA. Because compiling detailed information on a region-wide basis is very difficult, the MPAs were assessed on only four broad criteria: existence of management activity, existence of a management plan, availability of resources, and extent of enforcement. Combined, these criteria were used to generate a simple measure of management effectiveness.</procdesc><srcused>Reefs at Risk in the Caribbean workshop participants (Miami FL, October 2002)</srcused><srcused>National Center for Protected Areas, Habana, Cuba</srcused><srcused>T. Geoghegan, A. Smith, and K. Thacker. 2001. "Characterization of caribbean Marine Protected AReas (CANARI)</srcused></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct><rastinfo><rasttype Sync="TRUE">Grid Cell</rasttype><rowcount Sync="TRUE">3844</rowcount><colcount Sync="TRUE">5816</colcount><rastxsz Sync="TRUE">1000.000000</rastxsz><rastysz Sync="TRUE">1000.000000</rastysz><rastbpp Sync="TRUE">16</rastbpp><vrtcount Sync="TRUE">1</vrtcount><rastorig Sync="TRUE">Upper Left</rastorig><rastcmap Sync="TRUE">FALSE</rastcmap><rastcomp Sync="TRUE">Default</rastcomp><rastband Sync="TRUE">1</rastband><rastdtyp Sync="TRUE">matrix values</rastdtyp><rastplyr Sync="TRUE">TRUE</rastplyr><rastifor Sync="TRUE">ESRI GRID</rastifor></rastinfo><ptvctinf><esriterm Name="mpa_pnt"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Point</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">315</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm><sdtsterm Name="mpa_pnt"><sdtstype Sync="TRUE">Entity point</sdtstype><ptvctcnt Sync="TRUE">315</ptvctcnt></sdtsterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<geodetic>
+				<horizdn Sync="TRUE">D_WGS_1984</horizdn>
+				<ellips Sync="TRUE">WGS_1984</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257224</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_WGS_1984</geogcsn></cordsysn><geograph><geogunit Sync="TRUE">Decimal degrees</geogunit><latres Sync="TRUE">0.000000</latres><longres Sync="TRUE">0.000000</longres></geograph></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="mpa_pnt">
+			<attr><attrlabl Sync="TRUE">COUNTRY</attrlabl><attalias Sync="TRUE">COUNTRY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">25</attwidth><attrdef>country where located</attrdef></attr><attr><attrlabl Sync="TRUE">LAT</attrlabl><attalias Sync="TRUE">LAT</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">10</attwidth><atnumdec Sync="TRUE">5</atnumdec><attrdef>latitude</attrdef></attr><attr><attrlabl Sync="TRUE">LONG</attrlabl><attalias Sync="TRUE">LONG</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth><attrdef>longitude</attrdef></attr><enttyp>
+				<enttypl Sync="TRUE">mpa_pnt</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">315</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">WDPA_CODE</attrlabl><attalias Sync="TRUE">WDPA_CODE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">13</attwidth><attrdef>WDPA site code </attrdef></attr><attr><attrlabl Sync="TRUE">CAMPAM_ID</attrlabl><attalias Sync="TRUE">CAMPAM_ID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">12</attwidth><attrdef>CaMPAN site id number</attrdef></attr><attr><attrlabl Sync="TRUE">MPA_NAME</attrlabl><attalias Sync="TRUE">MPA_NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">34</attwidth><attrdef>MPA name</attrdef></attr><attr><attrlabl Sync="TRUE">DESIGNATE</attrlabl><attalias Sync="TRUE">DESIGNATE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">47</attwidth><attrdef>MPA designation</attrdef></attr><attr><attrlabl Sync="TRUE">STATUS</attrlabl><attalias Sync="TRUE">STATUS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">29</attwidth><attrdef>MPA status</attrdef></attr><attr><attrlabl Sync="TRUE">AREA_HA</attrlabl><attalias Sync="TRUE">AREA_HA</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">10</attwidth><attrdef>area of MPA in hectares</attrdef></attr><attr><attrlabl Sync="TRUE">WDPA_LISTE</attrlabl><attalias Sync="TRUE">WDPA_LISTE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">13</attwidth><attrdef>listed in the World Database on Protected Areas</attrdef></attr><attr><attrlabl Sync="TRUE">ICRAN_SITE</attrlabl><attalias Sync="TRUE">ICRAN_SITE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth><attrdef>Target or demonstration site of the International Coral Reef Action Network</attrdef></attr><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">10</attwidth><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv><atnumdec Sync="TRUE">6</atnumdec></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">11</attwidth><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv><atnumdec Sync="TRUE">6</atnumdec></attr><attr><attrlabl Sync="TRUE">MAN_EFF</attrlabl><attalias Sync="TRUE">MAN_EFF</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth><attrdomv><edom><edomv>good</edomv></edom><edom><edomv>partial</edomv></edom><edom><edomv>inadequate</edomv></edom><edom><edomv>unknown</edomv></edom></attrdomv><attrdef>Management effeciveness rating</attrdef></attr><attr><attrlabl Sync="TRUE">MPA_ID</attrlabl><attalias Sync="TRUE">MPA_ID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth><attrdef>ID number allocated at WRI</attrdef></attr><attr><attrlabl Sync="TRUE">POLYGON</attrlabl><attalias Sync="TRUE">POLYGON</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth><attrdef>Whether polygon data exists</attrdef></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize Sync="TRUE">0.009</transize>
+					<dssize Sync="TRUE">0.009</dssize></digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20050126</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>World Resources Institute</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>10 G Street, NE Suite # 800</addrtype>
+					<city>Washington, DC</city>
+					<state>District of Columbia</state>
+					<postal>20002</postal>
+					<country>United States</country></cntaddr>
+				<cntvoice>202 729 7600</cntvoice>
+				<cntfax>202 729 7775</cntfax>
+				<cntemail>reefsatrisk@wri.org</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20041103</CreaDate><CreaTime>14134100</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20050126</SyncDate><SyncTime>14465000</SyncTime><ModDate>20050126</ModDate><ModTime>14465400</ModTime><MetaID>{76BE5ECD-ADC8-4B39-95A9-B7CB6EE61405}</MetaID><DataProperties><lineage><Process Name="DefineProjection_8" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DefineProjection" Date="20050119" Time="155825">DefineProjection C:\RRCARIB_CD2\GIS\Data_GIS\MPAs\mpa_pnt.shp GEOGCS['GCS_WGS_1984',DATUM['D_WGS_1984',SPHEROID['WGS_1984',6378137.0,298.257223563]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]] C:\RRCARIB_CD2\GIS\Data_GIS\MPAs\mpa_pnt.shp</Process></lineage></DataProperties><Sync>FALSE</Sync></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 2; ESRI ArcCatalog 9.0.0.535</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">mpa_pnt</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">-95.96165</westBL><eastBL Sync="TRUE">-59.648009</eastBL><northBL Sync="TRUE">32.49167</northBL><southBL Sync="TRUE">9.33149</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-95.96165</westBL><eastBL Sync="TRUE">-59.648009</eastBL><northBL Sync="TRUE">32.49167</northBL><southBL Sync="TRUE">9.33149</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\W03306\c\rrcarib_cd2\gis\data_gis\mpas\mpa_pnt.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.009</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><spatRepInfo><GridSpatRep><numDims Sync="TRUE">2</numDims><cellGeo><CellGeoCd Sync="TRUE" value="002"></CellGeoCd></cellGeo><tranParaAv Sync="TRUE">1</tranParaAv><axDimProps><Dimen><dimName><DimNameTypCd Sync="TRUE" value="002"></DimNameTypCd></dimName><dimSize Sync="TRUE">5816</dimSize><dimResol><value Sync="TRUE">1000</value><uom><UomLength><uomName Sync="TRUE">Meter</uomName><conversionToISOstandardUnit Sync="TRUE">1 Meter = 1 Meter(s)</conversionToISOstandardUnit></UomLength></uom></dimResol></Dimen><Dimen><dimName><DimNameTypCd Sync="TRUE" value="001"></DimNameTypCd></dimName><dimSize Sync="TRUE">3844</dimSize><dimResol><value Sync="TRUE">1000</value><uom><UomLength><uomName Sync="TRUE">Meter</uomName><conversionToISOstandardUnit Sync="TRUE">1 Meter = 1 Meter(s)</conversionToISOstandardUnit></UomLength></uom></dimResol></Dimen></axDimProps></GridSpatRep><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="mpa_pnt"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="004"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">315</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20050126</mdDateSt><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">GCS_WGS_1984</identCode></refSysID></RefSystem></refSysInfo></metadata>

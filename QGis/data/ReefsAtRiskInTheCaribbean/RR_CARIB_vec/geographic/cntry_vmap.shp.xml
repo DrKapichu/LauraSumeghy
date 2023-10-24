@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>National Imagery and Mapping Agency (formerly U.S. Defense Mapping Agency)</origin>
+				<pubdate>1997</pubdate>
+				<title>VMAP coastlines and international boundaries for countries bordering the Gulf of Mexico and Caribbean Sea</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<ftname Sync="TRUE">cntry_vmap</ftname><onlink>http://mapping.usgs.gov/esic/cdrom/vmap.html</onlink></citeinfo>
+		</citation>
+		<descript>
+			<abstract>VMap Level 0 is a comprehensive 1:1,000,000 scale vector basemap of the world. It consists of cartographic, attribute, and textual data stored on compact disc read only memory (CD-ROM). This dataset is a subset of coastlines and international boundaries for countries bordering the Gulf of Mexico and Caribbean Sea and the islands of the Caribbean Sea.</abstract>
+			<purpose>This dataset was created by the World Resources Institute for the purposes of the Reefs at Risk Caribbean Project (http://reefsatrisk.wri.org/). This ArcView shapefile may be used as a general basemap data layer to illustrate international boundaries of countries bordering the Gulf of Mexico and Caribbean Sea, and the islands of the Caribbean Sea region. It may be utilized in any Geographic Information System (GIS). </purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>unknown</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-105.000000</westbc>
+				<eastbc Sync="TRUE">-52.500000</eastbc>
+				<northbc Sync="TRUE">35.000000</northbc>
+				<southbc Sync="TRUE">2.500000</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">-105.000000</leftbc><rightbc Sync="TRUE">-52.500000</rightbc><bottombc Sync="TRUE">2.500000</bottombc><topbc Sync="TRUE">35.000000</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>General</themekt>
+				<themekey>VMAP Level 0</themekey>
+				<themekey>National Imagery and Mapping Agency</themekey>
+				<themekey>Defense Mapping Agency</themekey>
+				<themekey>coastlines</themekey>
+				<themekey>digital vector data</themekey>
+				<themekey>ArcView</themekey>
+				<themekey>shapefile</themekey>
+				<themekey>contry boundaries</themekey></theme>
+			<place>
+				<placekt>General</placekt>
+				<placekey>Caribbean Sea</placekey>
+				<placekey>gulf of mexico</placekey></place>
+		</keywords>
+		<accconst>none</accconst>
+		<useconst>none</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>World Resources Institute</cntorg>
+				</cntorgp>
+				<cntpos>GIS lab manager</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>10 G Street NE</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20008</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>202-729-7600</cntvoice>
+				<cntfax>202-729-7775</cntfax>
+				<cntemail>reefsatrisk.wri.org</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Please recognize the National Imagery and Mapping Agency (NIMA) as the originator of the source data.</datacred>
+		<native Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 2; ESRI ArcCatalog 9.0.0.535</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+		</attracc>
+		<posacc>
+			<horizpa>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>NIMA - National Imagery &amp; Mapping Agency </origin>
+						<pubdate>1997</pubdate>
+						<pubtime>Unknown</pubtime>
+						<title>Vector Map (VMap) Level 0 database </title>
+						<geoform>vector digital data</geoform>
+						<onlink>http://mapping.usgs.gov/esic/cdrom/vmap.html</onlink></citeinfo>
+				</srccite>
+				<srcscale>1000000</srcscale>
+				<typesrc>CD-ROM</typesrc>
+				<srctime>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>VMAP</srccitea>
+				<srccontr>The Vector Map (VMap) Level 0 database represents the third edition of the Digital Chart of the World. The second edition was a limited release item published 1995 09. The product is dual named to show its lineage to the original DCW, published in 1992, while positioning the revised product within a broader emerging-family of VMap products. VMap Level 0 is a comprehensive 1:1,000,000 scale vector basemap of the world. It consists of cartographic, attribute, and textual data stored on compact disc read only memory (CD-ROM). The primary source for the database is the National Imagery and Mapping Agency's (NIMA) Operational Navigation Chart (ONC) series. This is the largest scale unclassified map series in existence that provides consistent, continuous global coverage of essential basemap features. The database contains more than 1,900 megabytes of vector data and is organized into 10 thematic layers. The data includes major road and rail networks, major hydrologic drainage systems, major utility networks (cross-country pipelines and communication lines), all major airports, elevation contours (1000 foot(ft), with 500ft and 250ft supplemental contours), coastlines, international boundaries and populated places. The database can be accessed directly from the four optical CD-ROMs that store the database or can be transferred to a magnetic media.
+</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>The country boundary data for the Caribbean region was extracted  (see bounding coordinates) from the VMAP North America Data CD.</procdesc>
+				<procdate>2003</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntorg>World Resources Institute</cntorg>
+						</cntperp>
+					</cntinfo>
+				</proccont>
+				<srcused>VMAP</srcused></procstep>
+			<procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">R:\DataCD\RRCARIB_CD2\GIS\Data_GIS\Borders\cntry_vmap</srcused><date Sync="TRUE">20050224</date><time Sync="TRUE">12070300</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">R:\data_download\vector\cntry_vmap</srcused><date Sync="TRUE">20050228</date><time Sync="TRUE">10561900</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="cntry_vmap">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">1937</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="cntry_vmap"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">1937</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres Sync="TRUE">0.000001</latres>
+				<longres Sync="TRUE">0.000001</longres>
+				<geogunit Sync="TRUE">Decimal degrees</geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn Sync="TRUE">D_WGS_1984</horizdn>
+				<ellips Sync="TRUE">WGS_1984</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257224</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_WGS_1984</geogcsn></cordsysn></horizsys>
+		<vertdef>
+			<depthsys>
+			</depthsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="cntry_vmap">
+			<enttyp>
+				<enttypl Sync="TRUE">cntry_vmap</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">1937</enttypc></enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr><attrlabl Sync="TRUE">COUNTRY</attrlabl><attalias Sync="TRUE">COUNTRY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">35</attwidth><attrdef>country name</attrdef></attr></detailed>
+		<overview></overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>World Resources Institute</cntorg>
+				</cntorgp>
+				<cntpos>GIS Lab Manager</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>10 G Street NE</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20008</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>202-729-7600</cntvoice>
+				<cntfax>202-729-7775</cntfax>
+				<cntemail>gislab@wri.org</cntemail>
+			</cntinfo>
+		</distrib>
+		<distliab>Although this data set has been used by the World Resources Institute, no warranty, expressed or implied, is made by WRI as to the accuracy of the data and/or related materials. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by WRI in the use of these data or related materials.
+
+</distliab>
+		<techpreq>The data are available in Environmental Systems Research Institute (ESRI) shapefile format.  The user must have ArcGIS® or ArcView® 3.0 or greater software to read and process the data file.  In lieu of ArcView or ArcGIS, the user may utilize another GIS application package capable of importing data.  </techpreq>
+		<resdesc>Made available on Reefs at Risk Caribbean Data CD</resdesc><stdorder><digform><digtinfo><transize Sync="TRUE">1.518</transize><dssize Sync="TRUE">1.518</dssize></digtinfo></digform></stdorder></distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20050126</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>World Resources Institute</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>10 G Street NE</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20008</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>202-729-7600</cntvoice>
+				<cntfax>202-729-7775</cntfax>
+				<cntemail>gislab@wri.org</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metac>None</metac>
+		<metuc>None</metuc>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20050228</CreaDate><CreaTime>10561900</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20050126</SyncDate><SyncTime>14443900</SyncTime><ModDate>20050126</ModDate><ModTime>14444200</ModTime><DataProperties><lineage><Process Name="DefineProjection_2" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DefineProjection" Date="20050119" Time="155532">DefineProjection C:\RRCARIB_CD2\GIS\Data_GIS\Borders\cntry_vmap.shp GEOGCS['GCS_WGS_1984',DATUM['D_WGS_1984',SPHEROID['WGS_1984',6378137.0,298.257223563]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]] C:\RRCARIB_CD2\GIS\Data_GIS\Borders\cntry_vmap.shp</Process></lineage></DataProperties><Sync>FALSE</Sync><MetaID>{3383FCFB-6F98-48B4-843A-4F9806DA54E4}</MetaID></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 2; ESRI ArcCatalog 9.0.0.535</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">cntry_vmap</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">-105</westBL><eastBL Sync="TRUE">-52.5</eastBL><northBL Sync="TRUE">35</northBL><southBL Sync="TRUE">2.5</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-105</westBL><eastBL Sync="TRUE">-52.5</eastBL><northBL Sync="TRUE">35</northBL><southBL Sync="TRUE">2.5</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\MAGELLAN\VOL1\gis\Working\R@R-CB\data_download\grid\geographic\cntry_vmap</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">1.518</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">GCS_WGS_1984</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="cntry_vmap"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">1937</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20050126</mdDateSt></metadata>

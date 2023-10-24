@@ -1,0 +1,10442 @@
+/3.2
+(ODB.1
+	Dependencies:	"$AVEXT/spatial.avx\n"
+	FirstRootClassName:	"Project"
+	Roots:	2
+	Version:	32
+)
+
+(Project.2
+	Name:	"rrcar_gr.apr"
+	CreationDate:	"Wednesday, March 02, 2005 2:49:12 PM"
+	GUIName:	"Project"
+	Win:	3
+	CSMgr:	4
+	DocExts:	5
+	VisGUIWidth:	70
+	Doc:	6
+	Doc:	512
+	Doc:	1066
+	Buttons:	1232
+	Buttons:	1233
+	Buttons:	1234
+	Dependencies:	1235
+	Scripts:	1236
+	Prefs:	1237
+	GUI:	1249
+	WorkDir:	2109
+	WinX:	-4
+	WinY:	-3
+	WinW:	1032
+	WinH:	693
+	SerialNumber:	"825851118016"
+	SelColor:	2110
+	GUINames:	2111
+	GUINames:	2112
+	GUINames:	2113
+	GUINames:	2114
+	GUINames:	2115
+	GUINames:	2116
+	GUINames:	2117
+	TocWidthScale:	1.00000000000000
+)
+
+(DocWin.3
+	Owner:	2
+	Open:	1
+	X:	3
+	Y:	39
+	W:	402
+	H:	448
+)
+
+(CSMgr.4
+)
+
+(DocAct.5
+	Doc:	2
+)
+
+(View.6
+	Name:	"View 1 - Estimated Threats to Coral Reefs"
+	CreationDate:	"Wednesday, March 02, 2005 2:49:14 PM"
+	GUIName:	"View"
+	Win:	7
+	CSMgr:	8
+	DocExts:	10
+	DocExts:	11
+	DocExts:	12
+	Graphics:	15
+	Theme:	22
+	Theme:	58
+	Theme:	100
+	Theme:	142
+	Theme:	184
+	Theme:	226
+	Theme:	273
+	Theme:	315
+	Theme:	357
+	Theme:	399
+	Theme:	441
+	Theme:	488
+	Projection:	506
+	LastScale:	33000000.25970999500000
+	Dpy:	16
+	TOCWidth:	305
+	CoordPrecision:	2
+	BackgroundSymbol:	508
+)
+
+(DocWin.7
+	Owner:	6
+	X:	122
+	Y:	5
+	W:	878
+	H:	500
+)
+
+(CSMgr.8
+	Client:	9
+)
+
+(CSClient.9
+	Client:	10
+	ReqName:	"ClientNfy"
+)
+
+(PanMgr.10
+	Doc:	6
+)
+
+(DocAct.11
+	Doc:	6
+)
+
+(SpAnEnv.12
+	CellEnum:	13
+	CellSize:	14
+	ExtEnum:	13
+	Extent:	14
+)
+
+(AVEnum.13
+	Name:	"ANALYSISENV_MAXOF"
+)
+
+(Nil.14
+)
+
+(GList.15
+	Dpy:	16
+	FormatNumb:	21
+)
+
+(MapDpy.16
+	Left:	-1983861.27929406100000
+	Bottom:	-862443.41837759910000
+	Top:	2066550.68751382040000
+	Right:	1913776.54665593800000
+	ReportUnits:	8
+	Units:	7
+	Scale:	17
+	FrameTop:	3.82500000000000
+	FrameRight:	4.65000000000000
+	PageDpy:	18
+	FitToPage:	1
+	MouseLoc:	20
+)
+
+(Numb.17
+	N:	0.00000119303029
+)
+
+(PageDpy.18
+	Top:	3.82500000000000
+	Right:	4.65000000000000
+	ReportUnits:	1
+	Units:	1
+	Scale:	19
+	ZoomRight:	4.65000000000000
+	ZoomTop:	3.82500000000000
+	GridSpacingX:	0.25000000000000
+	GridSpacingY:	0.25000000000000
+)
+
+(Numb.19
+	N:	0.21505376344086
+)
+
+(PointD.20
+	x:	27461.64570545009300
+	y:	2182016.16074326260000
+)
+
+(Numb.21
+)
+
+(FTheme.22
+	Name:	"National Boundaries"
+	Source:	23
+	Flags:	0x06
+	Legend:	32
+	Threshold:	45
+	View:	6
+	GSet:	46
+	LegEditScript:	"View.EditLegend"
+	TxPos:	47
+	LabelField:	28
+	AttrRules:	48
+	SnapTolCursor:	1
+)
+
+(ShpSrc.23
+	Name:	24
+	FTab:	26
+)
+
+(SrcName.24
+	FileName:	25
+	Name:	"cntry_vmap.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.25
+	Path:	"geographic/cntry_vmap.shp"
+)
+
+(FTab.26
+	Name:	"cntry_vmap.dbf"
+	BTab:	27
+	Fields:	30
+	Fields:	28
+	SelBits:	31
+	FSrc:	23
+)
+
+(dBASE.27
+	Name:	"cntry_vmap.dbf"
+	Fields:	28
+	FileName:	29
+)
+
+(Field.28
+	Name:	"Country"
+	Btab:	27
+	Alias:	"Country"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.29
+	Path:	"geographic/cntry_vmap.dbf"
+)
+
+(Field.30
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.31
+	NumBits:	2025
+
+)
+
+(Legend.32
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	33
+	Class:	38
+	StdDevs:	1.00000000000000
+	NullSym:	39
+	NullValues:	43
+	StatValues:	44
+	Precision:	-3
+)
+
+(SymList.33
+	Child:	34
+)
+
+(BShSym.34
+	Color:	35
+	Outline:	1
+	OutlineColor:	36
+	OutlineWidth:	0.10000000000000
+	BgColor:	37
+)
+
+(TClr.35
+	Red:	0xfeff
+	Green:	0xfe83
+	Blue:	0xe01e
+)
+
+(TClr.36
+	Red:	0x7878
+	Green:	0x7878
+	Blue:	0x7878
+)
+
+(TClr.37
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.38
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.39
+	Color:	40
+	Outline:	1
+	OutlineColor:	41
+	OutlineWidth:	0.10000000000000
+	BgColor:	42
+)
+
+(TClr.40
+	Name:	"Transparent"
+)
+
+(TClr.41
+	Name:	"Transparent"
+)
+
+(TClr.42
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.43
+)
+
+(NameDict.44
+)
+
+(Thresh.45
+)
+
+(GSet.46
+)
+
+(TxPosPly.47
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.48
+	FTab:	49
+	Field:	51
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTab.49
+	Name:	"cntry_vmap.dbf"
+	BTab:	50
+	Fields:	53
+	Fields:	51
+	SelBits:	54
+	FSrc:	55
+)
+
+(dBASE.50
+	Name:	"cntry_vmap.dbf"
+	Fields:	51
+	FileName:	52
+)
+
+(Field.51
+	Name:	"Country"
+	Btab:	50
+	Alias:	"Country"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.52
+	Path:	"geographic/cntry_vmap.dbf"
+)
+
+(Field.53
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.54
+	NumBits:	2025
+
+)
+
+(ShpSrc.55
+	Name:	56
+	FTab:	49
+)
+
+(SrcName.56
+	FileName:	57
+	Name:	"cntry_vmap.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.57
+	Path:	"geographic/cntry_vmap.shp"
+)
+
+(GTheme.58
+	Name:	"Reefs (grid) by Coastal Development Threat"
+	Source:	59
+	Flags:	0x06
+	Legend:	68
+	Threshold:	98
+	View:	6
+	GSet:	99
+	LegEditScript:	"View.EditLegend"
+)
+
+(Grid.59
+	Name:	60
+	VTab:	62
+)
+
+(SrcName.60
+	FileName:	61
+	Name:	"r500_cd"
+	OwnerClass:	"Grid"
+)
+
+(FN.61
+	Path:	"lambert/r500_cd"
+)
+
+(VTab.62
+	Name:	"r500_cd.vat"
+	BTab:	63
+	Fields:	64
+	Fields:	65
+	SelBits:	67
+)
+
+(INFO.63
+	Name:	"r500_cd.vat"
+	Fields:	64
+	Fields:	65
+	FileName:	66
+)
+
+(Field.64
+	Name:	"Value"
+	Btab:	63
+	Alias:	"Value"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.65
+	Name:	"Count"
+	Btab:	63
+	Alias:	"Count"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(FN.66
+	Path:	"lambert/info/r500_cd.vat"
+)
+
+(Bitmap.67
+	NumBits:	3
+
+)
+
+(Legend.68
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	69
+	Symbols:	70
+	Class:	87
+	Class:	88
+	Class:	89
+	Class:	90
+	StdDevs:	1.00000000000000
+	NullSym:	91
+	NullValues:	95
+	StatValues:	96
+	DisplayNoDataClass:	1
+	LegendExts:	97
+	Precision:	-3
+)
+
+(AVStr.69
+	S:	"Value"
+)
+
+(SymList.70
+	Child:	71
+	Child:	75
+	Child:	79
+	Child:	83
+)
+
+(BShSym.71
+	Color:	72
+	Outline:	1
+	OutlineColor:	73
+	OutlineWidth:	0.10000000000000
+	BgColor:	74
+)
+
+(TClr.72
+	Red:	0x1ee0
+	Green:	0x8b7e
+	Blue:	0xfeff
+)
+
+(TClr.73
+)
+
+(TClr.74
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.75
+	Color:	76
+	Outline:	1
+	OutlineColor:	77
+	OutlineWidth:	0.10000000000000
+	BgColor:	78
+)
+
+(TClr.76
+	Red:	0xfbff
+	Green:	0xb759
+	Blue:	0xfb
+)
+
+(TClr.77
+)
+
+(TClr.78
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.79
+	Color:	80
+	Outline:	1
+	OutlineColor:	81
+	OutlineWidth:	0.10000000000000
+	BgColor:	82
+)
+
+(TClr.80
+	Red:	0xfbff
+	Green:	0x2ed0
+	Blue:	0x1997
+)
+
+(TClr.81
+)
+
+(TClr.82
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.83
+	Color:	84
+	Outline:	1
+	OutlineColor:	85
+	OutlineWidth:	0.10000000000000
+	BgColor:	86
+)
+
+(TClr.84
+	Name:	"Transparent"
+)
+
+(TClr.85
+)
+
+(TClr.86
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.87
+	Label:	"Low"
+	MinNum:	1.00000000000000
+	MaxNum:	1.00000000000000
+	Precision:	-3
+)
+
+(LClass.88
+	Label:	"Medium"
+	MinNum:	100.00000000000000
+	MaxNum:	100.00000000000000
+	Precision:	-3
+)
+
+(LClass.89
+	Label:	"High"
+	MinNum:	1000.00000000000000
+	MaxNum:	1000.00000000000000
+	Precision:	-3
+)
+
+(LClass.90
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BShSym.91
+	Color:	92
+	Outline:	1
+	OutlineColor:	93
+	OutlineWidth:	0.10000000000000
+	BgColor:	94
+)
+
+(TClr.92
+	Name:	"Transparent"
+)
+
+(TClr.93
+)
+
+(TClr.94
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.95
+)
+
+(NameDict.96
+)
+
+(GLegExt.97
+	MinBrightness:	20.00000000000000
+	MaxBrightness:	80.00000000000000
+	ZScale:	1.00000000000000
+)
+
+(Thresh.98
+)
+
+(GSet.99
+)
+
+(GTheme.100
+	Name:	"Reefs (grid) by Sedimentation Threat"
+	Source:	101
+	Flags:	0x05
+	Legend:	110
+	Threshold:	140
+	View:	6
+	GSet:	141
+	LegEditScript:	"View.EditLegend"
+)
+
+(Grid.101
+	Name:	102
+	VTab:	104
+)
+
+(SrcName.102
+	FileName:	103
+	Name:	"r500_sed"
+	OwnerClass:	"Grid"
+)
+
+(FN.103
+	Path:	"lambert/r500_sed"
+)
+
+(VTab.104
+	Name:	"r500_sed.vat"
+	BTab:	105
+	Fields:	106
+	Fields:	107
+	SelBits:	109
+)
+
+(INFO.105
+	Name:	"r500_sed.vat"
+	Fields:	106
+	Fields:	107
+	FileName:	108
+)
+
+(Field.106
+	Name:	"Value"
+	Btab:	105
+	Alias:	"Value"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.107
+	Name:	"Count"
+	Btab:	105
+	Alias:	"Count"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(FN.108
+	Path:	"lambert/info/r500_sed.vat"
+)
+
+(Bitmap.109
+	NumBits:	3
+
+)
+
+(Legend.110
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	111
+	Symbols:	112
+	Class:	129
+	Class:	130
+	Class:	131
+	Class:	132
+	StdDevs:	1.00000000000000
+	NullSym:	133
+	NullValues:	137
+	StatValues:	138
+	DisplayNoDataClass:	1
+	LegendExts:	139
+	Precision:	-3
+)
+
+(AVStr.111
+	S:	"Value"
+)
+
+(SymList.112
+	Child:	113
+	Child:	117
+	Child:	121
+	Child:	125
+)
+
+(BShSym.113
+	Color:	114
+	Outline:	1
+	OutlineColor:	115
+	OutlineWidth:	0.10000000000000
+	BgColor:	116
+)
+
+(TClr.114
+	Red:	0x1ee0
+	Green:	0x8b7e
+	Blue:	0xfeff
+)
+
+(TClr.115
+)
+
+(TClr.116
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.117
+	Color:	118
+	Outline:	1
+	OutlineColor:	119
+	OutlineWidth:	0.10000000000000
+	BgColor:	120
+)
+
+(TClr.118
+	Red:	0xfbff
+	Green:	0xb759
+	Blue:	0xfb
+)
+
+(TClr.119
+)
+
+(TClr.120
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.121
+	Color:	122
+	Outline:	1
+	OutlineColor:	123
+	OutlineWidth:	0.10000000000000
+	BgColor:	124
+)
+
+(TClr.122
+	Red:	0xfbff
+	Green:	0x2ed0
+	Blue:	0x1997
+)
+
+(TClr.123
+)
+
+(TClr.124
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.125
+	Color:	126
+	Outline:	1
+	OutlineColor:	127
+	OutlineWidth:	0.10000000000000
+	BgColor:	128
+)
+
+(TClr.126
+	Name:	"Transparent"
+)
+
+(TClr.127
+)
+
+(TClr.128
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.129
+	Label:	"Low"
+	MinNum:	1.00000000000000
+	MaxNum:	1.00000000000000
+	Precision:	-3
+)
+
+(LClass.130
+	Label:	"Medium"
+	MinNum:	100.00000000000000
+	MaxNum:	100.00000000000000
+	Precision:	-3
+)
+
+(LClass.131
+	Label:	"High"
+	MinNum:	1000.00000000000000
+	MaxNum:	1000.00000000000000
+	Precision:	-3
+)
+
+(LClass.132
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BShSym.133
+	Color:	134
+	Outline:	1
+	OutlineColor:	135
+	OutlineWidth:	0.10000000000000
+	BgColor:	136
+)
+
+(TClr.134
+	Name:	"Transparent"
+)
+
+(TClr.135
+)
+
+(TClr.136
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.137
+)
+
+(NameDict.138
+)
+
+(GLegExt.139
+	MinBrightness:	20.00000000000000
+	MaxBrightness:	80.00000000000000
+	ZScale:	1.00000000000000
+)
+
+(Thresh.140
+)
+
+(GSet.141
+)
+
+(GTheme.142
+	Name:	"Reefs (grid) by Marine-based Threat"
+	Source:	143
+	Flags:	0x04
+	Legend:	152
+	Threshold:	182
+	View:	6
+	GSet:	183
+	LegEditScript:	"View.EditLegend"
+)
+
+(Grid.143
+	Name:	144
+	VTab:	146
+)
+
+(SrcName.144
+	FileName:	145
+	Name:	"r500_mar"
+	OwnerClass:	"Grid"
+)
+
+(FN.145
+	Path:	"lambert/r500_mar"
+)
+
+(VTab.146
+	Name:	"r500_mar.vat"
+	BTab:	147
+	Fields:	148
+	Fields:	149
+	SelBits:	151
+)
+
+(INFO.147
+	Name:	"r500_mar.vat"
+	Fields:	148
+	Fields:	149
+	FileName:	150
+)
+
+(Field.148
+	Name:	"Value"
+	Btab:	147
+	Alias:	"Value"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.149
+	Name:	"Count"
+	Btab:	147
+	Alias:	"Count"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(FN.150
+	Path:	"lambert/info/r500_mar.vat"
+)
+
+(Bitmap.151
+	NumBits:	3
+
+)
+
+(Legend.152
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	153
+	Symbols:	154
+	Class:	171
+	Class:	172
+	Class:	173
+	Class:	174
+	StdDevs:	1.00000000000000
+	NullSym:	175
+	NullValues:	179
+	StatValues:	180
+	DisplayNoDataClass:	1
+	LegendExts:	181
+	Precision:	-3
+)
+
+(AVStr.153
+	S:	"Value"
+)
+
+(SymList.154
+	Child:	155
+	Child:	159
+	Child:	163
+	Child:	167
+)
+
+(BShSym.155
+	Color:	156
+	Outline:	1
+	OutlineColor:	157
+	OutlineWidth:	0.10000000000000
+	BgColor:	158
+)
+
+(TClr.156
+	Red:	0x1ee0
+	Green:	0x8b7e
+	Blue:	0xfeff
+)
+
+(TClr.157
+)
+
+(TClr.158
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.159
+	Color:	160
+	Outline:	1
+	OutlineColor:	161
+	OutlineWidth:	0.10000000000000
+	BgColor:	162
+)
+
+(TClr.160
+	Red:	0xfbff
+	Green:	0xb759
+	Blue:	0xfb
+)
+
+(TClr.161
+)
+
+(TClr.162
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.163
+	Color:	164
+	Outline:	1
+	OutlineColor:	165
+	OutlineWidth:	0.10000000000000
+	BgColor:	166
+)
+
+(TClr.164
+	Red:	0xfbff
+	Green:	0x2ed0
+	Blue:	0x1997
+)
+
+(TClr.165
+)
+
+(TClr.166
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.167
+	Color:	168
+	Outline:	1
+	OutlineColor:	169
+	OutlineWidth:	0.10000000000000
+	BgColor:	170
+)
+
+(TClr.168
+	Name:	"Transparent"
+)
+
+(TClr.169
+)
+
+(TClr.170
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.171
+	Label:	"Low"
+	MinNum:	1.00000000000000
+	MaxNum:	1.00000000000000
+	Precision:	-3
+)
+
+(LClass.172
+	Label:	"Medium"
+	MinNum:	100.00000000000000
+	MaxNum:	100.00000000000000
+	Precision:	-3
+)
+
+(LClass.173
+	Label:	"High"
+	MinNum:	1000.00000000000000
+	MaxNum:	1000.00000000000000
+	Precision:	-3
+)
+
+(LClass.174
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BShSym.175
+	Color:	176
+	Outline:	1
+	OutlineColor:	177
+	OutlineWidth:	0.10000000000000
+	BgColor:	178
+)
+
+(TClr.176
+	Name:	"Transparent"
+)
+
+(TClr.177
+)
+
+(TClr.178
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.179
+)
+
+(NameDict.180
+)
+
+(GLegExt.181
+	MinBrightness:	20.00000000000000
+	MaxBrightness:	80.00000000000000
+	ZScale:	1.00000000000000
+)
+
+(Thresh.182
+)
+
+(GSet.183
+)
+
+(GTheme.184
+	Name:	"Reefs (grid) by Overfishing Threat"
+	Source:	185
+	Flags:	0x04
+	Legend:	194
+	Threshold:	224
+	View:	6
+	GSet:	225
+	LegEditScript:	"View.EditLegend"
+)
+
+(Grid.185
+	Name:	186
+	VTab:	188
+)
+
+(SrcName.186
+	FileName:	187
+	Name:	"r500_ovf"
+	OwnerClass:	"Grid"
+)
+
+(FN.187
+	Path:	"lambert/r500_ovf"
+)
+
+(VTab.188
+	Name:	"r500_ovf.vat"
+	BTab:	189
+	Fields:	190
+	Fields:	191
+	SelBits:	193
+)
+
+(INFO.189
+	Name:	"r500_ovf.vat"
+	Fields:	190
+	Fields:	191
+	FileName:	192
+)
+
+(Field.190
+	Name:	"Value"
+	Btab:	189
+	Alias:	"Value"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.191
+	Name:	"Count"
+	Btab:	189
+	Alias:	"Count"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(FN.192
+	Path:	"lambert/info/r500_ovf.vat"
+)
+
+(Bitmap.193
+	NumBits:	3
+
+)
+
+(Legend.194
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	195
+	Symbols:	196
+	Class:	213
+	Class:	214
+	Class:	215
+	Class:	216
+	StdDevs:	1.00000000000000
+	NullSym:	217
+	NullValues:	221
+	StatValues:	222
+	DisplayNoDataClass:	1
+	LegendExts:	223
+	Precision:	-3
+)
+
+(AVStr.195
+	S:	"Value"
+)
+
+(SymList.196
+	Child:	197
+	Child:	201
+	Child:	205
+	Child:	209
+)
+
+(BShSym.197
+	Color:	198
+	Outline:	1
+	OutlineColor:	199
+	OutlineWidth:	0.10000000000000
+	BgColor:	200
+)
+
+(TClr.198
+	Red:	0x1ee0
+	Green:	0x8b7e
+	Blue:	0xfeff
+)
+
+(TClr.199
+)
+
+(TClr.200
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.201
+	Color:	202
+	Outline:	1
+	OutlineColor:	203
+	OutlineWidth:	0.10000000000000
+	BgColor:	204
+)
+
+(TClr.202
+	Red:	0xfbff
+	Green:	0xb759
+	Blue:	0xfb
+)
+
+(TClr.203
+)
+
+(TClr.204
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.205
+	Color:	206
+	Outline:	1
+	OutlineColor:	207
+	OutlineWidth:	0.10000000000000
+	BgColor:	208
+)
+
+(TClr.206
+	Red:	0xfbff
+	Green:	0x2ed0
+	Blue:	0x1997
+)
+
+(TClr.207
+)
+
+(TClr.208
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.209
+	Color:	210
+	Outline:	1
+	OutlineColor:	211
+	OutlineWidth:	0.10000000000000
+	BgColor:	212
+)
+
+(TClr.210
+	Name:	"Transparent"
+)
+
+(TClr.211
+)
+
+(TClr.212
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.213
+	Label:	"Low"
+	MinNum:	1.00000000000000
+	MaxNum:	1.00000000000000
+	Precision:	-3
+)
+
+(LClass.214
+	Label:	"Medium"
+	MinNum:	100.00000000000000
+	MaxNum:	100.00000000000000
+	Precision:	-3
+)
+
+(LClass.215
+	Label:	"High"
+	MinNum:	1000.00000000000000
+	MaxNum:	1000.00000000000000
+	Precision:	-3
+)
+
+(LClass.216
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BShSym.217
+	Color:	218
+	Outline:	1
+	OutlineColor:	219
+	OutlineWidth:	0.10000000000000
+	BgColor:	220
+)
+
+(TClr.218
+	Name:	"Transparent"
+)
+
+(TClr.219
+)
+
+(TClr.220
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.221
+)
+
+(NameDict.222
+)
+
+(GLegExt.223
+	MinBrightness:	20.00000000000000
+	MaxBrightness:	80.00000000000000
+	ZScale:	1.00000000000000
+)
+
+(Thresh.224
+)
+
+(GSet.225
+)
+
+(GTheme.226
+	Name:	"Reefs (grid) by Integrated Threat"
+	Source:	227
+	Flags:	0x04
+	Legend:	236
+	Threshold:	271
+	View:	6
+	GSet:	272
+	LegEditScript:	"View.EditLegend"
+)
+
+(Grid.227
+	Name:	228
+	VTab:	230
+)
+
+(SrcName.228
+	FileName:	229
+	Name:	"r500_int"
+	OwnerClass:	"Grid"
+)
+
+(FN.229
+	Path:	"lambert/r500_int"
+)
+
+(VTab.230
+	Name:	"r500_int.vat"
+	BTab:	231
+	Fields:	232
+	Fields:	233
+	SelBits:	235
+)
+
+(INFO.231
+	Name:	"r500_int.vat"
+	Fields:	232
+	Fields:	233
+	FileName:	234
+)
+
+(Field.232
+	Name:	"Value"
+	Btab:	231
+	Alias:	"Value"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.233
+	Name:	"Count"
+	Btab:	231
+	Alias:	"Count"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(FN.234
+	Path:	"lambert/info/r500_int.vat"
+)
+
+(Bitmap.235
+	NumBits:	4
+
+)
+
+(Legend.236
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	237
+	Symbols:	238
+	Class:	259
+	Class:	260
+	Class:	261
+	Class:	262
+	Class:	263
+	StdDevs:	1.00000000000000
+	NullSym:	264
+	NullValues:	268
+	StatValues:	269
+	DisplayNoDataClass:	1
+	LegendExts:	270
+	Precision:	-3
+)
+
+(AVStr.237
+	S:	"Value"
+)
+
+(SymList.238
+	Child:	239
+	Child:	243
+	Child:	247
+	Child:	251
+	Child:	255
+)
+
+(BShSym.239
+	Color:	240
+	Outline:	1
+	OutlineColor:	241
+	OutlineWidth:	0.10000000000000
+	BgColor:	242
+)
+
+(TClr.240
+	Red:	0x1ee0
+	Green:	0x8b7e
+	Blue:	0xfeff
+)
+
+(TClr.241
+)
+
+(TClr.242
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.243
+	Color:	244
+	Outline:	1
+	OutlineColor:	245
+	OutlineWidth:	0.10000000000000
+	BgColor:	246
+)
+
+(TClr.244
+	Red:	0xfbff
+	Green:	0xb759
+	Blue:	0xfb
+)
+
+(TClr.245
+)
+
+(TClr.246
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.247
+	Color:	248
+	Outline:	1
+	OutlineColor:	249
+	OutlineWidth:	0.10000000000000
+	BgColor:	250
+)
+
+(TClr.248
+	Red:	0xfbff
+	Green:	0x2ed0
+	Blue:	0x1997
+)
+
+(TClr.249
+)
+
+(TClr.250
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.251
+	Color:	252
+	Outline:	1
+	OutlineColor:	253
+	OutlineWidth:	0.10000000000000
+	BgColor:	254
+)
+
+(TClr.252
+	Red:	0xa6ff
+	Green:	0xa6
+	Blue:	0xa6
+)
+
+(TClr.253
+)
+
+(TClr.254
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.255
+	Color:	256
+	Outline:	1
+	OutlineColor:	257
+	OutlineWidth:	0.10000000000000
+	BgColor:	258
+)
+
+(TClr.256
+	Name:	"Transparent"
+)
+
+(TClr.257
+)
+
+(TClr.258
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.259
+	Label:	"Low"
+	MinNum:	1.00000000000000
+	MaxNum:	1.00000000000000
+	Precision:	-3
+)
+
+(LClass.260
+	Label:	"Medium"
+	MinNum:	100.00000000000000
+	MaxNum:	100.00000000000000
+	Precision:	-3
+)
+
+(LClass.261
+	Label:	"High"
+	MinNum:	1000.00000000000000
+	MaxNum:	1000.00000000000000
+	Precision:	-3
+)
+
+(LClass.262
+	Label:	"Very high"
+	MinNum:	1500.00000000000000
+	MaxNum:	1500.00000000000000
+	Precision:	-3
+)
+
+(LClass.263
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BShSym.264
+	Color:	265
+	Outline:	1
+	OutlineColor:	266
+	OutlineWidth:	0.10000000000000
+	BgColor:	267
+)
+
+(TClr.265
+	Name:	"Transparent"
+)
+
+(TClr.266
+)
+
+(TClr.267
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.268
+)
+
+(NameDict.269
+)
+
+(GLegExt.270
+	MinBrightness:	20.00000000000000
+	MaxBrightness:	80.00000000000000
+	ZScale:	1.00000000000000
+)
+
+(Thresh.271
+)
+
+(GSet.272
+)
+
+(GTheme.273
+	Name:	"Coastal Development Threat Estimate"
+	Source:	274
+	Flags:	0x04
+	Legend:	283
+	Threshold:	313
+	View:	6
+	GSet:	314
+	LegEditScript:	"View.EditLegend"
+)
+
+(Grid.274
+	Name:	275
+	VTab:	277
+)
+
+(SrcName.275
+	FileName:	276
+	Name:	"thr_cd_adj"
+	OwnerClass:	"Grid"
+)
+
+(FN.276
+	Path:	"lambert/thr_cd_adj"
+)
+
+(VTab.277
+	Name:	"thr_cd_adj.vat"
+	BTab:	278
+	Fields:	279
+	Fields:	280
+	SelBits:	282
+)
+
+(INFO.278
+	Name:	"thr_cd_adj.vat"
+	Fields:	279
+	Fields:	280
+	FileName:	281
+)
+
+(Field.279
+	Name:	"Value"
+	Btab:	278
+	Alias:	"Value"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.280
+	Name:	"Count"
+	Btab:	278
+	Alias:	"Count"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(FN.281
+	Path:	"lambert/info/thr_cd_adj.vat"
+)
+
+(Bitmap.282
+	NumBits:	3
+
+)
+
+(Legend.283
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	284
+	Symbols:	285
+	Class:	302
+	Class:	303
+	Class:	304
+	Class:	305
+	StdDevs:	1.00000000000000
+	NullSym:	306
+	NullValues:	310
+	StatValues:	311
+	DisplayNoDataClass:	1
+	LegendExts:	312
+	Precision:	-3
+)
+
+(AVStr.284
+	S:	"Value"
+)
+
+(SymList.285
+	Child:	286
+	Child:	290
+	Child:	294
+	Child:	298
+)
+
+(BShSym.286
+	Color:	287
+	Outline:	1
+	OutlineColor:	288
+	OutlineWidth:	0.10000000000000
+	BgColor:	289
+)
+
+(TClr.287
+	Red:	0xdd95
+	Green:	0xf2bc
+	Blue:	0xfaff
+)
+
+(TClr.288
+)
+
+(TClr.289
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.290
+	Color:	291
+	Outline:	1
+	OutlineColor:	292
+	OutlineWidth:	0.10000000000000
+	BgColor:	293
+)
+
+(TClr.291
+	Red:	0xa559
+	Green:	0xfad1
+	Blue:	0xff00
+)
+
+(TClr.292
+)
+
+(TClr.293
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.294
+	Color:	295
+	Outline:	1
+	OutlineColor:	296
+	OutlineWidth:	0.10000000000000
+	BgColor:	297
+)
+
+(TClr.295
+	Red:	0xdb
+	Green:	0xd1c7
+	Blue:	0xdc00
+)
+
+(TClr.296
+)
+
+(TClr.297
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.298
+	Color:	299
+	Outline:	1
+	OutlineColor:	300
+	OutlineWidth:	0.10000000000000
+	BgColor:	301
+)
+
+(TClr.299
+	Name:	"Transparent"
+)
+
+(TClr.300
+)
+
+(TClr.301
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.302
+	Label:	"Low"
+	MinNum:	1.00000000000000
+	MaxNum:	1.00000000000000
+	Precision:	-3
+)
+
+(LClass.303
+	Label:	"Medium"
+	MinNum:	100.00000000000000
+	MaxNum:	100.00000000000000
+	Precision:	-3
+)
+
+(LClass.304
+	Label:	"High"
+	MinNum:	1000.00000000000000
+	MaxNum:	1000.00000000000000
+	Precision:	-3
+)
+
+(LClass.305
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BShSym.306
+	Color:	307
+	Outline:	1
+	OutlineColor:	308
+	OutlineWidth:	0.10000000000000
+	BgColor:	309
+)
+
+(TClr.307
+	Name:	"Transparent"
+)
+
+(TClr.308
+	Name:	"Transparent"
+)
+
+(TClr.309
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.310
+)
+
+(NameDict.311
+)
+
+(GLegExt.312
+	MinBrightness:	20.00000000000000
+	MaxBrightness:	80.00000000000000
+	ZScale:	1.00000000000000
+)
+
+(Thresh.313
+)
+
+(GSet.314
+)
+
+(GTheme.315
+	Name:	"Sedimentation Threat Estimate"
+	Source:	316
+	Flags:	0x05
+	Legend:	325
+	Threshold:	355
+	View:	6
+	GSet:	356
+	LegEditScript:	"View.EditLegend"
+)
+
+(Grid.316
+	Name:	317
+	VTab:	319
+)
+
+(SrcName.317
+	FileName:	318
+	Name:	"thr_sed"
+	OwnerClass:	"Grid"
+)
+
+(FN.318
+	Path:	"lambert/thr_sed"
+)
+
+(VTab.319
+	Name:	"thr_sed.vat"
+	BTab:	320
+	Fields:	321
+	Fields:	322
+	SelBits:	324
+)
+
+(INFO.320
+	Name:	"thr_sed.vat"
+	Fields:	321
+	Fields:	322
+	FileName:	323
+)
+
+(Field.321
+	Name:	"Value"
+	Btab:	320
+	Alias:	"Value"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.322
+	Name:	"Count"
+	Btab:	320
+	Alias:	"Count"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(FN.323
+	Path:	"lambert/info/thr_sed.vat"
+)
+
+(Bitmap.324
+	NumBits:	3
+
+)
+
+(Legend.325
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	326
+	Symbols:	327
+	Class:	344
+	Class:	345
+	Class:	346
+	Class:	347
+	StdDevs:	1.00000000000000
+	NullSym:	348
+	NullValues:	352
+	StatValues:	353
+	DisplayNoDataClass:	1
+	LegendExts:	354
+	Precision:	-3
+)
+
+(AVStr.326
+	S:	"Value"
+)
+
+(SymList.327
+	Child:	328
+	Child:	332
+	Child:	336
+	Child:	340
+)
+
+(BShSym.328
+	Color:	329
+	Outline:	1
+	OutlineColor:	330
+	OutlineWidth:	0.10000000000000
+	BgColor:	331
+)
+
+(TClr.329
+	Red:	0xdd95
+	Green:	0xf2bc
+	Blue:	0xfaff
+)
+
+(TClr.330
+)
+
+(TClr.331
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.332
+	Color:	333
+	Outline:	1
+	OutlineColor:	334
+	OutlineWidth:	0.10000000000000
+	BgColor:	335
+)
+
+(TClr.333
+	Red:	0xa559
+	Green:	0xfad1
+	Blue:	0xff00
+)
+
+(TClr.334
+)
+
+(TClr.335
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.336
+	Color:	337
+	Outline:	1
+	OutlineColor:	338
+	OutlineWidth:	0.10000000000000
+	BgColor:	339
+)
+
+(TClr.337
+	Red:	0xdb
+	Green:	0xd1c7
+	Blue:	0xdc00
+)
+
+(TClr.338
+)
+
+(TClr.339
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.340
+	Color:	341
+	Outline:	1
+	OutlineColor:	342
+	OutlineWidth:	0.10000000000000
+	BgColor:	343
+)
+
+(TClr.341
+	Name:	"Transparent"
+)
+
+(TClr.342
+)
+
+(TClr.343
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.344
+	Label:	"Low"
+	MinNum:	1.00000000000000
+	MaxNum:	1.00000000000000
+	Precision:	-3
+)
+
+(LClass.345
+	Label:	"Medium"
+	MinNum:	100.00000000000000
+	MaxNum:	100.00000000000000
+	Precision:	-3
+)
+
+(LClass.346
+	Label:	"High"
+	MinNum:	1000.00000000000000
+	MaxNum:	1000.00000000000000
+	Precision:	-3
+)
+
+(LClass.347
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BShSym.348
+	Color:	349
+	Outline:	1
+	OutlineColor:	350
+	OutlineWidth:	0.10000000000000
+	BgColor:	351
+)
+
+(TClr.349
+	Name:	"Transparent"
+)
+
+(TClr.350
+	Name:	"Transparent"
+)
+
+(TClr.351
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.352
+)
+
+(NameDict.353
+)
+
+(GLegExt.354
+	MinBrightness:	20.00000000000000
+	MaxBrightness:	80.00000000000000
+	ZScale:	1.00000000000000
+)
+
+(Thresh.355
+)
+
+(GSet.356
+)
+
+(GTheme.357
+	Name:	"Marine-based Threat Estimate"
+	Source:	358
+	Flags:	0x04
+	Legend:	367
+	Threshold:	397
+	View:	6
+	GSet:	398
+	LegEditScript:	"View.EditLegend"
+)
+
+(Grid.358
+	Name:	359
+	VTab:	361
+)
+
+(SrcName.359
+	FileName:	360
+	Name:	"thr_marine"
+	OwnerClass:	"Grid"
+)
+
+(FN.360
+	Path:	"lambert/thr_marine"
+)
+
+(VTab.361
+	Name:	"thr_marine.vat"
+	BTab:	362
+	Fields:	363
+	Fields:	364
+	SelBits:	366
+)
+
+(INFO.362
+	Name:	"thr_marine.vat"
+	Fields:	363
+	Fields:	364
+	FileName:	365
+)
+
+(Field.363
+	Name:	"Value"
+	Btab:	362
+	Alias:	"Value"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.364
+	Name:	"Count"
+	Btab:	362
+	Alias:	"Count"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(FN.365
+	Path:	"lambert/info/thr_marine.vat"
+)
+
+(Bitmap.366
+	NumBits:	3
+
+)
+
+(Legend.367
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	368
+	Symbols:	369
+	Class:	386
+	Class:	387
+	Class:	388
+	Class:	389
+	StdDevs:	1.00000000000000
+	NullSym:	390
+	NullValues:	394
+	StatValues:	395
+	DisplayNoDataClass:	1
+	LegendExts:	396
+	Precision:	-3
+)
+
+(AVStr.368
+	S:	"Value"
+)
+
+(SymList.369
+	Child:	370
+	Child:	374
+	Child:	378
+	Child:	382
+)
+
+(BShSym.370
+	Color:	371
+	Outline:	1
+	OutlineColor:	372
+	OutlineWidth:	0.10000000000000
+	BgColor:	373
+)
+
+(TClr.371
+	Red:	0xdd95
+	Green:	0xf2bc
+	Blue:	0xfaff
+)
+
+(TClr.372
+)
+
+(TClr.373
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.374
+	Color:	375
+	Outline:	1
+	OutlineColor:	376
+	OutlineWidth:	0.10000000000000
+	BgColor:	377
+)
+
+(TClr.375
+	Red:	0xa559
+	Green:	0xfad1
+	Blue:	0xff00
+)
+
+(TClr.376
+)
+
+(TClr.377
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.378
+	Color:	379
+	Outline:	1
+	OutlineColor:	380
+	OutlineWidth:	0.10000000000000
+	BgColor:	381
+)
+
+(TClr.379
+	Red:	0xdb
+	Green:	0xd1c7
+	Blue:	0xdc00
+)
+
+(TClr.380
+)
+
+(TClr.381
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.382
+	Color:	383
+	Outline:	1
+	OutlineColor:	384
+	OutlineWidth:	0.10000000000000
+	BgColor:	385
+)
+
+(TClr.383
+	Name:	"Transparent"
+)
+
+(TClr.384
+)
+
+(TClr.385
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.386
+	Label:	"Low"
+	MinNum:	1.00000000000000
+	MaxNum:	1.00000000000000
+	Precision:	-3
+)
+
+(LClass.387
+	Label:	"Medium"
+	MinNum:	100.00000000000000
+	MaxNum:	100.00000000000000
+	Precision:	-3
+)
+
+(LClass.388
+	Label:	"High"
+	MinNum:	1000.00000000000000
+	MaxNum:	1000.00000000000000
+	Precision:	-3
+)
+
+(LClass.389
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BShSym.390
+	Color:	391
+	Outline:	1
+	OutlineColor:	392
+	OutlineWidth:	0.10000000000000
+	BgColor:	393
+)
+
+(TClr.391
+	Name:	"Transparent"
+)
+
+(TClr.392
+	Name:	"Transparent"
+)
+
+(TClr.393
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.394
+)
+
+(NameDict.395
+)
+
+(GLegExt.396
+	MinBrightness:	20.00000000000000
+	MaxBrightness:	80.00000000000000
+	ZScale:	1.00000000000000
+)
+
+(Thresh.397
+)
+
+(GSet.398
+)
+
+(GTheme.399
+	Name:	"Overfishing Threat Estimate"
+	Source:	400
+	Flags:	0x04
+	Legend:	409
+	Threshold:	439
+	View:	6
+	GSet:	440
+	LegEditScript:	"View.EditLegend"
+)
+
+(Grid.400
+	Name:	401
+	VTab:	403
+)
+
+(SrcName.401
+	FileName:	402
+	Name:	"thr_ovf_adj"
+	OwnerClass:	"Grid"
+)
+
+(FN.402
+	Path:	"lambert/thr_ovf_adj"
+)
+
+(VTab.403
+	Name:	"thr_ovf_adj.vat"
+	BTab:	404
+	Fields:	405
+	Fields:	406
+	SelBits:	408
+)
+
+(INFO.404
+	Name:	"thr_ovf_adj.vat"
+	Fields:	405
+	Fields:	406
+	FileName:	407
+)
+
+(Field.405
+	Name:	"Value"
+	Btab:	404
+	Alias:	"Value"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.406
+	Name:	"Count"
+	Btab:	404
+	Alias:	"Count"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(FN.407
+	Path:	"lambert/info/thr_ovf_adj.vat"
+)
+
+(Bitmap.408
+	NumBits:	3
+
+)
+
+(Legend.409
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	410
+	Symbols:	411
+	Class:	428
+	Class:	429
+	Class:	430
+	Class:	431
+	StdDevs:	1.00000000000000
+	NullSym:	432
+	NullValues:	436
+	StatValues:	437
+	DisplayNoDataClass:	1
+	LegendExts:	438
+	Precision:	-3
+)
+
+(AVStr.410
+	S:	"Value"
+)
+
+(SymList.411
+	Child:	412
+	Child:	416
+	Child:	420
+	Child:	424
+)
+
+(BShSym.412
+	Color:	413
+	Outline:	1
+	OutlineColor:	414
+	OutlineWidth:	0.10000000000000
+	BgColor:	415
+)
+
+(TClr.413
+	Red:	0xdd95
+	Green:	0xf2bc
+	Blue:	0xfaff
+)
+
+(TClr.414
+)
+
+(TClr.415
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.416
+	Color:	417
+	Outline:	1
+	OutlineColor:	418
+	OutlineWidth:	0.10000000000000
+	BgColor:	419
+)
+
+(TClr.417
+	Red:	0xa559
+	Green:	0xfad1
+	Blue:	0xff00
+)
+
+(TClr.418
+)
+
+(TClr.419
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.420
+	Color:	421
+	Outline:	1
+	OutlineColor:	422
+	OutlineWidth:	0.10000000000000
+	BgColor:	423
+)
+
+(TClr.421
+	Red:	0xdb
+	Green:	0xd1c7
+	Blue:	0xdc00
+)
+
+(TClr.422
+)
+
+(TClr.423
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.424
+	Color:	425
+	Outline:	1
+	OutlineColor:	426
+	OutlineWidth:	0.10000000000000
+	BgColor:	427
+)
+
+(TClr.425
+	Name:	"Transparent"
+)
+
+(TClr.426
+)
+
+(TClr.427
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.428
+	Label:	"Low"
+	MinNum:	1.00000000000000
+	MaxNum:	1.00000000000000
+	Precision:	-3
+)
+
+(LClass.429
+	Label:	"Medium"
+	MinNum:	100.00000000000000
+	MaxNum:	100.00000000000000
+	Precision:	-3
+)
+
+(LClass.430
+	Label:	"High"
+	MinNum:	1000.00000000000000
+	MaxNum:	1000.00000000000000
+	Precision:	-3
+)
+
+(LClass.431
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BShSym.432
+	Color:	433
+	Outline:	1
+	OutlineColor:	434
+	OutlineWidth:	0.10000000000000
+	BgColor:	435
+)
+
+(TClr.433
+	Name:	"Transparent"
+)
+
+(TClr.434
+	Name:	"Transparent"
+)
+
+(TClr.435
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.436
+)
+
+(NameDict.437
+)
+
+(GLegExt.438
+	MinBrightness:	20.00000000000000
+	MaxBrightness:	80.00000000000000
+	ZScale:	1.00000000000000
+)
+
+(Thresh.439
+)
+
+(GSet.440
+)
+
+(GTheme.441
+	Name:	"Integrated Threat Estimate"
+	Source:	442
+	Flags:	0x04
+	Legend:	451
+	Threshold:	486
+	View:	6
+	GSet:	487
+	LegEditScript:	"View.EditLegend"
+)
+
+(Grid.442
+	Name:	443
+	VTab:	445
+)
+
+(SrcName.443
+	FileName:	444
+	Name:	"thr_int"
+	OwnerClass:	"Grid"
+)
+
+(FN.444
+	Path:	"lambert/thr_int"
+)
+
+(VTab.445
+	Name:	"thr_int.vat"
+	BTab:	446
+	Fields:	447
+	Fields:	448
+	SelBits:	450
+)
+
+(INFO.446
+	Name:	"thr_int.vat"
+	Fields:	447
+	Fields:	448
+	FileName:	449
+)
+
+(Field.447
+	Name:	"Value"
+	Btab:	446
+	Alias:	"Value"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.448
+	Name:	"Count"
+	Btab:	446
+	Alias:	"Count"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(FN.449
+	Path:	"lambert/info/thr_int.vat"
+)
+
+(Bitmap.450
+	NumBits:	4
+
+)
+
+(Legend.451
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	452
+	Symbols:	453
+	Class:	474
+	Class:	475
+	Class:	476
+	Class:	477
+	Class:	478
+	StdDevs:	1.00000000000000
+	NullSym:	479
+	NullValues:	483
+	StatValues:	484
+	DisplayNoDataClass:	1
+	LegendExts:	485
+	Precision:	-3
+)
+
+(AVStr.452
+	S:	"Value"
+)
+
+(SymList.453
+	Child:	454
+	Child:	458
+	Child:	462
+	Child:	466
+	Child:	470
+)
+
+(BShSym.454
+	Color:	455
+	Outline:	1
+	OutlineColor:	456
+	OutlineWidth:	0.10000000000000
+	BgColor:	457
+)
+
+(TClr.455
+	Red:	0xdd95
+	Green:	0xf2bc
+	Blue:	0xfaff
+)
+
+(TClr.456
+)
+
+(TClr.457
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.458
+	Color:	459
+	Outline:	1
+	OutlineColor:	460
+	OutlineWidth:	0.10000000000000
+	BgColor:	461
+)
+
+(TClr.459
+	Red:	0xbb43
+	Green:	0xfbd7
+	Blue:	0xfeff
+)
+
+(TClr.460
+)
+
+(TClr.461
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.462
+	Color:	463
+	Outline:	1
+	OutlineColor:	464
+	OutlineWidth:	0.10000000000000
+	BgColor:	465
+)
+
+(TClr.463
+	Red:	0x9217
+	Green:	0xd88d
+	Blue:	0xdbff
+)
+
+(TClr.464
+)
+
+(TClr.465
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.466
+	Color:	467
+	Outline:	1
+	OutlineColor:	468
+	OutlineWidth:	0.10000000000000
+	BgColor:	469
+)
+
+(TClr.467
+	Red:	0x4ac3
+	Green:	0xd539
+	Blue:	0xdbff
+)
+
+(TClr.468
+)
+
+(TClr.469
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.470
+	Color:	471
+	Outline:	1
+	OutlineColor:	472
+	OutlineWidth:	0.10000000000000
+	BgColor:	473
+)
+
+(TClr.471
+	Name:	"Transparent"
+)
+
+(TClr.472
+)
+
+(TClr.473
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.474
+	Label:	"Low"
+	MinNum:	1.00000000000000
+	MaxNum:	1.00000000000000
+	Precision:	-3
+)
+
+(LClass.475
+	Label:	"Medium"
+	MinNum:	100.00000000000000
+	MaxNum:	100.00000000000000
+	Precision:	-3
+)
+
+(LClass.476
+	Label:	"High"
+	MinNum:	1000.00000000000000
+	MaxNum:	1000.00000000000000
+	Precision:	-3
+)
+
+(LClass.477
+	Label:	"Very high"
+	MinNum:	1500.00000000000000
+	MaxNum:	1500.00000000000000
+	Precision:	-3
+)
+
+(LClass.478
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BShSym.479
+	Color:	480
+	Outline:	1
+	OutlineColor:	481
+	OutlineWidth:	0.10000000000000
+	BgColor:	482
+)
+
+(TClr.480
+	Name:	"Transparent"
+)
+
+(TClr.481
+	Name:	"Transparent"
+)
+
+(TClr.482
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.483
+)
+
+(NameDict.484
+)
+
+(GLegExt.485
+	MinBrightness:	20.00000000000000
+	MaxBrightness:	80.00000000000000
+	ZScale:	1.00000000000000
+)
+
+(Thresh.486
+)
+
+(GSet.487
+)
+
+(FTheme.488
+	Name:	"National Boundaries"
+	Source:	55
+	Flags:	0x04
+	Legend:	489
+	Threshold:	502
+	View:	6
+	GSet:	503
+	LegEditScript:	"View.EditLegend"
+	TxPos:	504
+	LabelField:	51
+	AttrRules:	505
+	SnapTolCursor:	1
+)
+
+(Legend.489
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	490
+	Class:	495
+	StdDevs:	1.00000000000000
+	NullSym:	496
+	NullValues:	500
+	StatValues:	501
+	Precision:	-3
+)
+
+(SymList.490
+	Child:	491
+)
+
+(BShSym.491
+	Color:	492
+	Outline:	1
+	OutlineColor:	493
+	OutlineWidth:	0.10000000000000
+	BgColor:	494
+)
+
+(TClr.492
+	Red:	0xfeff
+	Green:	0xfe83
+	Blue:	0xe01e
+)
+
+(TClr.493
+	Red:	0x7878
+	Green:	0x7878
+	Blue:	0x7878
+)
+
+(TClr.494
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.495
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.496
+	Color:	497
+	Outline:	1
+	OutlineColor:	498
+	OutlineWidth:	0.10000000000000
+	BgColor:	499
+)
+
+(TClr.497
+	Name:	"Transparent"
+)
+
+(TClr.498
+	Name:	"Transparent"
+)
+
+(TClr.499
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.500
+)
+
+(NameDict.501
+)
+
+(Thresh.502
+)
+
+(GSet.503
+)
+
+(TxPosPly.504
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.505
+	FTab:	49
+	Field:	51
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(Eqarazi.506
+	InternalName:	"Lambert Equal-Area Azimuthal"
+	Description:	"Custom Lambert Equal-Area Azimuthal"
+	Ellipsoid:	507
+	Lambda0:	-1.32645023151528
+	Phi1:	0.27925268031901
+)
+
+(Elpsoid.507
+	Radius:	6370997.00000000000000
+	Type:	10
+	Units:	0x07
+)
+
+(BShSym.508
+	Color:	509
+	Outline:	1
+	OutlineColor:	510
+	BgColor:	511
+)
+
+(TClr.509
+	Red:	0xe11d
+	Green:	0xfd9b
+	Blue:	0xfeff
+)
+
+(TClr.510
+)
+
+(TClr.511
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(View.512
+	Name:	"View 2 - Watershed-based Sources of Threat"
+	CreationDate:	"Wednesday, March 02, 2005 2:50:20 PM"
+	GUIName:	"View"
+	Win:	513
+	CSMgr:	514
+	DocExts:	516
+	DocExts:	517
+	DocExts:	518
+	Graphics:	519
+	Theme:	526
+	Theme:	568
+	Theme:	651
+	Theme:	734
+	Theme:	792
+	Theme:	864
+	Theme:	900
+	Theme:	1018
+	Projection:	1060
+	LastScale:	37000000.29118999100000
+	Dpy:	520
+	TOCWidth:	306
+	CoordPrecision:	2
+	BackgroundSymbol:	1062
+)
+
+(DocWin.513
+	Owner:	512
+	X:	105
+	Y:	33
+	W:	877
+	H:	478
+)
+
+(CSMgr.514
+	Client:	515
+)
+
+(CSClient.515
+	Client:	516
+	ReqName:	"ClientNfy"
+)
+
+(PanMgr.516
+	Doc:	512
+)
+
+(DocAct.517
+	Doc:	512
+)
+
+(SpAnEnv.518
+	CellEnum:	13
+	CellSize:	14
+	ExtEnum:	13
+	Extent:	14
+)
+
+(GList.519
+	Dpy:	520
+	FormatNumb:	525
+)
+
+(MapDpy.520
+	Left:	-2424341.45829759720000
+	Bottom:	-945400.53651560680000
+	Top:	1946463.13256607270000
+	Right:	1930073.95146906840000
+	ReportUnits:	8
+	Units:	7
+	Scale:	521
+	FrameTop:	3.64166666666667
+	FrameRight:	4.63333333333333
+	PageDpy:	522
+	FitToPage:	1
+	MouseLoc:	524
+)
+
+(Numb.521
+	N:	0.00000106405405
+)
+
+(PageDpy.522
+	Top:	3.64166666666667
+	Right:	4.63333333333333
+	ReportUnits:	1
+	Units:	1
+	Scale:	523
+	ZoomRight:	4.63333333333333
+	ZoomTop:	3.64166666666667
+	GridSpacingX:	0.25000000000000
+	GridSpacingY:	0.25000000000000
+)
+
+(Numb.523
+	N:	0.21582733812950
+)
+
+(PointD.524
+	x:	1514994.78471073510000
+	y:	1882823.24015439910000
+)
+
+(Numb.525
+)
+
+(GTheme.526
+	Name:	"Reefs (grid) by Sedimentation Threat"
+	Source:	527
+	Flags:	0x05
+	Legend:	536
+	Threshold:	566
+	View:	512
+	GSet:	567
+	LegEditScript:	"View.EditLegend"
+)
+
+(Grid.527
+	Name:	528
+	VTab:	530
+)
+
+(SrcName.528
+	FileName:	529
+	Name:	"r500_sed"
+	OwnerClass:	"Grid"
+)
+
+(FN.529
+	Path:	"lambert/r500_sed"
+)
+
+(VTab.530
+	Name:	"r500_sed.vat"
+	BTab:	531
+	Fields:	532
+	Fields:	533
+	SelBits:	535
+)
+
+(INFO.531
+	Name:	"r500_sed.vat"
+	Fields:	532
+	Fields:	533
+	FileName:	534
+)
+
+(Field.532
+	Name:	"Value"
+	Btab:	531
+	Alias:	"Value"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.533
+	Name:	"Count"
+	Btab:	531
+	Alias:	"Count"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(FN.534
+	Path:	"lambert/info/r500_sed.vat"
+)
+
+(Bitmap.535
+	NumBits:	3
+
+)
+
+(Legend.536
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	537
+	Symbols:	538
+	Class:	555
+	Class:	556
+	Class:	557
+	Class:	558
+	StdDevs:	1.00000000000000
+	NullSym:	559
+	NullValues:	563
+	StatValues:	564
+	DisplayNoDataClass:	1
+	LegendExts:	565
+	Precision:	-3
+)
+
+(AVStr.537
+	S:	"Value"
+)
+
+(SymList.538
+	Child:	539
+	Child:	543
+	Child:	547
+	Child:	551
+)
+
+(BShSym.539
+	Color:	540
+	Outline:	1
+	OutlineColor:	541
+	OutlineWidth:	0.10000000000000
+	BgColor:	542
+)
+
+(TClr.540
+	Red:	0x1ee0
+	Green:	0x8b7e
+	Blue:	0xfeff
+)
+
+(TClr.541
+)
+
+(TClr.542
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.543
+	Color:	544
+	Outline:	1
+	OutlineColor:	545
+	OutlineWidth:	0.10000000000000
+	BgColor:	546
+)
+
+(TClr.544
+	Red:	0xfbff
+	Green:	0xb759
+	Blue:	0xfb
+)
+
+(TClr.545
+)
+
+(TClr.546
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.547
+	Color:	548
+	Outline:	1
+	OutlineColor:	549
+	OutlineWidth:	0.10000000000000
+	BgColor:	550
+)
+
+(TClr.548
+	Red:	0xfbff
+	Green:	0x2ed0
+	Blue:	0x1997
+)
+
+(TClr.549
+)
+
+(TClr.550
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.551
+	Color:	552
+	Outline:	1
+	OutlineColor:	553
+	OutlineWidth:	0.10000000000000
+	BgColor:	554
+)
+
+(TClr.552
+	Name:	"Transparent"
+)
+
+(TClr.553
+)
+
+(TClr.554
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.555
+	Label:	"Low"
+	MinNum:	1.00000000000000
+	MaxNum:	1.00000000000000
+	Precision:	-3
+)
+
+(LClass.556
+	Label:	"Medium"
+	MinNum:	100.00000000000000
+	MaxNum:	100.00000000000000
+	Precision:	-3
+)
+
+(LClass.557
+	Label:	"High"
+	MinNum:	1000.00000000000000
+	MaxNum:	1000.00000000000000
+	Precision:	-3
+)
+
+(LClass.558
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BShSym.559
+	Color:	560
+	Outline:	1
+	OutlineColor:	561
+	OutlineWidth:	0.10000000000000
+	BgColor:	562
+)
+
+(TClr.560
+	Name:	"Transparent"
+)
+
+(TClr.561
+)
+
+(TClr.562
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.563
+)
+
+(NameDict.564
+)
+
+(GLegExt.565
+	MinBrightness:	20.00000000000000
+	MaxBrightness:	80.00000000000000
+	ZScale:	1.00000000000000
+)
+
+(Thresh.566
+)
+
+(GSet.567
+)
+
+(FTheme.568
+	Name:	"Mean Relative Erosion Potential (by basin)"
+	Source:	569
+	Flags:	0x04
+	Legend:	585
+	Threshold:	624
+	View:	512
+	GSet:	625
+	LegEditScript:	"View.EditLegend"
+	TxPos:	626
+	LabelField:	581
+	AttrRules:	627
+	AttrRules:	644
+	AttrRules:	645
+	AttrRules:	646
+	AttrRules:	647
+	AttrRules:	648
+	AttrRules:	649
+	AttrRules:	650
+	SnapTolCursor:	1
+)
+
+(ShpSrc.569
+	Name:	570
+	FTab:	572
+)
+
+(SrcName.570
+	FileName:	571
+	Name:	"ws_combo.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.571
+	Path:	"geographic/ws_combo.shp"
+)
+
+(FTab.572
+	Name:	"ws_combo.dbf"
+	BTab:	573
+	Fields:	583
+	Fields:	574
+	Fields:	575
+	Fields:	576
+	Fields:	577
+	Fields:	578
+	Fields:	579
+	Fields:	580
+	Fields:	581
+	SelBits:	584
+	FSrc:	569
+)
+
+(dBASE.573
+	Name:	"ws_combo.dbf"
+	Fields:	574
+	Fields:	575
+	Fields:	576
+	Fields:	577
+	Fields:	578
+	Fields:	579
+	Fields:	580
+	Fields:	581
+	FileName:	582
+)
+
+(Field.574
+	Name:	"Gridcode"
+	Btab:	573
+	Alias:	"Gridcode"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.575
+	Name:	"Area_sqkm"
+	Btab:	573
+	Alias:	"Area_sqkm"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.576
+	Name:	"Mean_rep"
+	Btab:	573
+	Alias:	"Mean_rep"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.577
+	Name:	"Sum_rep"
+	Btab:	573
+	Alias:	"Sum_rep"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.578
+	Name:	"Precip_mea"
+	Btab:	573
+	Alias:	"Precip_mea"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.579
+	Name:	"Precip_sum"
+	Btab:	573
+	Alias:	"Precip_sum"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.580
+	Name:	"Sed_deliv"
+	Btab:	573
+	Alias:	"Sed_deliv"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.581
+	Name:	"Sourcethm"
+	Btab:	573
+	Alias:	"Sourcethm"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.582
+	Path:	"geographic/ws_combo.dbf"
+)
+
+(Field.583
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.584
+	NumBits:	3478
+
+)
+
+(Legend.585
+	SymType:	0x02
+	LegType:	0x02
+	ClassType:	0x03
+	FieldNames:	586
+	Symbols:	587
+	Class:	612
+	Class:	613
+	Class:	614
+	Class:	615
+	Class:	616
+	Class:	617
+	StdDevs:	1.00000000000000
+	NullSym:	618
+	NullValues:	622
+	StatValues:	623
+	Precision:	-3
+)
+
+(AVStr.586
+	S:	"Mean_rep"
+)
+
+(SymList.587
+	Child:	588
+	Child:	592
+	Child:	596
+	Child:	600
+	Child:	604
+	Child:	608
+)
+
+(BShSym.588
+	Color:	589
+	Outline:	1
+	OutlineColor:	590
+	OutlineWidth:	0.10000000000000
+	BgColor:	591
+)
+
+(TClr.589
+	Red:	0xfeff
+	Green:	0xe11d
+	Blue:	0xe11d
+)
+
+(TClr.590
+)
+
+(TClr.591
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.592
+	Color:	593
+	Outline:	1
+	OutlineColor:	594
+	OutlineWidth:	0.10000000000000
+	BgColor:	595
+)
+
+(TClr.593
+	Red:	0xfeff
+	Green:	0x8777
+	Blue:	0x8777
+)
+
+(TClr.594
+)
+
+(TClr.595
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.596
+	Color:	597
+	Outline:	1
+	OutlineColor:	598
+	OutlineWidth:	0.10000000000000
+	BgColor:	599
+)
+
+(TClr.597
+	Red:	0xffff
+)
+
+(TClr.598
+)
+
+(TClr.599
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.600
+	Color:	601
+	Outline:	1
+	OutlineColor:	602
+	OutlineWidth:	0.10000000000000
+	BgColor:	603
+)
+
+(TClr.601
+	Red:	0xaeff
+	Green:	0xae
+	Blue:	0xae
+)
+
+(TClr.602
+)
+
+(TClr.603
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.604
+	Color:	605
+	Outline:	1
+	OutlineColor:	606
+	OutlineWidth:	0.10000000000000
+	BgColor:	607
+)
+
+(TClr.605
+	Red:	0x63ff
+	Green:	0x63
+	Blue:	0x63
+)
+
+(TClr.606
+)
+
+(TClr.607
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.608
+	Color:	609
+	Outline:	1
+	OutlineColor:	610
+	OutlineWidth:	0.10000000000000
+	BgColor:	611
+)
+
+(TClr.609
+	Name:	"Transparent"
+)
+
+(TClr.610
+	Name:	"Transparent"
+)
+
+(TClr.611
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.612
+	Label:	"0 - 390.136"
+	MaxNum:	390.13630000000001
+	Precision:	-3
+)
+
+(LClass.613
+	Label:	"390.136 - 1093.477"
+	MinNum:	390.13630000000001
+	MaxNum:	1093.47720000000000
+	Precision:	-3
+)
+
+(LClass.614
+	Label:	"1093.477 - 2034.264"
+	MinNum:	1093.47720000000000
+	MaxNum:	2034.26430000000000
+	Precision:	-3
+)
+
+(LClass.615
+	Label:	"2034.264 - 3491.404"
+	MinNum:	2034.26430000000000
+	MaxNum:	3491.40430000000010
+	Precision:	-3
+)
+
+(LClass.616
+	Label:	"3491.404 - 6608.41"
+	MinNum:	3491.40430000000010
+	MaxNum:	6608.40970000000020
+	Precision:	-3
+)
+
+(LClass.617
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BShSym.618
+	Color:	619
+	Outline:	1
+	OutlineColor:	620
+	OutlineWidth:	0.10000000000000
+	BgColor:	621
+)
+
+(TClr.619
+	Name:	"Transparent"
+)
+
+(TClr.620
+	Name:	"Transparent"
+)
+
+(TClr.621
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.622
+)
+
+(NameDict.623
+)
+
+(Thresh.624
+)
+
+(GSet.625
+)
+
+(TxPosPly.626
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.627
+	FTab:	628
+	Field:	630
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTab.628
+	Name:	"ws_combo.dbf"
+	BTab:	629
+	Fields:	639
+	Fields:	630
+	Fields:	631
+	Fields:	632
+	Fields:	633
+	Fields:	634
+	Fields:	635
+	Fields:	636
+	Fields:	637
+	SelBits:	640
+	FSrc:	641
+)
+
+(dBASE.629
+	Name:	"ws_combo.dbf"
+	Fields:	630
+	Fields:	631
+	Fields:	632
+	Fields:	633
+	Fields:	634
+	Fields:	635
+	Fields:	636
+	Fields:	637
+	FileName:	638
+)
+
+(Field.630
+	Name:	"Gridcode"
+	Btab:	629
+	Alias:	"Gridcode"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.631
+	Name:	"Area_sqkm"
+	Btab:	629
+	Alias:	"Area_sqkm"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.632
+	Name:	"Mean_rep"
+	Btab:	629
+	Alias:	"Mean_rep"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.633
+	Name:	"Sum_rep"
+	Btab:	629
+	Alias:	"Sum_rep"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.634
+	Name:	"Precip_mea"
+	Btab:	629
+	Alias:	"Precip_mea"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.635
+	Name:	"Precip_sum"
+	Btab:	629
+	Alias:	"Precip_sum"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.636
+	Name:	"Sed_deliv"
+	Btab:	629
+	Alias:	"Sed_deliv"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.637
+	Name:	"Sourcethm"
+	Btab:	629
+	Alias:	"Sourcethm"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.638
+	Path:	"geographic/ws_combo.dbf"
+)
+
+(Field.639
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.640
+	NumBits:	3478
+
+)
+
+(ShpSrc.641
+	Name:	642
+	FTab:	628
+)
+
+(SrcName.642
+	FileName:	643
+	Name:	"ws_combo.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.643
+	Path:	"geographic/ws_combo.shp"
+)
+
+(AttrSingle.644
+	FTab:	628
+	Field:	631
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.645
+	FTab:	628
+	Field:	632
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.646
+	FTab:	628
+	Field:	633
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.647
+	FTab:	628
+	Field:	634
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.648
+	FTab:	628
+	Field:	635
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.649
+	FTab:	628
+	Field:	636
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.650
+	FTab:	628
+	Field:	637
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTheme.651
+	Name:	"Relative Sediment Delivery (by basin)"
+	Source:	652
+	Flags:	0x04
+	Legend:	668
+	Threshold:	707
+	View:	512
+	GSet:	708
+	LegEditScript:	"View.EditLegend"
+	TxPos:	709
+	LabelField:	664
+	AttrRules:	710
+	AttrRules:	727
+	AttrRules:	728
+	AttrRules:	729
+	AttrRules:	730
+	AttrRules:	731
+	AttrRules:	732
+	AttrRules:	733
+	SnapTolCursor:	1
+)
+
+(ShpSrc.652
+	Name:	653
+	FTab:	655
+)
+
+(SrcName.653
+	FileName:	654
+	Name:	"ws_combo.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.654
+	Path:	"geographic/ws_combo.shp"
+)
+
+(FTab.655
+	Name:	"ws_combo.dbf"
+	BTab:	656
+	Fields:	666
+	Fields:	657
+	Fields:	658
+	Fields:	659
+	Fields:	660
+	Fields:	661
+	Fields:	662
+	Fields:	663
+	Fields:	664
+	SelBits:	667
+	FSrc:	652
+)
+
+(dBASE.656
+	Name:	"ws_combo.dbf"
+	Fields:	657
+	Fields:	658
+	Fields:	659
+	Fields:	660
+	Fields:	661
+	Fields:	662
+	Fields:	663
+	Fields:	664
+	FileName:	665
+)
+
+(Field.657
+	Name:	"Gridcode"
+	Btab:	656
+	Alias:	"Gridcode"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.658
+	Name:	"Area_sqkm"
+	Btab:	656
+	Alias:	"Area_sqkm"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.659
+	Name:	"Mean_rep"
+	Btab:	656
+	Alias:	"Mean_rep"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.660
+	Name:	"Sum_rep"
+	Btab:	656
+	Alias:	"Sum_rep"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.661
+	Name:	"Precip_mea"
+	Btab:	656
+	Alias:	"Precip_mea"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.662
+	Name:	"Precip_sum"
+	Btab:	656
+	Alias:	"Precip_sum"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.663
+	Name:	"Sed_deliv"
+	Btab:	656
+	Alias:	"Sed_deliv"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.664
+	Name:	"Sourcethm"
+	Btab:	656
+	Alias:	"Sourcethm"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.665
+	Path:	"geographic/ws_combo.dbf"
+)
+
+(Field.666
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.667
+	NumBits:	3478
+
+)
+
+(Legend.668
+	SymType:	0x02
+	LegType:	0x02
+	ClassType:	0x03
+	FieldNames:	669
+	Symbols:	670
+	Class:	695
+	Class:	696
+	Class:	697
+	Class:	698
+	Class:	699
+	Class:	700
+	StdDevs:	1.00000000000000
+	NullSym:	701
+	NullValues:	705
+	StatValues:	706
+	Precision:	-3
+)
+
+(AVStr.669
+	S:	"Sed_deliv"
+)
+
+(SymList.670
+	Child:	671
+	Child:	675
+	Child:	679
+	Child:	683
+	Child:	687
+	Child:	691
+)
+
+(BShSym.671
+	Color:	672
+	Outline:	1
+	OutlineColor:	673
+	OutlineWidth:	0.10000000000000
+	BgColor:	674
+)
+
+(TClr.672
+	Red:	0xfeff
+	Green:	0xfa54
+	Blue:	0xe11d
+)
+
+(TClr.673
+)
+
+(TClr.674
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.675
+	Color:	676
+	Outline:	1
+	OutlineColor:	677
+	OutlineWidth:	0.10000000000000
+	BgColor:	678
+)
+
+(TClr.676
+	Red:	0xfeff
+	Green:	0xec50
+	Blue:	0x8777
+)
+
+(TClr.677
+)
+
+(TClr.678
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.679
+	Color:	680
+	Outline:	1
+	OutlineColor:	681
+	OutlineWidth:	0.10000000000000
+	BgColor:	682
+)
+
+(TClr.680
+	Red:	0xfeff
+	Green:	0xdd85
+	Blue:	0x28d6
+)
+
+(TClr.681
+)
+
+(TClr.682
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.683
+	Color:	684
+	Outline:	1
+	OutlineColor:	685
+	OutlineWidth:	0.10000000000000
+	BgColor:	686
+)
+
+(TClr.684
+	Red:	0xd1ff
+	Green:	0xb14d
+	Blue:	0xd1
+)
+
+(TClr.685
+)
+
+(TClr.686
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.687
+	Color:	688
+	Outline:	1
+	OutlineColor:	689
+	OutlineWidth:	0.10000000000000
+	BgColor:	690
+)
+
+(TClr.688
+	Red:	0x86ff
+	Green:	0x71fa
+	Blue:	0x86
+)
+
+(TClr.689
+)
+
+(TClr.690
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.691
+	Color:	692
+	Outline:	1
+	OutlineColor:	693
+	OutlineWidth:	0.10000000000000
+	BgColor:	694
+)
+
+(TClr.692
+	Name:	"Transparent"
+)
+
+(TClr.693
+	Name:	"Transparent"
+)
+
+(TClr.694
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.695
+	Label:	"0 - 40604"
+	MaxNum:	40604.00000000000000
+	Precision:	-3
+)
+
+(LClass.696
+	Label:	"40605 - 212539"
+	MinNum:	40605.00000000000000
+	MaxNum:	212539.00000000000000
+	Precision:	-3
+)
+
+(LClass.697
+	Label:	"212540 - 760850"
+	MinNum:	212540.00000000000000
+	MaxNum:	760850.00000000000000
+	Precision:	-3
+)
+
+(LClass.698
+	Label:	"760851 - 1937978"
+	MinNum:	760851.00000000000000
+	MaxNum:	1937978.00000000000000
+	Precision:	-3
+)
+
+(LClass.699
+	Label:	"1937979 - 3239102"
+	MinNum:	1937979.00000000000000
+	MaxNum:	3239102.00000000000000
+	Precision:	-3
+)
+
+(LClass.700
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BShSym.701
+	Color:	702
+	Outline:	1
+	OutlineColor:	703
+	OutlineWidth:	0.10000000000000
+	BgColor:	704
+)
+
+(TClr.702
+	Name:	"Transparent"
+)
+
+(TClr.703
+	Name:	"Transparent"
+)
+
+(TClr.704
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.705
+)
+
+(NameDict.706
+)
+
+(Thresh.707
+)
+
+(GSet.708
+)
+
+(TxPosPly.709
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.710
+	FTab:	711
+	Field:	713
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTab.711
+	Name:	"ws_combo.dbf"
+	BTab:	712
+	Fields:	722
+	Fields:	713
+	Fields:	714
+	Fields:	715
+	Fields:	716
+	Fields:	717
+	Fields:	718
+	Fields:	719
+	Fields:	720
+	SelBits:	723
+	FSrc:	724
+)
+
+(dBASE.712
+	Name:	"ws_combo.dbf"
+	Fields:	713
+	Fields:	714
+	Fields:	715
+	Fields:	716
+	Fields:	717
+	Fields:	718
+	Fields:	719
+	Fields:	720
+	FileName:	721
+)
+
+(Field.713
+	Name:	"Gridcode"
+	Btab:	712
+	Alias:	"Gridcode"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.714
+	Name:	"Area_sqkm"
+	Btab:	712
+	Alias:	"Area_sqkm"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.715
+	Name:	"Mean_rep"
+	Btab:	712
+	Alias:	"Mean_rep"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.716
+	Name:	"Sum_rep"
+	Btab:	712
+	Alias:	"Sum_rep"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.717
+	Name:	"Precip_mea"
+	Btab:	712
+	Alias:	"Precip_mea"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.718
+	Name:	"Precip_sum"
+	Btab:	712
+	Alias:	"Precip_sum"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.719
+	Name:	"Sed_deliv"
+	Btab:	712
+	Alias:	"Sed_deliv"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.720
+	Name:	"Sourcethm"
+	Btab:	712
+	Alias:	"Sourcethm"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.721
+	Path:	"geographic/ws_combo.dbf"
+)
+
+(Field.722
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.723
+	NumBits:	3478
+
+)
+
+(ShpSrc.724
+	Name:	725
+	FTab:	711
+)
+
+(SrcName.725
+	FileName:	726
+	Name:	"ws_combo.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.726
+	Path:	"geographic/ws_combo.shp"
+)
+
+(AttrSingle.727
+	FTab:	711
+	Field:	714
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.728
+	FTab:	711
+	Field:	715
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.729
+	FTab:	711
+	Field:	716
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.730
+	FTab:	711
+	Field:	717
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.731
+	FTab:	711
+	Field:	718
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.732
+	FTab:	711
+	Field:	719
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.733
+	FTab:	711
+	Field:	720
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTheme.734
+	Name:	"Watersheds"
+	Source:	735
+	Flags:	0x06
+	Legend:	751
+	Threshold:	765
+	View:	512
+	GSet:	766
+	LegEditScript:	"View.EditLegend"
+	TxPos:	767
+	LabelField:	747
+	AttrRules:	768
+	AttrRules:	785
+	AttrRules:	786
+	AttrRules:	787
+	AttrRules:	788
+	AttrRules:	789
+	AttrRules:	790
+	AttrRules:	791
+	SnapTolCursor:	1
+)
+
+(ShpSrc.735
+	Name:	736
+	FTab:	738
+)
+
+(SrcName.736
+	FileName:	737
+	Name:	"ws_combo.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.737
+	Path:	"geographic/ws_combo.shp"
+)
+
+(FTab.738
+	Name:	"ws_combo.dbf"
+	BTab:	739
+	Fields:	749
+	Fields:	740
+	Fields:	741
+	Fields:	742
+	Fields:	743
+	Fields:	744
+	Fields:	745
+	Fields:	746
+	Fields:	747
+	SelBits:	750
+	FSrc:	735
+)
+
+(dBASE.739
+	Name:	"ws_combo.dbf"
+	Fields:	740
+	Fields:	741
+	Fields:	742
+	Fields:	743
+	Fields:	744
+	Fields:	745
+	Fields:	746
+	Fields:	747
+	FileName:	748
+)
+
+(Field.740
+	Name:	"Gridcode"
+	Btab:	739
+	Alias:	"Gridcode"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.741
+	Name:	"Area_sqkm"
+	Btab:	739
+	Alias:	"Area_sqkm"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.742
+	Name:	"Mean_rep"
+	Btab:	739
+	Alias:	"Mean_rep"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.743
+	Name:	"Sum_rep"
+	Btab:	739
+	Alias:	"Sum_rep"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.744
+	Name:	"Precip_mea"
+	Btab:	739
+	Alias:	"Precip_mea"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.745
+	Name:	"Precip_sum"
+	Btab:	739
+	Alias:	"Precip_sum"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.746
+	Name:	"Sed_deliv"
+	Btab:	739
+	Alias:	"Sed_deliv"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.747
+	Name:	"Sourcethm"
+	Btab:	739
+	Alias:	"Sourcethm"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.748
+	Path:	"geographic/ws_combo.dbf"
+)
+
+(Field.749
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.750
+	NumBits:	3478
+
+)
+
+(Legend.751
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	752
+	Class:	758
+	StdDevs:	1.00000000000000
+	NullSym:	759
+	NullValues:	763
+	StatValues:	764
+	Precision:	-3
+)
+
+(SymList.752
+	Child:	753
+)
+
+(BShSym.753
+	Color:	754
+	Outline:	1
+	OutlineColor:	755
+	OutlineWidth:	0.10000000000000
+	BgColor:	756
+	Style:	0x01
+	Stipple:	757
+)
+
+(TClr.754
+	Red:	0x9e5b
+	Green:	0x85e9
+	Blue:	0x3f08
+)
+
+(TClr.755
+	Red:	0x7878
+	Green:	0x7878
+	Blue:	0x7878
+)
+
+(TClr.756
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(Stipple.757
+	Columns:	8
+	Rows:	8
+	Bits:	00000000 00000000 
+)
+
+(LClass.758
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.759
+	Color:	760
+	Outline:	1
+	OutlineColor:	761
+	OutlineWidth:	0.10000000000000
+	BgColor:	762
+)
+
+(TClr.760
+	Name:	"Transparent"
+)
+
+(TClr.761
+	Name:	"Transparent"
+)
+
+(TClr.762
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.763
+)
+
+(NameDict.764
+)
+
+(Thresh.765
+)
+
+(GSet.766
+)
+
+(TxPosPly.767
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.768
+	FTab:	769
+	Field:	771
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTab.769
+	Name:	"ws_combo.dbf"
+	BTab:	770
+	Fields:	780
+	Fields:	771
+	Fields:	772
+	Fields:	773
+	Fields:	774
+	Fields:	775
+	Fields:	776
+	Fields:	777
+	Fields:	778
+	SelBits:	781
+	FSrc:	782
+)
+
+(dBASE.770
+	Name:	"ws_combo.dbf"
+	Fields:	771
+	Fields:	772
+	Fields:	773
+	Fields:	774
+	Fields:	775
+	Fields:	776
+	Fields:	777
+	Fields:	778
+	FileName:	779
+)
+
+(Field.771
+	Name:	"Gridcode"
+	Btab:	770
+	Alias:	"Gridcode"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.772
+	Name:	"Area_sqkm"
+	Btab:	770
+	Alias:	"Area_sqkm"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.773
+	Name:	"Mean_rep"
+	Btab:	770
+	Alias:	"Mean_rep"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.774
+	Name:	"Sum_rep"
+	Btab:	770
+	Alias:	"Sum_rep"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.775
+	Name:	"Precip_mea"
+	Btab:	770
+	Alias:	"Precip_mea"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.776
+	Name:	"Precip_sum"
+	Btab:	770
+	Alias:	"Precip_sum"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.777
+	Name:	"Sed_deliv"
+	Btab:	770
+	Alias:	"Sed_deliv"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.778
+	Name:	"Sourcethm"
+	Btab:	770
+	Alias:	"Sourcethm"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.779
+	Path:	"geographic/ws_combo.dbf"
+)
+
+(Field.780
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.781
+	NumBits:	3478
+
+)
+
+(ShpSrc.782
+	Name:	783
+	FTab:	769
+)
+
+(SrcName.783
+	FileName:	784
+	Name:	"ws_combo.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.784
+	Path:	"geographic/ws_combo.shp"
+)
+
+(AttrSingle.785
+	FTab:	769
+	Field:	772
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.786
+	FTab:	769
+	Field:	773
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.787
+	FTab:	769
+	Field:	774
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.788
+	FTab:	769
+	Field:	775
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.789
+	FTab:	769
+	Field:	776
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.790
+	FTab:	769
+	Field:	777
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(AttrSingle.791
+	FTab:	769
+	Field:	778
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(GTheme.792
+	Name:	"Relative Erosion Potential (REP)"
+	Source:	793
+	Flags:	0x06
+	Legend:	802
+	Threshold:	862
+	View:	512
+	GSet:	863
+	LegEditScript:	"View.EditLegend"
+)
+
+(Grid.793
+	Name:	794
+	VTab:	796
+)
+
+(SrcName.794
+	FileName:	795
+	Name:	"rep_1km"
+	OwnerClass:	"Grid"
+)
+
+(FN.795
+	Path:	"lambert/rep_1km"
+)
+
+(VTab.796
+	Name:	"rep_1km.vat"
+	BTab:	797
+	Fields:	798
+	Fields:	799
+	SelBits:	801
+)
+
+(INFO.797
+	Name:	"rep_1km.vat"
+	Fields:	798
+	Fields:	799
+	FileName:	800
+)
+
+(Field.798
+	Name:	"Value"
+	Btab:	797
+	Alias:	"Value"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.799
+	Name:	"Count"
+	Btab:	797
+	Alias:	"Count"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(FN.800
+	Path:	"lambert/info/rep_1km.vat"
+)
+
+(Bitmap.801
+	NumBits:	16222
+
+)
+
+(Legend.802
+	SymType:	0x02
+	LegType:	0x02
+	ClassType:	0x04
+	FieldNames:	803
+	Symbols:	804
+	Class:	845
+	Class:	846
+	Class:	847
+	Class:	848
+	Class:	849
+	Class:	850
+	Class:	851
+	Class:	852
+	Class:	853
+	Class:	854
+	StdDevs:	1.00000000000000
+	NullSym:	855
+	NullValues:	859
+	StatValues:	860
+	DisplayNoDataClass:	1
+	LegendExts:	861
+	Precision:	-3
+)
+
+(AVStr.803
+	S:	"Value"
+)
+
+(SymList.804
+	Child:	805
+	Child:	809
+	Child:	813
+	Child:	817
+	Child:	821
+	Child:	825
+	Child:	829
+	Child:	833
+	Child:	837
+	Child:	841
+)
+
+(BShSym.805
+	Color:	806
+	Outline:	1
+	OutlineColor:	807
+	OutlineWidth:	0.10000000000000
+	BgColor:	808
+)
+
+(TClr.806
+	Red:	0xfeff
+	Green:	0xe11d
+	Blue:	0xe11d
+)
+
+(TClr.807
+)
+
+(TClr.808
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.809
+	Color:	810
+	Outline:	1
+	OutlineColor:	811
+	OutlineWidth:	0.10000000000000
+	BgColor:	812
+)
+
+(TClr.810
+	Red:	0xff00
+	Green:	0xc33b
+	Blue:	0xc33b
+)
+
+(TClr.811
+)
+
+(TClr.812
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.813
+	Color:	814
+	Outline:	1
+	OutlineColor:	815
+	OutlineWidth:	0.10000000000000
+	BgColor:	816
+)
+
+(TClr.814
+	Red:	0xff00
+	Green:	0xa559
+	Blue:	0xa559
+)
+
+(TClr.815
+)
+
+(TClr.816
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.817
+	Color:	818
+	Outline:	1
+	OutlineColor:	819
+	OutlineWidth:	0.10000000000000
+	BgColor:	820
+)
+
+(TClr.818
+	Red:	0xfeff
+	Green:	0x6995
+	Blue:	0x6995
+)
+
+(TClr.819
+)
+
+(TClr.820
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.821
+	Color:	822
+	Outline:	1
+	OutlineColor:	823
+	OutlineWidth:	0.10000000000000
+	BgColor:	824
+)
+
+(TClr.822
+	Red:	0xffff
+)
+
+(TClr.823
+)
+
+(TClr.824
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.825
+	Color:	826
+	Outline:	1
+	OutlineColor:	827
+	OutlineWidth:	0.10000000000000
+	BgColor:	828
+)
+
+(TClr.826
+	Red:	0xc7ff
+	Green:	0xc7
+	Blue:	0xc7
+)
+
+(TClr.827
+)
+
+(TClr.828
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.829
+	Color:	830
+	Outline:	1
+	OutlineColor:	831
+	OutlineWidth:	0.10000000000000
+	BgColor:	832
+)
+
+(TClr.830
+	Red:	0x95ff
+	Green:	0x95
+	Blue:	0x95
+)
+
+(TClr.831
+)
+
+(TClr.832
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.833
+	Color:	834
+	Outline:	1
+	OutlineColor:	835
+	OutlineWidth:	0.10000000000000
+	BgColor:	836
+)
+
+(TClr.834
+	Red:	0x7cff
+	Green:	0x7c
+	Blue:	0x7c
+)
+
+(TClr.835
+)
+
+(TClr.836
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.837
+	Color:	838
+	Outline:	1
+	OutlineColor:	839
+	OutlineWidth:	0.10000000000000
+	BgColor:	840
+)
+
+(TClr.838
+	Red:	0x63ff
+	Green:	0x63
+	Blue:	0x63
+)
+
+(TClr.839
+)
+
+(TClr.840
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.841
+	Color:	842
+	Outline:	1
+	OutlineColor:	843
+	OutlineWidth:	0.10000000000000
+	BgColor:	844
+)
+
+(TClr.842
+	Name:	"Transparent"
+)
+
+(TClr.843
+)
+
+(TClr.844
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.845
+	Label:	"0 - 100"
+	MaxNum:	100.00000000000000
+	Precision:	-3
+)
+
+(LClass.846
+	Label:	"101 - 200"
+	MinNum:	101.00000000000000
+	MaxNum:	200.00000000000000
+	Precision:	-3
+)
+
+(LClass.847
+	Label:	"201 - 300"
+	MinNum:	201.00000000000000
+	MaxNum:	300.00000000000000
+	Precision:	-3
+)
+
+(LClass.848
+	Label:	"301 - 500"
+	MinNum:	301.00000000000000
+	MaxNum:	500.00000000000000
+	Precision:	-3
+)
+
+(LClass.849
+	Label:	"501 - 1000"
+	MinNum:	501.00000000000000
+	MaxNum:	1000.00000000000000
+	Precision:	-3
+)
+
+(LClass.850
+	Label:	"1001 - 1500"
+	MinNum:	1001.00000000000000
+	MaxNum:	1500.00000000000000
+	Precision:	-3
+)
+
+(LClass.851
+	Label:	"1501 - 2000"
+	MinNum:	1501.00000000000000
+	MaxNum:	2000.00000000000000
+	Precision:	-3
+)
+
+(LClass.852
+	Label:	"2001 - 2500"
+	MinNum:	2001.00000000000000
+	MaxNum:	2500.00000000000000
+	Precision:	-3
+)
+
+(LClass.853
+	Label:	"2501 - 22000"
+	MinNum:	2501.00000000000000
+	MaxNum:	22000.00000000000000
+	Precision:	-3
+)
+
+(LClass.854
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BShSym.855
+	Color:	856
+	Outline:	1
+	OutlineColor:	857
+	OutlineWidth:	0.10000000000000
+	BgColor:	858
+)
+
+(TClr.856
+	Name:	"Transparent"
+)
+
+(TClr.857
+)
+
+(TClr.858
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.859
+)
+
+(NameDict.860
+)
+
+(GLegExt.861
+	MinBrightness:	20.00000000000000
+	MaxBrightness:	80.00000000000000
+	ZScale:	1.00000000000000
+)
+
+(Thresh.862
+)
+
+(GSet.863
+)
+
+(FTheme.864
+	Name:	"National Boundaries"
+	Source:	865
+	Flags:	0x04
+	Legend:	874
+	Threshold:	887
+	View:	512
+	GSet:	888
+	LegEditScript:	"View.EditLegend"
+	TxPos:	889
+	LabelField:	870
+	AttrRules:	890
+	SnapTolCursor:	1
+)
+
+(ShpSrc.865
+	Name:	866
+	FTab:	868
+)
+
+(SrcName.866
+	FileName:	867
+	Name:	"cntry_vmap.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.867
+	Path:	"geographic/cntry_vmap.shp"
+)
+
+(FTab.868
+	Name:	"cntry_vmap.dbf"
+	BTab:	869
+	Fields:	872
+	Fields:	870
+	SelBits:	873
+	FSrc:	865
+)
+
+(dBASE.869
+	Name:	"cntry_vmap.dbf"
+	Fields:	870
+	FileName:	871
+)
+
+(Field.870
+	Name:	"Country"
+	Btab:	869
+	Alias:	"Country"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.871
+	Path:	"geographic/cntry_vmap.dbf"
+)
+
+(Field.872
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.873
+	NumBits:	2025
+
+)
+
+(Legend.874
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	875
+	Class:	880
+	StdDevs:	1.00000000000000
+	NullSym:	881
+	NullValues:	885
+	StatValues:	886
+	Precision:	-3
+)
+
+(SymList.875
+	Child:	876
+)
+
+(BShSym.876
+	Color:	877
+	Outline:	1
+	OutlineColor:	878
+	OutlineWidth:	0.10000000000000
+	BgColor:	879
+)
+
+(TClr.877
+	Red:	0xfeff
+	Green:	0xfe83
+	Blue:	0xe01e
+)
+
+(TClr.878
+	Red:	0x7878
+	Green:	0x7878
+	Blue:	0x7878
+)
+
+(TClr.879
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.880
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.881
+	Color:	882
+	Outline:	1
+	OutlineColor:	883
+	OutlineWidth:	0.10000000000000
+	BgColor:	884
+)
+
+(TClr.882
+	Name:	"Transparent"
+)
+
+(TClr.883
+	Name:	"Transparent"
+)
+
+(TClr.884
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.885
+)
+
+(NameDict.886
+)
+
+(Thresh.887
+)
+
+(GSet.888
+)
+
+(TxPosPly.889
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.890
+	FTab:	891
+	Field:	893
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(FTab.891
+	Name:	"cntry_vmap.dbf"
+	BTab:	892
+	Fields:	895
+	Fields:	893
+	SelBits:	896
+	FSrc:	897
+)
+
+(dBASE.892
+	Name:	"cntry_vmap.dbf"
+	Fields:	893
+	FileName:	894
+)
+
+(Field.893
+	Name:	"Country"
+	Btab:	892
+	Alias:	"Country"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.894
+	Path:	"geographic/cntry_vmap.dbf"
+)
+
+(Field.895
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.896
+	NumBits:	2025
+
+)
+
+(ShpSrc.897
+	Name:	898
+	FTab:	891
+)
+
+(SrcName.898
+	FileName:	899
+	Name:	"cntry_vmap.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.899
+	Path:	"geographic/cntry_vmap.shp"
+)
+
+(FTheme.900
+	Name:	"Estimated Sediment Delivery (at river mouth)"
+	Source:	901
+	Flags:	0x04
+	Legend:	915
+	Threshold:	1015
+	View:	512
+	GSet:	1016
+	LegEditScript:	"View.EditLegend"
+	TxPos:	1017
+	LabelField:	911
+	SnapTolCursor:	1
+)
+
+(ShpSrc.901
+	Name:	902
+	FTab:	904
+)
+
+(SrcName.902
+	FileName:	903
+	Name:	"ppt_combo.shp"
+	SubName:	"Point"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.903
+	Path:	"geographic/ppt_combo.shp"
+)
+
+(FTab.904
+	Name:	"ppt_combo.dbf"
+	BTab:	905
+	Fields:	913
+	Fields:	906
+	Fields:	907
+	Fields:	908
+	Fields:	909
+	Fields:	910
+	Fields:	911
+	SelBits:	914
+	FSrc:	901
+)
+
+(dBASE.905
+	Name:	"ppt_combo.dbf"
+	Fields:	906
+	Fields:	907
+	Fields:	908
+	Fields:	909
+	Fields:	910
+	Fields:	911
+	FileName:	912
+)
+
+(Field.906
+	Name:	"Basin_id"
+	Btab:	905
+	Alias:	"Basin_id"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.907
+	Name:	"Ws_sq_km"
+	Btab:	905
+	Alias:	"Ws_sq_km"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.908
+	Name:	"Rep_mean"
+	Btab:	905
+	Alias:	"Rep_mean"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.909
+	Name:	"Precip_sum"
+	Btab:	905
+	Alias:	"Precip_sum"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.910
+	Name:	"Sed_arrive"
+	Btab:	905
+	Alias:	"Sed_arrive"
+	Visible:	1
+	Type:	9
+	Order:	-1
+)
+
+(Field.911
+	Name:	"Sourcethm"
+	Btab:	905
+	Alias:	"Sourcethm"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.912
+	Path:	"geographic/ppt_combo.dbf"
+)
+
+(Field.913
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	17
+	Order:	-1
+)
+
+(Bitmap.914
+	NumBits:	3144
+
+)
+
+(Legend.915
+	LegType:	0x04
+	ClassType:	0x03
+	FieldNames:	916
+	Symbols:	917
+	Class:	995
+	Class:	996
+	Class:	997
+	Class:	998
+	Class:	999
+	Class:	1000
+	Class:	1001
+	Class:	1002
+	Class:	1003
+	Class:	1004
+	Class:	1005
+	StdDevs:	1.00000000000000
+	NullSym:	1006
+	NullValues:	1013
+	StatValues:	1014
+	Precision:	-3
+)
+
+(AVStr.916
+	S:	"Sed_arrive"
+)
+
+(SymList.917
+	Child:	918
+	Child:	925
+	Child:	932
+	Child:	939
+	Child:	946
+	Child:	953
+	Child:	960
+	Child:	967
+	Child:	974
+	Child:	981
+	Child:	988
+)
+
+(BMkSym.918
+	Color:	919
+	BgColor:	920
+	Font:	921
+	Size:	4.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.919
+	Red:	0xd2d2
+	Green:	0xd2d2
+	Blue:	0xd2d2
+)
+
+(TClr.920
+	Name:	"Transparent"
+)
+
+(NFont.921
+	Family:	922
+	Name:	923
+	Style:	924
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.922
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.923
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.924
+	S:	"Normal"
+)
+
+(BMkSym.925
+	Color:	926
+	BgColor:	927
+	Font:	928
+	Size:	6.44444444444444
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.926
+	Red:	0xff00
+	Green:	0xa559
+	Blue:	0xa559
+)
+
+(TClr.927
+	Name:	"Transparent"
+)
+
+(NFont.928
+	Family:	929
+	Name:	930
+	Style:	931
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.929
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.930
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.931
+	S:	"Normal"
+)
+
+(BMkSym.932
+	Color:	933
+	BgColor:	934
+	Font:	935
+	Size:	8.88888888888889
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.933
+	Red:	0xff00
+	Green:	0xa559
+	Blue:	0xa559
+)
+
+(TClr.934
+	Name:	"Transparent"
+)
+
+(NFont.935
+	Family:	936
+	Name:	937
+	Style:	938
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.936
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.937
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.938
+	S:	"Normal"
+)
+
+(BMkSym.939
+	Color:	940
+	BgColor:	941
+	Font:	942
+	Size:	11.33333333333333
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.940
+	Red:	0xff00
+	Green:	0xa559
+	Blue:	0xa559
+)
+
+(TClr.941
+	Name:	"Transparent"
+)
+
+(NFont.942
+	Family:	943
+	Name:	944
+	Style:	945
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.943
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.944
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.945
+	S:	"Normal"
+)
+
+(BMkSym.946
+	Color:	947
+	BgColor:	948
+	Font:	949
+	Size:	13.77777777777778
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.947
+	Red:	0xff00
+	Green:	0xa559
+	Blue:	0xa559
+)
+
+(TClr.948
+	Name:	"Transparent"
+)
+
+(NFont.949
+	Family:	950
+	Name:	951
+	Style:	952
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.950
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.951
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.952
+	S:	"Normal"
+)
+
+(BMkSym.953
+	Color:	954
+	BgColor:	955
+	Font:	956
+	Size:	16.22222222222222
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.954
+	Red:	0xffff
+)
+
+(TClr.955
+	Name:	"Transparent"
+)
+
+(NFont.956
+	Family:	957
+	Name:	958
+	Style:	959
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.957
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.958
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.959
+	S:	"Normal"
+)
+
+(BMkSym.960
+	Color:	961
+	BgColor:	962
+	Font:	963
+	Size:	18.66666666666666
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.961
+	Red:	0xffff
+)
+
+(TClr.962
+	Name:	"Transparent"
+)
+
+(NFont.963
+	Family:	964
+	Name:	965
+	Style:	966
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.964
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.965
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.966
+	S:	"Normal"
+)
+
+(BMkSym.967
+	Color:	968
+	BgColor:	969
+	Font:	970
+	Size:	21.11111111111111
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.968
+	Red:	0xdc00
+	Green:	0xdb
+	Blue:	0xdb
+)
+
+(TClr.969
+	Name:	"Transparent"
+)
+
+(NFont.970
+	Family:	971
+	Name:	972
+	Style:	973
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.971
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.972
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.973
+	S:	"Normal"
+)
+
+(BMkSym.974
+	Color:	975
+	BgColor:	976
+	Font:	977
+	Size:	23.55555555555555
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.975
+	Red:	0x8200
+	Green:	0x81
+	Blue:	0x81
+)
+
+(TClr.976
+	Name:	"Transparent"
+)
+
+(NFont.977
+	Family:	978
+	Name:	979
+	Style:	980
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.978
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.979
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.980
+	S:	"Normal"
+)
+
+(BMkSym.981
+	Color:	982
+	BgColor:	983
+	Font:	984
+	Size:	25.99999999999999
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.982
+	Red:	0x6400
+	Green:	0x63
+	Blue:	0x63
+)
+
+(TClr.983
+	Name:	"Transparent"
+)
+
+(NFont.984
+	Family:	985
+	Name:	986
+	Style:	987
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.985
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.986
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.987
+	S:	"Normal"
+)
+
+(BMkSym.988
+	Color:	989
+	BgColor:	990
+	Font:	991
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.989
+	Name:	"Transparent"
+)
+
+(TClr.990
+	Name:	"Transparent"
+)
+
+(NFont.991
+	Family:	992
+	Name:	993
+	Style:	994
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.992
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.993
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.994
+	S:	"Normal"
+)
+
+(LClass.995
+	Label:	"0 - 4624"
+	MaxNum:	4624.00000000000000
+	Precision:	-3
+)
+
+(LClass.996
+	Label:	"4625 - 14761"
+	MinNum:	4625.00000000000000
+	MaxNum:	14761.00000000000000
+	Precision:	-3
+)
+
+(LClass.997
+	Label:	"14762 - 31275"
+	MinNum:	14762.00000000000000
+	MaxNum:	31275.00000000000000
+	Precision:	-3
+)
+
+(LClass.998
+	Label:	"31276 - 55359"
+	MinNum:	31276.00000000000000
+	MaxNum:	55359.00000000000000
+	Precision:	-3
+)
+
+(LClass.999
+	Label:	"55360 - 103552"
+	MinNum:	55360.00000000000000
+	MaxNum:	103552.00000000000000
+	Precision:	-3
+)
+
+(LClass.1000
+	Label:	"103553 - 212539"
+	MinNum:	103553.00000000000000
+	MaxNum:	212539.00000000000000
+	Precision:	-3
+)
+
+(LClass.1001
+	Label:	"212540 - 488092"
+	MinNum:	212540.00000000000000
+	MaxNum:	488092.00000000000000
+	Precision:	-3
+)
+
+(LClass.1002
+	Label:	"488093 - 1173958"
+	MinNum:	488093.00000000000000
+	MaxNum:	1173958.00000000000000
+	Precision:	-3
+)
+
+(LClass.1003
+	Label:	"1173959 - 1937978"
+	MinNum:	1173959.00000000000000
+	MaxNum:	1937978.00000000000000
+	Precision:	-3
+)
+
+(LClass.1004
+	Label:	"1937979 - 3239102"
+	MinNum:	1937979.00000000000000
+	MaxNum:	3239102.00000000000000
+	Precision:	-3
+)
+
+(LClass.1005
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BMkSym.1006
+	Color:	1007
+	BgColor:	1008
+	Font:	1009
+	Size:	8.00000000000000
+	Pattern:	35
+	Angle:	360.00000000000000
+)
+
+(TClr.1007
+	Name:	"Transparent"
+)
+
+(TClr.1008
+	Name:	"Transparent"
+)
+
+(NFont.1009
+	Family:	1010
+	Name:	1011
+	Style:	1012
+	Weight:	1
+	Wideness:	1
+)
+
+(AVStr.1010
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.1011
+	S:	"ESRI Geometric Symbols"
+)
+
+(AVStr.1012
+	S:	"Normal"
+)
+
+(NameDict.1013
+)
+
+(NameDict.1014
+)
+
+(Thresh.1015
+)
+
+(GSet.1016
+)
+
+(TxPosPt.1017
+	HAlign:	4
+	VAlign:	3
+)
+
+(GTheme.1018
+	Name:	"Sedimentation Threat Estimate"
+	Source:	1019
+	Flags:	0x04
+	Legend:	1028
+	Threshold:	1058
+	View:	512
+	GSet:	1059
+	LegEditScript:	"View.EditLegend"
+)
+
+(Grid.1019
+	Name:	1020
+	VTab:	1022
+)
+
+(SrcName.1020
+	FileName:	1021
+	Name:	"thr_sed"
+	OwnerClass:	"Grid"
+)
+
+(FN.1021
+	Path:	"lambert/thr_sed"
+)
+
+(VTab.1022
+	Name:	"thr_sed.vat"
+	BTab:	1023
+	Fields:	1024
+	Fields:	1025
+	SelBits:	1027
+)
+
+(INFO.1023
+	Name:	"thr_sed.vat"
+	Fields:	1024
+	Fields:	1025
+	FileName:	1026
+)
+
+(Field.1024
+	Name:	"Value"
+	Btab:	1023
+	Alias:	"Value"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.1025
+	Name:	"Count"
+	Btab:	1023
+	Alias:	"Count"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(FN.1026
+	Path:	"lambert/info/thr_sed.vat"
+)
+
+(Bitmap.1027
+	NumBits:	3
+
+)
+
+(Legend.1028
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	1029
+	Symbols:	1030
+	Class:	1047
+	Class:	1048
+	Class:	1049
+	Class:	1050
+	StdDevs:	1.00000000000000
+	NullSym:	1051
+	NullValues:	1055
+	StatValues:	1056
+	DisplayNoDataClass:	1
+	LegendExts:	1057
+	Precision:	-3
+)
+
+(AVStr.1029
+	S:	"Value"
+)
+
+(SymList.1030
+	Child:	1031
+	Child:	1035
+	Child:	1039
+	Child:	1043
+)
+
+(BShSym.1031
+	Color:	1032
+	Outline:	1
+	OutlineColor:	1033
+	OutlineWidth:	0.10000000000000
+	BgColor:	1034
+)
+
+(TClr.1032
+	Red:	0xdd95
+	Green:	0xf2bc
+	Blue:	0xfaff
+)
+
+(TClr.1033
+)
+
+(TClr.1034
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1035
+	Color:	1036
+	Outline:	1
+	OutlineColor:	1037
+	OutlineWidth:	0.10000000000000
+	BgColor:	1038
+)
+
+(TClr.1036
+	Red:	0xa559
+	Green:	0xfad1
+	Blue:	0xff00
+)
+
+(TClr.1037
+)
+
+(TClr.1038
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1039
+	Color:	1040
+	Outline:	1
+	OutlineColor:	1041
+	OutlineWidth:	0.10000000000000
+	BgColor:	1042
+)
+
+(TClr.1040
+	Red:	0xdb
+	Green:	0xd1c7
+	Blue:	0xdc00
+)
+
+(TClr.1041
+)
+
+(TClr.1042
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1043
+	Color:	1044
+	Outline:	1
+	OutlineColor:	1045
+	OutlineWidth:	0.10000000000000
+	BgColor:	1046
+)
+
+(TClr.1044
+	Name:	"Transparent"
+)
+
+(TClr.1045
+)
+
+(TClr.1046
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.1047
+	Label:	"Low"
+	MinNum:	1.00000000000000
+	MaxNum:	1.00000000000000
+	Precision:	-3
+)
+
+(LClass.1048
+	Label:	"Medium"
+	MinNum:	100.00000000000000
+	MaxNum:	100.00000000000000
+	Precision:	-3
+)
+
+(LClass.1049
+	Label:	"High"
+	MinNum:	1000.00000000000000
+	MaxNum:	1000.00000000000000
+	Precision:	-3
+)
+
+(LClass.1050
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BShSym.1051
+	Color:	1052
+	Outline:	1
+	OutlineColor:	1053
+	OutlineWidth:	0.10000000000000
+	BgColor:	1054
+)
+
+(TClr.1052
+	Name:	"Transparent"
+)
+
+(TClr.1053
+	Name:	"Transparent"
+)
+
+(TClr.1054
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.1055
+)
+
+(NameDict.1056
+)
+
+(GLegExt.1057
+	MinBrightness:	20.00000000000000
+	MaxBrightness:	80.00000000000000
+	ZScale:	1.00000000000000
+)
+
+(Thresh.1058
+)
+
+(GSet.1059
+)
+
+(Eqarazi.1060
+	InternalName:	"Lambert Equal-Area Azimuthal"
+	Description:	"Custom Lambert Equal-Area Azimuthal"
+	Ellipsoid:	1061
+	Lambda0:	-1.32645023151528
+	Phi1:	0.27925268031901
+)
+
+(Elpsoid.1061
+	Radius:	6370997.00000000000000
+	Type:	10
+	Units:	0x07
+)
+
+(BShSym.1062
+	Color:	1063
+	Outline:	1
+	OutlineColor:	1064
+	BgColor:	1065
+)
+
+(TClr.1063
+	Red:	0xe11d
+	Green:	0xfd9b
+	Blue:	0xfeff
+)
+
+(TClr.1064
+)
+
+(TClr.1065
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(View.1066
+	Name:	"View 3 - Bathymetry and Coral Reefs"
+	CreationDate:	"Wednesday, March 02, 2005 2:50:16 PM"
+	GUIName:	"View"
+	Win:	1067
+	CSMgr:	1068
+	DocExts:	1070
+	DocExts:	1071
+	DocExts:	1072
+	Graphics:	1073
+	Theme:	1080
+	Theme:	1107
+	Theme:	1139
+	Projection:	1226
+	LastScale:	33000000.25970999500000
+	Dpy:	1074
+	TOCWidth:	305
+	CoordPrecision:	2
+	BackgroundSymbol:	1228
+)
+
+(DocWin.1067
+	Owner:	1066
+	X:	90
+	Y:	56
+	W:	876
+	H:	500
+)
+
+(CSMgr.1068
+	Client:	1069
+)
+
+(CSClient.1069
+	Client:	1070
+	ReqName:	"ClientNfy"
+)
+
+(PanMgr.1070
+	Doc:	1066
+)
+
+(DocAct.1071
+	Doc:	1066
+)
+
+(SpAnEnv.1072
+	CellEnum:	13
+	CellSize:	14
+	ExtEnum:	13
+	Extent:	14
+)
+
+(GList.1073
+	Dpy:	1074
+	FormatNumb:	1079
+)
+
+(MapDpy.1074
+	Left:	-2056360.33241784880000
+	Bottom:	-883104.00531560299000
+	Top:	1838462.42448690650000
+	Right:	1827307.46548215040000
+	ReportUnits:	8
+	Units:	7
+	Scale:	1075
+	FrameTop:	3.82500000000000
+	FrameRight:	4.63333333333333
+	PageDpy:	1076
+	FitToPage:	1
+	MouseLoc:	1078
+)
+
+(Numb.1075
+	N:	0.00000119303029
+)
+
+(PageDpy.1076
+	Top:	3.82500000000000
+	Right:	4.63333333333333
+	ReportUnits:	1
+	Units:	1
+	Scale:	1077
+	ZoomRight:	4.63333333333333
+	ZoomTop:	3.82500000000000
+	GridSpacingX:	0.25000000000000
+	GridSpacingY:	0.25000000000000
+)
+
+(Numb.1077
+	N:	0.21582733812950
+)
+
+(PointD.1078
+	x:	1792382.39535715040000
+	y:	1941039.64782315140000
+)
+
+(Numb.1079
+)
+
+(FTheme.1080
+	Name:	"National Boundaries"
+	Source:	1081
+	Flags:	0x06
+	Legend:	1090
+	Threshold:	1103
+	View:	1066
+	GSet:	1104
+	LegEditScript:	"View.EditLegend"
+	TxPos:	1105
+	LabelField:	1086
+	AttrRules:	1106
+	SnapTolCursor:	1
+)
+
+(ShpSrc.1081
+	Name:	1082
+	FTab:	1084
+)
+
+(SrcName.1082
+	FileName:	1083
+	Name:	"cntry_vmap.shp"
+	SubName:	"Polygon"
+	OwnerClass:	"ShpSrc"
+)
+
+(FN.1083
+	Path:	"geographic/cntry_vmap.shp"
+)
+
+(FTab.1084
+	Name:	"cntry_vmap.dbf"
+	BTab:	1085
+	Fields:	1088
+	Fields:	1086
+	SelBits:	1089
+	FSrc:	1081
+)
+
+(dBASE.1085
+	Name:	"cntry_vmap.dbf"
+	Fields:	1086
+	FileName:	1087
+)
+
+(Field.1086
+	Name:	"Country"
+	Btab:	1085
+	Alias:	"Country"
+	Visible:	1
+	Type:	4
+	Order:	-1
+)
+
+(FN.1087
+	Path:	"geographic/cntry_vmap.dbf"
+)
+
+(Field.1088
+	Name:	"Shape"
+	Alias:	"Shape"
+	Visible:	1
+	Type:	19
+	Order:	-1
+)
+
+(Bitmap.1089
+	NumBits:	2025
+
+)
+
+(Legend.1090
+	SymType:	0x02
+	LegType:	0x01
+	ClassType:	0x03
+	Symbols:	1091
+	Class:	1096
+	StdDevs:	1.00000000000000
+	NullSym:	1097
+	NullValues:	1101
+	StatValues:	1102
+	Precision:	-3
+)
+
+(SymList.1091
+	Child:	1092
+)
+
+(BShSym.1092
+	Color:	1093
+	Outline:	1
+	OutlineColor:	1094
+	OutlineWidth:	0.10000000000000
+	BgColor:	1095
+)
+
+(TClr.1093
+	Red:	0xfeff
+	Green:	0xfe83
+	Blue:	0xe01e
+)
+
+(TClr.1094
+	Red:	0x7878
+	Green:	0x7878
+	Blue:	0x7878
+)
+
+(TClr.1095
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.1096
+	IsText:	1
+	Precision:	-3
+)
+
+(BShSym.1097
+	Color:	1098
+	Outline:	1
+	OutlineColor:	1099
+	OutlineWidth:	0.10000000000000
+	BgColor:	1100
+)
+
+(TClr.1098
+	Name:	"Transparent"
+)
+
+(TClr.1099
+	Name:	"Transparent"
+)
+
+(TClr.1100
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.1101
+)
+
+(NameDict.1102
+)
+
+(Thresh.1103
+)
+
+(GSet.1104
+)
+
+(TxPosPly.1105
+	HAlign:	3
+	VAlign:	3
+)
+
+(AttrSingle.1106
+	FTab:	1084
+	Field:	1086
+	UnionRule:	1
+	SplitRule:	1
+)
+
+(GTheme.1107
+	Name:	"Coral Reef locations (500 m grid)"
+	Source:	1108
+	Flags:	0x07
+	Legend:	1117
+	Threshold:	1137
+	View:	1066
+	GSet:	1138
+	LegEditScript:	"View.EditLegend"
+)
+
+(Grid.1108
+	Name:	1109
+	VTab:	1111
+)
+
+(SrcName.1109
+	FileName:	1110
+	Name:	"reef_500"
+	OwnerClass:	"Grid"
+)
+
+(FN.1110
+	Path:	"lambert/reef_500"
+)
+
+(VTab.1111
+	Name:	"reef_500.vat"
+	BTab:	1112
+	Fields:	1113
+	Fields:	1114
+	SelBits:	1116
+)
+
+(INFO.1112
+	Name:	"reef_500.vat"
+	Fields:	1113
+	Fields:	1114
+	FileName:	1115
+)
+
+(Field.1113
+	Name:	"Value"
+	Btab:	1112
+	Alias:	"Value"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.1114
+	Name:	"Count"
+	Btab:	1112
+	Alias:	"Count"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(FN.1115
+	Path:	"lambert/info/reef_500.vat"
+)
+
+(Bitmap.1116
+	NumBits:	1
+
+)
+
+(Legend.1117
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	1118
+	Symbols:	1119
+	Class:	1128
+	Class:	1129
+	StdDevs:	1.00000000000000
+	NullSym:	1130
+	NullValues:	1134
+	StatValues:	1135
+	DisplayNoDataClass:	1
+	LegendExts:	1136
+	Precision:	-3
+)
+
+(AVStr.1118
+	S:	"Value"
+)
+
+(SymList.1119
+	Child:	1120
+	Child:	1124
+)
+
+(BShSym.1120
+	Color:	1121
+	Outline:	1
+	OutlineColor:	1122
+	OutlineWidth:	0.10000000000000
+	BgColor:	1123
+)
+
+(TClr.1121
+	Red:	0xcacc
+	Green:	0xdb
+	Blue:	0xdc00
+)
+
+(TClr.1122
+)
+
+(TClr.1123
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1124
+	Color:	1125
+	Outline:	1
+	OutlineColor:	1126
+	OutlineWidth:	0.10000000000000
+	BgColor:	1127
+)
+
+(TClr.1125
+	Name:	"Transparent"
+)
+
+(TClr.1126
+)
+
+(TClr.1127
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.1128
+	Label:	"1"
+	MinNum:	1.00000000000000
+	MaxNum:	1.00000000000000
+	Precision:	-3
+)
+
+(LClass.1129
+	IsNoData:	1
+	Label:	"No Data"
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BShSym.1130
+	Color:	1131
+	Outline:	1
+	OutlineColor:	1132
+	OutlineWidth:	0.10000000000000
+	BgColor:	1133
+)
+
+(TClr.1131
+	Name:	"Transparent"
+)
+
+(TClr.1132
+)
+
+(TClr.1133
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.1134
+)
+
+(NameDict.1135
+)
+
+(GLegExt.1136
+	MinBrightness:	20.00000000000000
+	MaxBrightness:	80.00000000000000
+	ZScale:	1.00000000000000
+)
+
+(Thresh.1137
+)
+
+(GSet.1138
+)
+
+(GTheme.1139
+	Name:	"Bathymetry (depth in meters)"
+	Source:	1140
+	Flags:	0x06
+	Legend:	1149
+	Threshold:	1224
+	View:	1066
+	GSet:	1225
+	LegEditScript:	"View.EditLegend"
+)
+
+(Grid.1140
+	Name:	1141
+	VTab:	1143
+)
+
+(SrcName.1141
+	FileName:	1142
+	Name:	"bath_dhi1k"
+	OwnerClass:	"Grid"
+)
+
+(FN.1142
+	Path:	"lambert/bath_dhi1k"
+)
+
+(VTab.1143
+	Name:	"bath_dhi1k.vat"
+	BTab:	1144
+	Fields:	1145
+	Fields:	1146
+	SelBits:	1148
+)
+
+(INFO.1144
+	Name:	"bath_dhi1k.vat"
+	Fields:	1145
+	Fields:	1146
+	FileName:	1147
+)
+
+(Field.1145
+	Name:	"Value"
+	Btab:	1144
+	Alias:	"Value"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(Field.1146
+	Name:	"Count"
+	Btab:	1144
+	Alias:	"Count"
+	Visible:	1
+	Type:	3
+	Order:	-1
+)
+
+(FN.1147
+	Path:	"lambert/info/bath_dhi1k.vat"
+)
+
+(Bitmap.1148
+	NumBits:	8386
+
+)
+
+(Legend.1149
+	SymType:	0x02
+	LegType:	0x02
+	ClassType:	0x02
+	FieldNames:	1150
+	Symbols:	1151
+	Class:	1204
+	Class:	1205
+	Class:	1206
+	Class:	1207
+	Class:	1208
+	Class:	1209
+	Class:	1210
+	Class:	1211
+	Class:	1212
+	Class:	1213
+	Class:	1214
+	Class:	1215
+	Class:	1216
+	StdDevs:	1.00000000000000
+	NullSym:	1217
+	NullValues:	1221
+	StatValues:	1222
+	DisplayNoDataClass:	1
+	LegendExts:	1223
+	Precision:	-3
+)
+
+(AVStr.1150
+	S:	"Value"
+)
+
+(SymList.1151
+	Child:	1152
+	Child:	1156
+	Child:	1160
+	Child:	1164
+	Child:	1168
+	Child:	1172
+	Child:	1176
+	Child:	1180
+	Child:	1184
+	Child:	1188
+	Child:	1192
+	Child:	1196
+	Child:	1200
+)
+
+(BShSym.1152
+	Color:	1153
+	OutlineColor:	1154
+	OutlineWidth:	0.10000000000000
+	BgColor:	1155
+)
+
+(TClr.1153
+	Red:	0x8787
+	Green:	0xcece
+	Blue:	0xffff
+)
+
+(TClr.1154
+	Name:	"Transparent"
+)
+
+(TClr.1155
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1156
+	Color:	1157
+	Outline:	1
+	OutlineColor:	1158
+	OutlineWidth:	0.10000000000000
+	BgColor:	1159
+)
+
+(TClr.1157
+	Red:	0x8c72
+	Green:	0xd163
+	Blue:	0xfeff
+)
+
+(TClr.1158
+	Name:	"Transparent"
+)
+
+(TClr.1159
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1160
+	Color:	1161
+	Outline:	1
+	OutlineColor:	1162
+	OutlineWidth:	0.10000000000000
+	BgColor:	1163
+)
+
+(TClr.1161
+	Red:	0xb661
+	Green:	0xdba5
+	Blue:	0xffb4
+)
+
+(TClr.1162
+	Name:	"Transparent"
+)
+
+(TClr.1163
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1164
+	Color:	1165
+	Outline:	1
+	OutlineColor:	1166
+	OutlineWidth:	0.10000000000000
+	BgColor:	1167
+)
+
+(TClr.1165
+	Red:	0xbe8d
+	Green:	0xdfae
+	Blue:	0xffbc
+)
+
+(TClr.1166
+	Name:	"Transparent"
+)
+
+(TClr.1167
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1168
+	Color:	1169
+	Outline:	1
+	OutlineColor:	1170
+	OutlineWidth:	0.10000000000000
+	BgColor:	1171
+)
+
+(TClr.1169
+	Red:	0xc6b9
+	Green:	0xe3b7
+	Blue:	0xffc4
+)
+
+(TClr.1170
+	Name:	"Transparent"
+)
+
+(TClr.1171
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1172
+	Color:	1173
+	Outline:	1
+	OutlineColor:	1174
+	OutlineWidth:	0.10000000000000
+	BgColor:	1175
+)
+
+(TClr.1173
+	Red:	0xcee6
+	Green:	0xe7c1
+	Blue:	0xffcd
+)
+
+(TClr.1174
+	Name:	"Transparent"
+)
+
+(TClr.1175
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1176
+	Color:	1177
+	OutlineColor:	1178
+	OutlineWidth:	0.10000000000000
+	BgColor:	1179
+)
+
+(TClr.1177
+	Red:	0xd713
+	Green:	0xebca
+	Blue:	0xffd5
+)
+
+(TClr.1178
+	Name:	"Transparent"
+)
+
+(TClr.1179
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1180
+	Color:	1181
+	Outline:	1
+	OutlineColor:	1182
+	OutlineWidth:	0.10000000000000
+	BgColor:	1183
+)
+
+(TClr.1181
+	Red:	0xdf41
+	Green:	0xefd4
+	Blue:	0xffdd
+)
+
+(TClr.1182
+	Name:	"Transparent"
+)
+
+(TClr.1183
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1184
+	Color:	1185
+	OutlineColor:	1186
+	OutlineWidth:	0.10000000000000
+	BgColor:	1187
+)
+
+(TClr.1185
+	Red:	0xe770
+	Green:	0xf3de
+	Blue:	0xffe6
+)
+
+(TClr.1186
+	Name:	"Transparent"
+)
+
+(TClr.1187
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1188
+	Color:	1189
+	Outline:	1
+	OutlineColor:	1190
+	OutlineWidth:	0.10000000000000
+	BgColor:	1191
+)
+
+(TClr.1189
+	Red:	0xef9f
+	Green:	0xf7e9
+	Blue:	0xffee
+)
+
+(TClr.1190
+	Name:	"Transparent"
+)
+
+(TClr.1191
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1192
+	Color:	1193
+	OutlineColor:	1194
+	OutlineWidth:	0.10000000000000
+	BgColor:	1195
+)
+
+(TClr.1193
+	Red:	0xf7ce
+	Green:	0xfbf3
+	Blue:	0xfff6
+)
+
+(TClr.1194
+	Name:	"Transparent"
+)
+
+(TClr.1195
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1196
+	Color:	1197
+	Outline:	1
+	OutlineColor:	1198
+	OutlineWidth:	0.10000000000000
+	BgColor:	1199
+)
+
+(TClr.1197
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(TClr.1198
+	Name:	"Transparent"
+)
+
+(TClr.1199
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.1200
+	Color:	1201
+	Outline:	1
+	OutlineColor:	1202
+	OutlineWidth:	0.10000000000000
+	BgColor:	1203
+)
+
+(TClr.1201
+	Name:	"Transparent"
+)
+
+(TClr.1202
+)
+
+(TClr.1203
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.1204
+	Label:	"-12000 - -9000"
+	MinNum:	-12000.00000000000000
+	MaxNum:	-9000.00000000000000
+	Precision:	-3
+)
+
+(LClass.1205
+	Label:	"-9000 - -7000"
+	MinNum:	-9000.00000000000000
+	MaxNum:	-7000.00000000000000
+	Precision:	-3
+)
+
+(LClass.1206
+	Label:	"-7000 - -5000"
+	MinNum:	-7000.00000000000000
+	MaxNum:	-5000.00000000000000
+	Precision:	-3
+)
+
+(LClass.1207
+	Label:	"-5000 - -3000"
+	MinNum:	-5000.00000000000000
+	MaxNum:	-3000.00000000000000
+	Precision:	-3
+)
+
+(LClass.1208
+	Label:	"-3000 - -2000"
+	MinNum:	-3000.00000000000000
+	MaxNum:	-2000.00000000000000
+	Precision:	-3
+)
+
+(LClass.1209
+	Label:	"-2000 - -1000"
+	MinNum:	-2000.00000000000000
+	MaxNum:	-1000.00000000000000
+	Precision:	-3
+)
+
+(LClass.1210
+	Label:	"-1000 - -500"
+	MinNum:	-1000.00000000000000
+	MaxNum:	-500.00000000000000
+	Precision:	-3
+)
+
+(LClass.1211
+	Label:	"-500 - -200"
+	MinNum:	-500.00000000000000
+	MaxNum:	-200.00000000000000
+	Precision:	-3
+)
+
+(LClass.1212
+	Label:	"-200 - -100"
+	MinNum:	-200.00000000000000
+	MaxNum:	-100.00000000000000
+	Precision:	-3
+)
+
+(LClass.1213
+	Label:	"-100 - 0"
+	MinNum:	-100.00000000000000
+	Precision:	-3
+)
+
+(LClass.1214
+	Label:	"0 - 4000"
+	MaxNum:	4000.00000000000000
+	Precision:	-3
+)
+
+(LClass.1215
+	Label:	"4000 - 8000"
+	MinNum:	4000.00000000000000
+	MaxNum:	8000.00000000000000
+	Precision:	-3
+)
+
+(LClass.1216
+	MaxNum:	-1.00000000000000
+	Precision:	-3
+)
+
+(BShSym.1217
+	Color:	1218
+	Outline:	1
+	OutlineColor:	1219
+	OutlineWidth:	0.10000000000000
+	BgColor:	1220
+)
+
+(TClr.1218
+	Name:	"Transparent"
+)
+
+(TClr.1219
+	Name:	"Transparent"
+)
+
+(TClr.1220
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.1221
+)
+
+(NameDict.1222
+)
+
+(GLegExt.1223
+	MaxBrightness:	100.00000000000000
+)
+
+(Thresh.1224
+)
+
+(GSet.1225
+)
+
+(Eqarazi.1226
+	InternalName:	"Lambert Equal-Area Azimuthal"
+	Description:	"Custom Lambert Equal-Area Azimuthal"
+	Ellipsoid:	1227
+	Lambda0:	-1.32645023151528
+	Phi1:	0.27925268031901
+)
+
+(Elpsoid.1227
+	Radius:	6370997.00000000000000
+	Type:	10
+	Units:	0x07
+)
+
+(BShSym.1228
+	Color:	1229
+	Outline:	1
+	OutlineColor:	1230
+	BgColor:	1231
+)
+
+(TClr.1229
+	Red:	0xe11d
+	Green:	0xfd9b
+	Blue:	0xfeff
+)
+
+(TClr.1230
+)
+
+(TClr.1231
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LButn.1232
+	HelpTopic:	"New_button"
+	Update:	"Doc.NewUpdate"
+	Label:	"&New"
+	Click:	"View.New"
+)
+
+(LButn.1233
+	HelpTopic:	"Open_button"
+	Update:	"Doc.OpenUpdate"
+	Label:	"&Open"
+	Click:	"Doc.Open"
+)
+
+(LButn.1234
+	HelpTopic:	"Print_button"
+	Update:	"Doc.ActionUpdate"
+	Label:	"P&rint"
+	Click:	"Doc.Action"
+)
+
+(FN.1235
+	Path:	"$AVEXT/spatial.avx"
+)
+
+(NameDict.1236
+)
+
+(NameDict.1237
+	Obj:	1238
+	Obj:	1243
+	Obj:	1244
+	Obj:	1245
+)
+
+(AVDict.1238
+	InternalName:	"Surface Support"
+	Key:	1239
+	Key:	1240
+	Value:	1241
+	Value:	1242
+)
+
+(AVStr.1239
+	S:	"Loaded"
+)
+
+(AVStr.1240
+	S:	"Version"
+)
+
+(Bool.1241
+	Truth:	1
+)
+
+(Numb.1242
+	N:	1000.00000000000000
+)
+
+(AVDict.1243
+	InternalName:	"Table of Contents Defaults Dialog"
+)
+
+(AVDict.1244
+	InternalName:	"_Thor_"
+)
+
+(AVDict.1245
+	InternalName:	"Spatial Analyst"
+	Key:	1246
+	Key:	1247
+	Value:	1241
+	Value:	1248
+)
+
+(AVStr.1246
+	S:	"Loaded"
+)
+
+(AVStr.1247
+	S:	"Version"
+)
+
+(Numb.1248
+	N:	2000.00000000000000
+)
+
+(DocGUI.1249
+	Name:	"View"
+	Type:	"View"
+	Modified:	1
+	Visible:	1
+	MenuBar:	1250
+	ButnBar:	1397
+	Popups:	1441
+	ToolBar:	1463
+	NewScript:	"View.New"
+	OpenScript:	"Doc.Open"
+	ActionScript:	"Doc.Action"
+	NewUpdateScript:	"Doc.NewUpdate"
+	OpenUpdateScript:	"Doc.OpenUpdate"
+	ActionUpdateScript:	"Doc.ActionUpdate"
+	Title:	"Views"
+	Icon:	1542
+)
+
+(MenuBar.1250
+	Child:	1251
+	Child:	1270
+	Child:	1290
+	Child:	1313
+	Child:	1340
+	Child:	1358
+	Child:	1366
+	Child:	1382
+	Child:	1392
+)
+
+(PMenu.1251
+	InternalName:	"File"
+	Child:	1252
+	Child:	1253
+	Child:	1254
+	Child:	1255
+	Child:	1256
+	Child:	1257
+	Child:	1258
+	Child:	1259
+	Child:	1260
+	Child:	1261
+	Child:	1262
+	Child:	1263
+	Child:	1264
+	Child:	1265
+	Child:	1266
+	Child:	1267
+	Child:	1268
+	Child:	1269
+	Label:	"&File"
+)
+
+(Choice.1252
+	Help:	"Closes the active component"
+	HelpTopic:	"Close"
+	Label:	"&Close"
+	Click:	"Project.CloseDoc"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1253
+	Help:	"Closes all components"
+	HelpTopic:	"Close_All"
+	Label:	"Close &All"
+	Click:	"Project.CloseAll"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1254
+)
+
+(Choice.1255
+	Help:	"Allows you to specify the current working directory"
+	HelpTopic:	"Set_Working_Directory"
+	Label:	"Set &Working Directory..."
+	Click:	"Project.SetProjectWorkDir"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1256
+	Help:	"Saves the current project"
+	HelpTopic:	"Save_Project"
+	Label:	"&Save Project"
+	Click:	"Project.Save"
+	Shortcut:	"Keys.Ctrl+S"
+)
+
+(Choice.1257
+	Help:	"Saves the current project with a new name"
+	HelpTopic:	"Save_Project_As"
+	Label:	"Save Project As..."
+	Click:	"Project.SaveAs"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1258
+)
+
+(Choice.1259
+	Help:	"Displays the Extensions dialog"
+	HelpTopic:	"Extensions"
+	Label:	"Extensions..."
+	Click:	"Appl.GetExtensionWin"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1260
+)
+
+(Choice.1261
+	Help:	"Prints the view"
+	HelpTopic:	"Print"
+	Label:	"&Print..."
+	Click:	"View.Print"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1262
+	Help:	"Edits the printer and the printing options"
+	HelpTopic:	"Print_Setup"
+	Label:	"P&rint Setup..."
+	Click:	"Project.PrintSetup"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1263
+	Help:	"Exports the view"
+	HelpTopic:	"Export"
+	Update:	"View.HasThemesUpdate"
+	Label:	"&Export..."
+	Click:	"View.ExportDisp"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1264
+)
+
+(Choice.1265
+	Help:	"Displays the dialog box to delete, edit, and copy data sources"
+	HelpTopic:	"Manage_Sources"
+	Label:	"&Manage Data Sources..."
+	Click:	"View.ManageSources"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1266
+	InternalName:	"Surface"
+	Help:	"Imports files to data sources that can be used with ArcView"
+	HelpTopic:	"Import_Grids@surface.hlp"
+	Label:	"&Import Data Source..."
+	Click:	"Spatial.Import"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1267
+	InternalName:	"Surface"
+	Help:	"Exports data sources to files that can be used outside of ArcView"
+	HelpTopic:	"Export_Grids@surface.hlp"
+	Label:	"Export &Data Source..."
+	Click:	"Spatial.Export"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1268
+)
+
+(Choice.1269
+	Help:	"Exits ArcView"
+	HelpTopic:	"Exit"
+	Label:	"E&xit"
+	Click:	"Project.Exit"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.1270
+	InternalName:	"Edit"
+	Child:	1271
+	Child:	1272
+	Child:	1273
+	Child:	1274
+	Child:	1275
+	Child:	1276
+	Child:	1277
+	Child:	1278
+	Child:	1279
+	Child:	1280
+	Child:	1281
+	Child:	1282
+	Child:	1283
+	Child:	1284
+	Child:	1285
+	Child:	1286
+	Child:	1287
+	Child:	1288
+	Child:	1289
+	Label:	"&Edit"
+)
+
+(Choice.1271
+	Help:	"Cuts the active themes to the clipboard"
+	HelpTopic:	"Cut_Themes"
+	Update:	"View.ActiveDeletableThemesUpdate"
+	Label:	"Cut T&hemes"
+	Click:	"View.CutThemes"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1272
+	Help:	"Copies the active themes to the clipboard"
+	HelpTopic:	"Copy_Themes"
+	Update:	"View.ActiveThemesUpdate"
+	Label:	"Cop&y Themes"
+	Click:	"View.CopyThemes"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1273
+	Help:	"Removes the active themes from the view"
+	HelpTopic:	"Delete_Themes"
+	Update:	"View.ActiveDeletableThemesUpdate"
+	Label:	"De&lete Themes"
+	Click:	"View.DeleteThemes"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1274
+)
+
+(Choice.1275
+	Disabled:	1
+	Help:	"Undo the last edit to graphics on a view"
+	HelpTopic:	"Undo_Graphic_Edit_on_a_view"
+	Update:	"View.UndoEditUpdate"
+	Label:	"&Undo Graphic Edit"
+	Click:	"View.UndoEdit"
+	Shortcut:	"Keys.Ctrl+Z"
+)
+
+(Choice.1276
+	Disabled:	1
+	Invisible:	1
+	Help:	"Redo the last edit operation on a theme that was undone"
+	HelpTopic:	"Redo_Feature_Edit_on_a_view"
+	Update:	"View.RedoEditUpdate"
+	Label:	"&Redo Feature Edit"
+	Click:	"View.RedoEdit"
+	Shortcut:	"Keys.Ctrl+Y"
+)
+
+(Space.1277
+)
+
+(Choice.1278
+	Disabled:	1
+	Help:	"Cuts the selected graphics to the clipboard"
+	HelpTopic:	"Cut_Graphics"
+	Update:	"View.CutUpdate"
+	Label:	"Cu&t Graphics"
+	Click:	"View.CutGraphics"
+	Shortcut:	"Keys.Ctrl+X"
+)
+
+(Choice.1279
+	Disabled:	1
+	Help:	"Copies the selected graphics to the clipboard"
+	HelpTopic:	"Copy_Graphics"
+	Update:	"View.CopyUpdate"
+	Label:	"&Copy Graphics"
+	Click:	"View.CopyGraphics"
+	Shortcut:	"Keys.Ctrl+C"
+)
+
+(Choice.1280
+	Disabled:	1
+	Help:	"Removes the selected graphics from the view"
+	HelpTopic:	"Delete_Graphics"
+	Update:	"View.DeleteUpdate"
+	Label:	"&Delete Graphics"
+	Click:	"View.DeleteGraphics"
+	Shortcut:	"Keys.Del"
+)
+
+(Space.1281
+)
+
+(Choice.1282
+	Disabled:	1
+	Help:	"Combines the selected polygons"
+	HelpTopic:	"Combine_Graphics"
+	Update:	"View.CombineUpdate"
+	Label:	"Com&bine Graphics"
+	Click:	"View.CombineGraphics"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1283
+	Disabled:	1
+	Help:	"Unions the selected graphics to create a new graphic"
+	HelpTopic:	"Union_Graphics"
+	Update:	"View.UnionUpdate"
+	Label:	"U&nion Graphics"
+	Click:	"View.UnionGraphics"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1284
+	Disabled:	1
+	Help:	"Subtracts one selected polygon from the other selected polygon"
+	HelpTopic:	"Subtract_Graphics"
+	Update:	"View.SubtractUpdate"
+	Label:	"&Subtract Graphics"
+	Click:	"View.SubtractGraphics"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1285
+	Disabled:	1
+	Help:	"Creates a new polygon from the area  of overlap between the selected polygons"
+	HelpTopic:	"Intersect_Graphics"
+	Update:	"View.IntersectUpdate"
+	Label:	"&Intersect Graphics"
+	Click:	"View.IntersectGraphics"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1286
+)
+
+(Choice.1287
+	Help:	"Inserts the contents of the clipboard"
+	HelpTopic:	"Paste"
+	Update:	"View.PasteUpdate"
+	Label:	"&Paste"
+	Click:	"View.Paste"
+	Shortcut:	"Keys.Ctrl+V"
+)
+
+(Space.1288
+)
+
+(Choice.1289
+	Disabled:	1
+	Help:	"Selects all graphics in the view"
+	HelpTopic:	"Select_All_Graphics"
+	Update:	"View.HasGraphicsUpdate"
+	Label:	"Select &All Graphics"
+	Click:	"Graphic.SelectAll"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.1290
+	InternalName:	"View"
+	Child:	1291
+	Child:	1292
+	Child:	1293
+	Child:	1294
+	Child:	1295
+	Child:	1296
+	Child:	1297
+	Child:	1298
+	Child:	1299
+	Child:	1300
+	Child:	1301
+	Child:	1302
+	Child:	1303
+	Child:	1304
+	Child:	1305
+	Child:	1306
+	Child:	1307
+	Child:	1308
+	Child:	1309
+	Child:	1310
+	Child:	1311
+	Child:	1312
+	Label:	"&View"
+)
+
+(Choice.1291
+	Help:	"Displays the dialog box to edit properties of the view"
+	HelpTopic:	"View_Properties"
+	Label:	"&Properties..."
+	Click:	"View.Properties"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1292
+)
+
+(Choice.1293
+	Help:	"Inserts themes into the view"
+	HelpTopic:	"Add_Theme"
+	Label:	"&Add Theme..."
+	Click:	"View.Add"
+	Shortcut:	"Keys.Ctrl+T"
+)
+
+(Choice.1294
+	Disabled:	1
+	Help:	"Displays a dialog box to create a geocoded theme"
+	HelpTopic:	"Geocode_Addresses"
+	Update:	"View.GeocodeUpdate"
+	Label:	"&Geocode Addresses..."
+	Click:	"View.Geocode"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1295
+	Disabled:	1
+	Help:	"Displays a dialog box to create an XY or dynamic segmentation event-based theme "
+	HelpTopic:	"Add_Event_Theme"
+	Update:	"View.AddEventUpdate"
+	Label:	"Add &Event Theme..."
+	Click:	"View.AddEvent"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1296
+	Help:	"Creates a new theme"
+	HelpTopic:	"New_Theme"
+	Label:	"&New Theme..."
+	Click:	"View.NewTheme"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1297
+	Help:	"Makes all themes visible"
+	HelpTopic:	"Themes_On_Themes_Off"
+	Update:	"View.HasThemesUpdate"
+	Label:	"&Themes On"
+	Click:	"View.ThemesOn"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1298
+	Help:	"Makes all themes invisible"
+	HelpTopic:	"Themes_On_Themes_Off"
+	Update:	"View.HasThemesUpdate"
+	Label:	"T&hemes Off"
+	Click:	"View.ThemesOff"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1299
+)
+
+(Choice.1300
+	Help:	"Create a Layout from the View"
+	HelpTopic:	"Layout_menu_choice"
+	Update:	"View.HasThemesUpdate"
+	Label:	"La&yout..."
+	Click:	"View.Layout"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1301
+)
+
+(Choice.1302
+	Help:	"Shows a dialog where you can change the style of the TOC"
+	HelpTopic:	"TOC_Defaults"
+	Update:	"TocDefs.ShowUpdate"
+	Label:	"TOC Style..."
+	Click:	"TocDefs.Show"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1303
+)
+
+(Choice.1304
+	Help:	"Zooms to the extent of all themes"
+	HelpTopic:	"Zoom_to_Full_Extent"
+	Update:	"View.HasDataUpdate"
+	Label:	"Full E&xtent"
+	Click:	"View.ZoomFullExtent"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1305
+	Help:	"Zooms in on the center of the display"
+	HelpTopic:	"Zoom_In"
+	Update:	"View.HasDataUpdate"
+	Label:	"Zoom &In"
+	Click:	"View.ZoomIn"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1306
+	Help:	"Zooms out from the center of the display"
+	HelpTopic:	"Zoom_Out"
+	Update:	"View.HasDataUpdate"
+	Label:	"Zoom &Out"
+	Click:	"View.ZoomOut"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1307
+	Help:	"Zooms to the extent of active themes"
+	HelpTopic:	"Zoom_to_Active_Theme"
+	Update:	"View.ActiveThemesUpdate"
+	Label:	"&Zoom To Themes"
+	Click:	"View.ZoomToThemes"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1308
+	Disabled:	1
+	Help:	"Zooms to the extent of the selected features"
+	HelpTopic:	"Zoom_to_Selected"
+	Update:	"View.SelectableThemesUpdate"
+	Label:	"Zoom To &Selected"
+	Click:	"View.ZoomToSelected"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1309
+	Help:	"Goes back to the previous extent you were viewing"
+	HelpTopic:	"Zoom_Previous"
+	Update:	"View.UndoZoomUpdate"
+	Label:	"Zoom Pre&vious"
+	Click:	"View.UndoZoom"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1310
+)
+
+(Choice.1311
+	Disabled:	1
+	Help:	"Finds features in the active themes using the text you enter"
+	HelpTopic:	"Find"
+	Update:	"View.FindUpdate"
+	Label:	"&Find..."
+	Click:	"View.Find"
+	Shortcut:	"Keys.Ctrl+F"
+)
+
+(Choice.1312
+	Disabled:	1
+	Help:	"Locates an address in the active, matchable theme"
+	HelpTopic:	"Locate_Address"
+	Update:	"View.LocateUpdate"
+	Label:	"&Locate Address..."
+	Click:	"View.Locate"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.1313
+	InternalName:	"Theme"
+	Child:	1314
+	Child:	1315
+	Child:	1316
+	Child:	1317
+	Child:	1318
+	Child:	1319
+	Child:	1320
+	Child:	1321
+	Child:	1322
+	Child:	1323
+	Child:	1324
+	Child:	1325
+	Child:	1326
+	Child:	1327
+	Child:	1328
+	Child:	1329
+	Child:	1330
+	Child:	1331
+	Child:	1332
+	Child:	1333
+	Child:	1334
+	Child:	1335
+	Child:	1336
+	Child:	1337
+	Child:	1338
+	Child:	1339
+	Label:	"&Theme"
+)
+
+(Choice.1314
+	Help:	"Displays the dialog box to edit properties of the active theme"
+	HelpTopic:	"Theme_Properties"
+	Update:	"View.ActiveThemesUpdate"
+	Label:	"&Properties..."
+	Click:	"View.ThemeProperties"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1315
+)
+
+(Choice.1316
+	Disabled:	1
+	Help:	"Starts or stops editing of shapefile"
+	HelpTopic:	"Start_Stop_Editing_in_a_view"
+	Update:	"View.ToggleEditingUpdate"
+	Label:	"Start &Editing"
+	Click:	"View.ToggleEditing"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1317
+	Disabled:	1
+	Help:	"Save edits to the source shapefile"
+	HelpTopic:	"Save_edits_theme"
+	Update:	"View.SaveEditsUpdate"
+	Label:	"Save Ed&its"
+	Click:	"View.SaveEdits"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1318
+	Disabled:	1
+	Help:	"Saves edits to a new shapefile"
+	HelpTopic:	"Save_edits_as_theme"
+	Update:	"View.SaveEditsUpdate"
+	Label:	"Save E&dits As..."
+	Click:	"View.SaveEditsAs"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1319
+	Help:	"Converts a theme to a shapefile"
+	HelpTopic:	"Convert_to_Shapefile"
+	Update:	"View.ExportUpdate"
+	Label:	"Convert to &Shapefile..."
+	Click:	"View.Export"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1320
+	InternalName:	"Surface"
+	Help:	"Converts themes to grid themes"
+	HelpTopic:	"Convert_to_Grid@surface.hlp"
+	Update:	"Spatial.ConvertToGridUpdate"
+	Label:	"Convert to &Grid..."
+	Click:	"Spatial.ConvertToGrid"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1321
+	InternalName:	"Surface"
+	Disabled:	1
+	Help:	"Saves the data source associated with a grid theme as a permanent data source"
+	HelpTopic:	"Save_Data_Set@surface.hlp"
+	Update:	"Spatial.SaveDataSetUpdate"
+	Label:	"Sa&ve Data Set..."
+	Click:	"Spatial.SaveDataSet"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1322
+)
+
+(Choice.1323
+	Help:	"Displays the legends of the active themes"
+	HelpTopic:	"Edit_Legend"
+	Update:	"View.ActiveThemesUpdate"
+	Label:	"Edit &Legend..."
+	Click:	"View.EditLegendClick"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1324
+	Help:	"Shows or hides the active themes' legends"
+	HelpTopic:	"Hide_show_Legend"
+	Update:	"View.ActiveThemesUpdate"
+	Label:	"&Hide/Show Legend"
+	Click:	"View.ToggleLegend"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1325
+)
+
+(Choice.1326
+	Disabled:	1
+	Help:	"Displays the Re-match dialog for re-matching addresses"
+	HelpTopic:	"Re_match_Addresses"
+	Update:	"View.EditMatchUpdate"
+	Label:	"&Re-match Addresses..."
+	Click:	"View.EditMatch"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1327
+)
+
+(Choice.1328
+	Disabled:	1
+	Help:	"Labels features in active, visible themes"
+	HelpTopic:	"Auto_label"
+	Update:	"View.LabelThemesUpdate"
+	Label:	"&Auto-label..."
+	Click:	"View.LabelThemes"
+	Shortcut:	"Keys.Ctrl+L"
+)
+
+(Choice.1329
+	Disabled:	1
+	Help:	"Removes any labels from active themes"
+	HelpTopic:	"Remove_Labels"
+	Update:	"View.RemoveThemeLabelsUpdate"
+	Label:	"Rem&ove Labels"
+	Click:	"View.RemoveThemeLabels"
+	Shortcut:	"Keys.Ctrl+R"
+)
+
+(Choice.1330
+	Disabled:	1
+	Help:	"Removes the overlapping labels from active themes, if they are still green."
+	HelpTopic:	"Remove_Overlapping_Labels"
+	Update:	"View.RemoveOverlapThemeLabelsUpdate"
+	Label:	"Remove Overlappi&ng Labels"
+	Click:	"View.RemoveOverlapThemeLabels"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1331
+	Disabled:	1
+	Help:	"Converts selected overlapping labels to symbol of selected good label"
+	HelpTopic:	"Convert_Overlapping_Labels"
+	Update:	"View.ConvertOverlapLabelsUpdate"
+	Label:	"&Convert Overlapping Labels"
+	Click:	"View.ConvertOverlapLabels"
+	Shortcut:	"Keys.Ctrl+O"
+)
+
+(Space.1332
+)
+
+(Choice.1333
+	Help:	"Opens the tables of the active themes"
+	HelpTopic:	"Open_Theme_Table"
+	Update:	"View.TabularThemesUpdate"
+	Label:	"&Table..."
+	Click:	"View.ShowTable"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1334
+	Help:	"Displays the Query Builder to select features with a logical expression"
+	HelpTopic:	"Query_Builder"
+	Update:	"View.AttributeThemesUpdate"
+	Label:	"&Query..."
+	Click:	"View.Query"
+	Shortcut:	"Keys.Ctrl+Q"
+)
+
+(Choice.1335
+	Disabled:	1
+	Help:	"Selects features in the active themes using another theme's features"
+	HelpTopic:	"Select_By_Theme"
+	Update:	"View.SelectableThemesUpdate"
+	Label:	"Select &By Theme..."
+	Click:	"View.SelectByTheme"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1336
+	Help:	"Creates buffers around features"
+	HelpTopic:	"Create_Buffer_Choice"
+	Update:	"WizardBuffer.OpenDialogUpdate"
+	Label:	"Create Buffers..."
+	Click:	"WizardBuffer.OpenDialog"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1337
+	Help:	"Unselects the selected features of all active themes"
+	HelpTopic:	"Clear_Selected_Features"
+	Update:	"View.AttributeThemesUpdate"
+	Label:	"Clear Selected &Features"
+	Click:	"View.ClearSelect"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1338
+	InternalName:	"Spatial"
+)
+
+(Choice.1339
+	InternalName:	"Spatial"
+	Disabled:	1
+	Help:	"Brings up the map query builder or map calculator associated with a grid theme"
+	HelpTopic:	"Edit_Theme_Expression@spatial.hlp"
+	Update:	"Spatial.EditExpressionUpdate"
+	Label:	"Edit The&me Expression..."
+	Click:	"Spatial.EditExpression"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.1340
+	InternalName:	"Analysis"
+	Child:	1341
+	Child:	1342
+	Child:	1343
+	Child:	1344
+	Child:	1345
+	Child:	1346
+	Child:	1347
+	Child:	1348
+	Child:	1349
+	Child:	1350
+	Child:	1351
+	Child:	1352
+	Child:	1353
+	Child:	1354
+	Child:	1355
+	Child:	1356
+	Child:	1357
+	Label:	"&Analysis"
+)
+
+(Choice.1341
+	InternalName:	"Spatial"
+	Help:	"Displays the dialog box to edit the analysis properties"
+	HelpTopic:	"Analysis_Properties@spatial.hlp"
+	Update:	"View.HasThemesUpdate"
+	Label:	"&Properties..."
+	Click:	"Spatial.AnalysisProperties"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1342
+	InternalName:	"Spatial"
+)
+
+(Choice.1343
+	InternalName:	"Spatial"
+	Help:	"Finds continuous distances from features in a theme"
+	HelpTopic:	"Find_Distance@spatial.hlp"
+	Update:	"Spatial.HasActiveIntegerGridOrFeatureThemeUpdate"
+	Label:	"Find &Distance"
+	Click:	"Spatial.Distance"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1344
+	InternalName:	"Spatial"
+	Help:	"Creates zones of proximity for features in a theme"
+	HelpTopic:	"Assign_Proximity@spatial.hlp"
+	Update:	"Spatial.HasActiveIntegerGridOrFeatureThemeUpdate"
+	Label:	"Assign Pro&ximity"
+	Click:	"Spatial.Proximity"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1345
+	InternalName:	"Spatial"
+)
+
+(Choice.1346
+	InternalName:	"Spatial"
+	Disabled:	1
+	Help:	"Creates a density surface from a point theme"
+	HelpTopic:	"Calculate_Density@spatial.hlp"
+	Update:	"Spatial.DensityUpdate"
+	Label:	"Calculate D&ensity..."
+	Click:	"Spatial.Density"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1347
+	InternalName:	"Spatial"
+)
+
+(Choice.1348
+	InternalName:	"Spatial"
+	Disabled:	1
+	Help:	"Calculates a statistic for multiple grid themes"
+	HelpTopic:	"Cell_Statistics@spatial.hlp"
+	Update:	"Spatial.CellStatisticsUpdate"
+	Label:	"&Cell Statistics..."
+	Click:	"Spatial.CellStatistics"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1349
+	InternalName:	"Spatial"
+	Help:	"Summarizes values in a grid theme within the zones of another theme"
+	HelpTopic:	"Summarize_Zones@spatial.hlp"
+	Update:	"Spatial.ZoneOperationUpdate"
+	Label:	"Summarize &Zones..."
+	Click:	"Spatial.SummarizeZones"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1350
+	InternalName:	"Spatial"
+	Help:	"Creates a histogram distribution of a grid theme for each zone in another theme"
+	HelpTopic:	"Histogram_By_Zone@spatial.hlp"
+	Update:	"Spatial.ZoneOperationUpdate"
+	Label:	"&Histogram By Zone..."
+	Click:	"Spatial.ZoneHistogram"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1351
+	InternalName:	"Spatial"
+	Help:	"Tabulates the area of one theme within the zones of another theme"
+	HelpTopic:	"Tabulate_Areas@spatial.hlp"
+	Update:	"Spatial.TabulateAreasUpdate"
+	Label:	"&Tabulate Areas..."
+	Click:	"Spatial.TabulateAreas"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1352
+	InternalName:	"Spatial"
+	Help:	"Performs spatial selection on multiple grid themes"
+	HelpTopic:	"Map_Query@spatial.hlp"
+	Update:	"Spatial.HasGridThemeUpdate"
+	Label:	"Map &Query..."
+	Click:	"Spatial.Query"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1353
+	InternalName:	"Spatial"
+	Help:	"Displays the dialog box to create a grid theme with an algebraic statement"
+	HelpTopic:	"Map_Calculator@spatial.hlp"
+	Update:	"Spatial.HasGridThemeUpdate"
+	Label:	"&Map Calculator..."
+	Click:	"Spatial.Calculator"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1354
+	InternalName:	"Spatial"
+)
+
+(Choice.1355
+	InternalName:	"Spatial"
+	Help:	"Calculates a statistic on a grid or point theme over a specified neighborhood"
+	HelpTopic:	"Neighborhood_Statistics@spatial.hlp"
+	Update:	"Spatial.HasActiveGridOrNumericPointThemeUpdate"
+	Label:	"&Neighborhood Statistics..."
+	Click:	"Spatial.NbrStatistics"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1356
+	InternalName:	"Spatial"
+)
+
+(Choice.1357
+	InternalName:	"Spatial"
+	Help:	"Reclassifies the values in a grid theme"
+	HelpTopic:	"Reclassify@spatial.hlp"
+	Update:	"Spatial.HasActiveGridThemeUpdate"
+	Label:	"&Reclassify..."
+	Click:	"Spatial.Reclassify"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.1358
+	InternalName:	"Surface"
+	Child:	1359
+	Child:	1360
+	Child:	1361
+	Child:	1362
+	Child:	1363
+	Child:	1364
+	Child:	1365
+	Label:	"&Surface"
+)
+
+(Choice.1359
+	InternalName:	"Surface"
+	Disabled:	1
+	Help:	"Creates a continuous raster surface from a point theme"
+	HelpTopic:	"Interpolate_Surface@surface.hlp"
+	Update:	"Spatial.SurfaceUpdate"
+	Label:	"&Interpolate Grid..."
+	Click:	"Spatial.Surface"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1360
+	InternalName:	"Surface"
+)
+
+(Choice.1361
+	InternalName:	"Surface"
+	Help:	"Creates contours from a surface or point theme"
+	HelpTopic:	"Create_Contours@surface.hlp"
+	Update:	"Surface.ContourUpdate"
+	Label:	"Create &Contours..."
+	Click:	"Spatial.Contour"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1362
+	InternalName:	"Surface"
+	Help:	"Derives slope from a surface"
+	HelpTopic:	"Derive_Slope@surface.hlp"
+	Update:	"Surface.HasActiveGridOrTinThemeUpdate"
+	Label:	"Derive &Slope"
+	Click:	"Spatial.Slope"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1363
+	InternalName:	"Surface"
+	Help:	"Derives aspect from a surface"
+	HelpTopic:	"Derive_Aspect@surface.hlp"
+	Update:	"Surface.HasActiveGridOrTinThemeUpdate"
+	Label:	"Derive &Aspect"
+	Click:	"Spatial.Aspect"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1364
+	InternalName:	"Surface"
+	Help:	"Computes hillshade values for a surface"
+	HelpTopic:	"Compute_Hillshade@surface.hlp"
+	Update:	"Surface.HasActiveGridOrTinThemeUpdate"
+	Label:	"Compute &Hillshade..."
+	Click:	"Spatial.Hillshade"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1365
+	InternalName:	"Surface"
+	Disabled:	1
+	Help:	"Calculate the viewshed of selected points on a surface"
+	HelpTopic:	"Viewshed@surface.hlp"
+	Update:	"Surface.ViewshedUpdate"
+	Label:	"Calculate &Viewshed..."
+	Click:	"Surface.Viewshed"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.1366
+	InternalName:	"Graphics"
+	Child:	1367
+	Child:	1368
+	Child:	1369
+	Child:	1370
+	Child:	1371
+	Child:	1372
+	Child:	1373
+	Child:	1374
+	Child:	1375
+	Child:	1376
+	Child:	1377
+	Child:	1378
+	Child:	1379
+	Child:	1380
+	Child:	1381
+	Label:	"&Graphics"
+)
+
+(Choice.1367
+	Disabled:	1
+	Help:	"Displays the property editor for the selected graphic"
+	HelpTopic:	"Graphic_Properties"
+	Update:	"Graphic.HasSelectionUpdate"
+	Label:	"&Properties..."
+	Click:	"Graphic.Edit"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1368
+)
+
+(Choice.1369
+	Help:	"Shows a dialog where you can set the default values for the label and text tools"
+	HelpTopic:	"Default_settings_for_text_and_label_tools"
+	Label:	"&Text and Label Defaults..."
+	Click:	"Graphic.Label Defaults Show"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1370
+)
+
+(Choice.1371
+	Disabled:	1
+	Help:	"Displays a dialog box to adjust size and position of selected graphic"
+	HelpTopic:	"Size_and_Position"
+	Update:	"Graphic.SingleSelectionUpdate"
+	Label:	"&Size and Position..."
+	Click:	"Graphic.SizePos"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1372
+	Disabled:	1
+	Help:	"Aligns the selected graphics"
+	HelpTopic:	"Align"
+	Update:	"Graphic.HasSelectionUpdate"
+	Label:	"&Align..."
+	Click:	"Graphic.Align"
+	Shortcut:	"Keys.Ctrl+A"
+)
+
+(Space.1373
+)
+
+(Choice.1374
+	Disabled:	1
+	Help:	"Moves selected graphics in front of other graphics"
+	HelpTopic:	"Bring_to_Front_on_a_view"
+	Update:	"Graphic.HasSelectionUpdate"
+	Label:	"Bring to &Front"
+	Click:	"Graphic.ToFront"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1375
+	Disabled:	1
+	Help:	"Moves selected graphics behind other graphics"
+	HelpTopic:	"Send_to_Back_on_a_view"
+	Update:	"Graphic.HasSelectionUpdate"
+	Label:	"Send to &Back "
+	Click:	"Graphic.ToBack"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1376
+	Disabled:	1
+	Help:	"Groups selected graphics"
+	HelpTopic:	"Group_on_a_view"
+	Update:	"Graphic.GroupUpdate"
+	Label:	"&Group"
+	Click:	"Graphic.Group"
+	Shortcut:	"Keys.Ctrl+G"
+)
+
+(Choice.1377
+	Disabled:	1
+	Help:	"Ungroups selected graphics"
+	HelpTopic:	"Ungroup_on_a_view"
+	Update:	"Graphic.UngroupUpdate"
+	Label:	"&Ungroup"
+	Click:	"Graphic.Ungroup"
+	Shortcut:	"Keys.Ctrl+U"
+)
+
+(Space.1378
+)
+
+(Choice.1379
+	Disabled:	1
+	Help:	"Associates selected graphics with active themes"
+	HelpTopic:	"Attach_Graphics"
+	Update:	"View.AddGraphicsUpdate"
+	Label:	"A&ttach Graphics"
+	Click:	"View.AddGraphics"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1380
+	Disabled:	1
+	Help:	"Removes association between graphics and active themes"
+	HelpTopic:	"Detach_Graphics"
+	Update:	"View.ClearGraphicsUpdate"
+	Label:	"&Detach Graphics"
+	Click:	"View.ClearGraphics"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1381
+)
+
+(PMenu.1382
+	InternalName:	"Window"
+	Child:	1383
+	Child:	1384
+	Child:	1385
+	Child:	1386
+	Child:	1387
+	Child:	1388
+	Child:	1390
+	Child:	1391
+	Label:	"&Window"
+)
+
+(Choice.1383
+	Help:	"Arranges windows as non-overlapping tiles"
+	HelpTopic:	"Tile"
+	Label:	"&Tile"
+	Click:	"Project.Tile"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1384
+	Help:	"Arranges windows"
+	HelpTopic:	"Cascade"
+	Label:	"&Cascade"
+	Click:	"Project.Cascade"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1385
+	Help:	"Arranges iconified windows"
+	HelpTopic:	"Arrange_Icons"
+	Label:	"&Arrange Icons"
+	Click:	"Project.ArrangeIcons"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1386
+)
+
+(Choice.1387
+	Help:	"Shows the symbol window"
+	HelpTopic:	"Show_Symbol_Window"
+	Label:	"Show Symbol Window..."
+	Click:	"Project.ShowHideSymWin"
+	Shortcut:	"Keys.Ctrl+P"
+)
+
+(Space.1388
+	ObjectTag:	1389
+	Update:	"WindowMenuUpdate"
+)
+
+(AVStr.1389
+	S:	"rrcar_vg.apr View 3 - Bathymetry and Coral Reefs"
+)
+
+(Choice.1390
+	Help:	"Activates rrcar_vg.apr"
+	Label:	"&1 rrcar_vg.apr"
+	Click:	"WindowActivate"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1391
+	Help:	"Activates View 3 - Bathymetry and Coral Reefs"
+	Label:	"&2 View 3 - Bathymetry and Coral Reefs"
+	Click:	"WindowActivate"
+	Shortcut:	"Keys.None"
+)
+
+(PMenu.1392
+	InternalName:	"Help"
+	Child:	1393
+	Child:	1394
+	Child:	1395
+	Child:	1396
+	Label:	"&Help"
+)
+
+(Choice.1393
+	Help:	"Displays the dialog for browsing and searching ArcView's help system"
+	HelpTopic:	"Help_on_Help_Topics"
+	Label:	"Help &Topics..."
+	Click:	"Project.HelpTopics"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1394
+	Help:	"Provides instructions for how to obtain help from ArcView"
+	HelpTopic:	"Help_on_How_to_Get_Help"
+	Label:	"&How to Get Help..."
+	Click:	"Project.HelpHelp"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1395
+)
+
+(Choice.1396
+	Help:	"Provides information about ArcView"
+	HelpTopic:	"About"
+	Label:	"&About ArcView..."
+	Click:	"Project.About"
+	Shortcut:	"Keys.None"
+)
+
+(ButnBar.1397
+	Child:	1398
+	Child:	1400
+	Child:	1401
+	Child:	1403
+	Child:	1404
+	Child:	1406
+	Child:	1408
+	Child:	1410
+	Child:	1411
+	Child:	1413
+	Child:	1415
+	Child:	1417
+	Child:	1418
+	Child:	1420
+	Child:	1422
+	Child:	1424
+	Child:	1426
+	Child:	1428
+	Child:	1430
+	Child:	1431
+	Child:	1433
+	Child:	1435
+	Child:	1436
+	Child:	1438
+	Child:	1439
+)
+
+(Butn.1398
+	Help:	"Save Project//Saves the current project"
+	HelpTopic:	"Save_Project"
+	Icon:	1399
+	Click:	"Project.Save"
+)
+
+(AVIcon.1399
+	Name:	"Save"
+	Res:	"Icons.Save"
+
+)
+
+(Space.1400
+)
+
+(Butn.1401
+	Help:	"Add Theme//Inserts themes into the view"
+	HelpTopic:	"Add_Theme"
+	Icon:	1402
+	Click:	"View.Add"
+)
+
+(AVIcon.1402
+	Name:	"AddTheme"
+	Res:	"Icons.AddTheme"
+
+)
+
+(Space.1403
+)
+
+(Butn.1404
+	Help:	"Theme Properties//Displays the dialog box to edit properties of the active theme"
+	HelpTopic:	"Theme_Properties"
+	Update:	"View.ActiveThemesUpdate"
+	Icon:	1405
+	Click:	"View.ThemeProperties"
+)
+
+(AVIcon.1405
+	Name:	"Props"
+	Res:	"Icons.Props"
+
+)
+
+(Butn.1406
+	Help:	"Edit Legend//Displays the legends of the active themes"
+	HelpTopic:	"Edit_Legend"
+	Update:	"View.ActiveThemesUpdate"
+	Icon:	1407
+	Click:	"View.EditLegendClick"
+)
+
+(AVIcon.1407
+	Name:	"Legend"
+	Res:	"Icons.Legend"
+
+)
+
+(Butn.1408
+	Help:	"Open Theme Table//Opens the tables of the active themes"
+	HelpTopic:	"Open_Theme_Table"
+	Update:	"View.TabularThemesUpdate"
+	Icon:	1409
+	Click:	"View.ShowTable"
+)
+
+(AVIcon.1409
+	Name:	"Table"
+	Res:	"Icons.Table"
+
+)
+
+(Space.1410
+)
+
+(Butn.1411
+	Disabled:	1
+	Help:	"Find//Finds features in the active themes using the text you enter"
+	HelpTopic:	"Find"
+	Update:	"View.FindUpdate"
+	Icon:	1412
+	Click:	"View.Find"
+)
+
+(AVIcon.1412
+	Name:	"Find"
+	Res:	"Icons.Find"
+
+)
+
+(Butn.1413
+	Disabled:	1
+	Help:	"Locate Address//Locates an address in the active, matchable theme"
+	HelpTopic:	"Locate_Address"
+	Update:	"View.LocateUpdate"
+	Icon:	1414
+	Click:	"View.Locate"
+)
+
+(AVIcon.1414
+	Name:	"AddMatch"
+	Res:	"Icons.AddMatch"
+
+)
+
+(Butn.1415
+	Help:	"Query Builder//Displays the Query Builder to select features with a logical expression"
+	HelpTopic:	"Query_Builder"
+	Update:	"View.AttributeThemesUpdate"
+	Icon:	1416
+	Click:	"View.Query"
+)
+
+(AVIcon.1416
+	Name:	"QueryBuilder"
+	Res:	"Icons.QueryBuilder"
+
+)
+
+(Space.1417
+)
+
+(Butn.1418
+	Help:	"Zoom to Full Extent//Zooms to the extent of all themes"
+	HelpTopic:	"Zoom_to_Full_Extent"
+	Update:	"View.HasDataUpdate"
+	Icon:	1419
+	Click:	"View.ZoomFullExtent"
+)
+
+(AVIcon.1419
+	Name:	"ZoomView"
+	Res:	"Icons.ZoomView"
+
+)
+
+(Butn.1420
+	Help:	"Zoom to Active Theme(s)//Zooms to the extent of active themes"
+	HelpTopic:	"Zoom_to_Active_Theme"
+	Update:	"View.ActiveThemesUpdate"
+	Icon:	1421
+	Click:	"View.ZoomToThemes"
+)
+
+(AVIcon.1421
+	Name:	"ZoomTheme"
+	Res:	"Icons.ZoomTheme"
+
+)
+
+(Butn.1422
+	Disabled:	1
+	Help:	"Zoom to Selected//Zooms to the extent of the selected features"
+	HelpTopic:	"Zoom_to_Selected"
+	Update:	"View.SelectableThemesUpdate"
+	Icon:	1423
+	Click:	"View.ZoomToSelected"
+)
+
+(AVIcon.1423
+	Name:	"ZoomToSelected"
+	Res:	"Icons.ZoomToSelected"
+
+)
+
+(Butn.1424
+	Help:	"Zoom In//Zooms in on the center of the display"
+	HelpTopic:	"Zoom_In"
+	Update:	"View.HasDataUpdate"
+	Icon:	1425
+	Click:	"View.ZoomIn"
+)
+
+(AVIcon.1425
+	Name:	"ZoomIn"
+	Res:	"Icons.ZoomIn"
+
+)
+
+(Butn.1426
+	Help:	"Zoom Out//Zooms out from the center of the display"
+	HelpTopic:	"Zoom_Out"
+	Update:	"View.HasDataUpdate"
+	Icon:	1427
+	Click:	"View.ZoomOut"
+)
+
+(AVIcon.1427
+	Name:	"ZoomOut"
+	Res:	"Icons.ZoomOut"
+
+)
+
+(Butn.1428
+	Help:	"Zoom to Previous Extent//Goes back to the previous extent you were viewing"
+	HelpTopic:	"Zoom_Previous"
+	Update:	"View.UndoZoomUpdate"
+	Icon:	1429
+	Click:	"View.UndoZoom"
+)
+
+(AVIcon.1429
+	Name:	"ZoomPrevious"
+	Res:	"Icons.ZoomPrevious"
+
+)
+
+(Space.1430
+)
+
+(Butn.1431
+	Disabled:	1
+	Help:	"Select Features Using Graphic//Selects features in active themes using selected graphics"
+	HelpTopic:	"Select_Features_Using_Graphic"
+	Update:	"View.SpatialSelectUpdate"
+	Icon:	1432
+	Click:	"View.SpatialSelect"
+)
+
+(AVIcon.1432
+	Name:	"SpatialSelect"
+	Res:	"Icons.SpatialSelect"
+
+)
+
+(Butn.1433
+	Help:	"Clear Selected Features//Unselects the selected features of all active themes"
+	HelpTopic:	"Clear_Selected_Features"
+	Update:	"View.AttributeThemesUpdate"
+	Icon:	1434
+	Click:	"View.ClearSelect"
+)
+
+(AVIcon.1434
+	Name:	"SelectNone"
+	Res:	"Icons.SelectNone"
+
+)
+
+(Space.1435
+)
+
+(Butn.1436
+	InternalName:	"Spatial"
+	Help:	"Histogram//Displays the histogram distribution of the values in a grid theme"
+	HelpTopic:	"Histogram@spatial.hlp"
+	Update:	"Spatial.HistogramUpdate"
+	Icon:	1437
+	Click:	"Spatial.Histogram"
+)
+
+(AVIcon.1437
+	Name:	"Histogram"
+	Res:	"Icons.Histogram"
+
+)
+
+(Space.1438
+	InternalName:	"Spatial"
+)
+
+(Butn.1439
+	Help:	"Help//Gets help about the next button, tool, or menu choice you click"
+	HelpTopic:	"Help_button"
+	Icon:	1440
+	Click:	"Help.Tool"
+)
+
+(AVIcon.1440
+	Name:	"HelpTool"
+	Res:	"Icons.HelpTool"
+
+)
+
+(PopupSet.1441
+	Child:	1442
+)
+
+(Popup.1442
+	Child:	1443
+	Child:	1444
+	Child:	1445
+	Child:	1446
+	Child:	1447
+	Child:	1448
+	Child:	1449
+	Child:	1450
+	Child:	1451
+	Child:	1452
+	Child:	1453
+	Child:	1454
+	Child:	1455
+	Child:	1456
+	Child:	1457
+	Child:	1458
+	Child:	1459
+	Child:	1460
+	Child:	1461
+	Child:	1462
+	Label:	"Menu"
+)
+
+(Choice.1443
+	Disabled:	1
+	Invisible:	1
+	Help:	"Deletes the last entered point on the line or polygon being drawn"
+	Update:	"View.DelLastPointUpdate"
+	Label:	"Delete Last Point"
+	Click:	"View.DeleteLastPoint"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1444
+	Disabled:	1
+	Help:	"Undo the last edit to graphics on a view"
+	HelpTopic:	"Undo_Graphic_Edit_on_a_view"
+	Update:	"View.UndoEditUpdate"
+	Label:	"Undo Graphic Edit"
+	Click:	"View.UndoEdit"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1445
+	Disabled:	1
+	Invisible:	1
+	Help:	"Redo the last edit operation on a theme that was undone"
+	Update:	"View.RedoEditUpdate"
+	Label:	"Redo Feature Edit"
+	Click:	"View.RedoEdit"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1446
+)
+
+(Choice.1447
+	Disabled:	1
+	Invisible:	1
+	Help:	"Turns general snapping on"
+	Update:	"View.ToggleGeneralSnapUpdate"
+	Label:	"Enable General Snapping"
+	Click:	"View.ToggleGeneralSnap"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1448
+	Disabled:	1
+	Invisible:	1
+	Help:	"Turns interactive snapping on"
+	Update:	"View.ToggleInteractiveSnapUpdate"
+	Label:	"Enable Interactive Snapping"
+	Click:	"View.ToggleInteractiveSnap"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1449
+	Help:	"Turns snap tolerance cursor on"
+	Update:	"View.ToggleTolCursorUpdate"
+	Label:	"Show Snap Tolerance Cursor"
+	Click:	"View.ToggleTolCursor"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1450
+)
+
+(Choice.1451
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snaps the next entered point to the nearest vertex within the user tolerance"
+	Update:	"View.InteractiveSnapUpdate"
+	Label:	"Snap to Vertex"
+	Click:	"View.SnapToVertex"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1452
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snaps the next entered point to the nearest line segment"
+	Update:	"View.InteractiveSnapUpdate"
+	Label:	"Snap to Boundary"
+	Click:	"View.SnapToBoundary"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1453
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snaps the next entered point to the nearest node common to two or more features"
+	Update:	"View.InteractiveSnapUpdate"
+	Label:	"Snap to Intersection"
+	Click:	"View.SnapToIntersection"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1454
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snaps the next entered point to the nearest endpoint of an existing line"
+	Update:	"View.SnapToEndPointUpdate"
+	Label:	"Snap to Endpoint"
+	Click:	"View.SnapToEndPoint"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1455
+)
+
+(Choice.1456
+	Disabled:	1
+	Help:	"Unselects the selected features in all active themes"
+	Update:	"View.AttributeThemesUpdate"
+	Label:	"Clear Selection"
+	Click:	"View.ClearSelect"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1457
+	Disabled:	1
+	Help:	"Zooms in at point where you click to bring up popup menu"
+	Update:	"View.HasDataUpdate"
+	Label:	"Zoom In"
+	Click:	"View.PopupZoomIn"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1458
+	Disabled:	1
+	Help:	"Zooms out from point where you click to bring up popup menu"
+	Update:	"View.HasDataUpdate"
+	Label:	"Zoom Out"
+	Click:	"View.PopupZoomOut"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1459
+	Disabled:	1
+	Help:	"Zooms to the extent of the selected features"
+	Update:	"View.SelectableThemesUpdate"
+	Label:	"Zoom to Selected"
+	Click:	"View.ZoomToSelected"
+	Shortcut:	"Keys.None"
+)
+
+(Choice.1460
+	Disabled:	1
+	Help:	"Centers display on point where you click to bring up popup"
+	Update:	"View.HasDataUpdate"
+	Label:	"Pan"
+	Click:	"View.PopupPan"
+	Shortcut:	"Keys.None"
+)
+
+(Space.1461
+)
+
+(Choice.1462
+	Disabled:	1
+	Help:	"Opens the shape properties window for editing vertex locations"
+	Update:	"ShapeWin.PopUp Update"
+	Label:	"Shape Properties"
+	Click:	"ShapeWin.PopUp Open"
+	Shortcut:	"Keys.None"
+)
+
+(ToolBar.1463
+	Child:	1464
+	Child:	1466
+	Child:	1468
+	Child:	1470
+	Child:	1472
+	Child:	1474
+	Child:	1476
+	Child:	1478
+	Child:	1480
+	Child:	1482
+	Child:	1484
+	Child:	1503
+	Child:	1516
+	Child:	1535
+	Child:	1540
+)
+
+(Tool.1464
+	Help:	"Identify//Provides information about a feature"
+	HelpTopic:	"Identify_tool"
+	Update:	"View.IdentifyUpdate"
+	Icon:	1465
+	Cursor:	"Cursors.ID"
+	Apply:	"View.Identify"
+)
+
+(AVIcon.1465
+	Name:	"ID"
+	Res:	"Icons.ID"
+
+)
+
+(Tool.1466
+	Help:	"Pointer//Selects, moves, and resizes graphics"
+	HelpTopic:	"Pointer_tool"
+	Update:	"View.HasDataUpdate"
+	Icon:	1467
+	Cursor:	"Cursors.Select"
+	Apply:	"View.Select"
+	Click:	"View.SelectTool"
+)
+
+(AVIcon.1467
+	Name:	"Select"
+	Res:	"Icons.Select"
+
+)
+
+(Tool.1468
+	Disabled:	1
+	Help:	"Vertex Edit//Adds, moves, and deletes vertices of features and graphics"
+	HelpTopic:	"Vertex_Edit_tool"
+	Update:	"View.SelectToEditUpdate"
+	Icon:	1469
+	Cursor:	"Cursors.SelectEdit"
+	Apply:	"View.SelectToEdit"
+	Click:	"View.SelectToEditTool"
+)
+
+(AVIcon.1469
+	Name:	"SelectEdit"
+	Res:	"Icons.SelectEdit"
+
+)
+
+(Tool.1470
+	Disabled:	1
+	Help:	"Select Feature//Selects features in the active themes by pointing or dragging"
+	HelpTopic:	"Select_Feature_tool"
+	Update:	"View.SelectableThemesUpdate"
+	Icon:	1471
+	Cursor:	"Cursors.Default"
+	Apply:	"View.SelectPoint"
+)
+
+(AVIcon.1471
+	Name:	"FeatureSelect"
+	Res:	"Icons.FeatureSelect"
+
+)
+
+(Tool.1472
+	Help:	"Zoom In//Zooms in at a point you click or zooms in on a rectangle you drag"
+	HelpTopic:	"Zoom_In_tool"
+	Update:	"View.HasDataUpdate"
+	Icon:	1473
+	Cursor:	"Cursors.ZoomIn"
+	Apply:	"View.ZoomInTool"
+)
+
+(AVIcon.1473
+	Name:	"ZoomInTool"
+	Res:	"Icons.ZoomInTool"
+
+)
+
+(Tool.1474
+	Help:	"Zoom Out//Zooms out from a point you click or zooms out to include a rectangle you drag"
+	HelpTopic:	"Zoom_Out_tool"
+	Update:	"View.HasDataUpdate"
+	Icon:	1475
+	Cursor:	"Cursors.ZoomOut"
+	Apply:	"View.ZoomOutTool"
+)
+
+(AVIcon.1475
+	Name:	"ZoomOutTool"
+	Res:	"Icons.ZoomOutTool"
+
+)
+
+(Tool.1476
+	Help:	"Pan//Drags the display in the direction you move the cursor"
+	HelpTopic:	"Pan_tool"
+	Update:	"View.HasDataUpdate"
+	Icon:	1477
+	Cursor:	"Cursors.Pan"
+	Apply:	"View.Pan"
+)
+
+(AVIcon.1477
+	Name:	"Pan"
+	Res:	"Icons.Pan"
+
+)
+
+(Tool.1478
+	Help:	"Measure//Measures distance"
+	HelpTopic:	"Measure_tool"
+	Update:	"View.HasDataUpdate"
+	Icon:	1479
+	Cursor:	"Cursors.Measure"
+	Apply:	"View.Measure"
+)
+
+(AVIcon.1479
+	Name:	"Measure"
+	Res:	"Icons.Measure"
+
+)
+
+(Tool.1480
+	Disabled:	1
+	Help:	"Hot Link//Follows a hot link in the active themes"
+	HelpTopic:	"Hot_Link_tool"
+	Update:	"View.HotLinkUpdate"
+	Icon:	1481
+	Cursor:	"Cursors.Media"
+	Apply:	"View.HotLink"
+)
+
+(AVIcon.1481
+	Name:	"Media"
+	Res:	"Icons.Media"
+
+)
+
+(Tool.1482
+	Disabled:	1
+	Help:	"Area of Interest//Sets the view's Area Of Interest for library-based themes"
+	HelpTopic:	"Area_Of_Interest_tool"
+	Update:	"View.AOIToolUpdate"
+	Icon:	1483
+	Cursor:	"Cursors.Default"
+	Apply:	"View.AOITool"
+)
+
+(AVIcon.1483
+	Name:	"AOI"
+	Res:	"Icons.AOI"
+
+)
+
+(ToolMenu.1484
+	Disabled:	1
+	Help:	"Label//Labels a feature in the active theme with data from its table"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.LabelToolUpdate"
+	Icon:	1485
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.LabelTool"
+	Child:	1486
+	Child:	1487
+	Child:	1489
+	Child:	1491
+	Child:	1493
+	Child:	1495
+	Child:	1497
+	Child:	1499
+	Child:	1501
+)
+
+(AVIcon.1485
+	Name:	"Tag"
+	Res:	"Icons.Tag"
+
+)
+
+(Tool.1486
+	Disabled:	1
+	Help:	"Label//Labels a feature in the active theme with data from its table"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.LabelToolUpdate"
+	Icon:	1485
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.LabelTool"
+)
+
+(Tool.1487
+	Disabled:	1
+	Help:	"Callout Label//Click on a feature and drag in the direction you want the label to appear"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	1488
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.CalloutLabelTool"
+)
+
+(AVIcon.1488
+	Name:	"CallOutLabel1"
+	Res:	"Icons.CallOutLabel1"
+
+)
+
+(Tool.1489
+	Disabled:	1
+	Help:	"Bullet Leader Label//Click on a feature and drag in the direction you want the label to appear"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	1490
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.BulletLeaderLabelTool"
+)
+
+(AVIcon.1490
+	Name:	"CallOutLabel2"
+	Res:	"Icons.CallOutLabel2"
+
+)
+
+(Tool.1491
+	Disabled:	1
+	Help:	"Banner Label//Click on a feature you want to label"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	1492
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.ShadowBoxLabelTool"
+)
+
+(AVIcon.1492
+	Name:	"CallOutLabel3"
+	Res:	"Icons.CallOutLabel3"
+
+)
+
+(Tool.1493
+	Disabled:	1
+	Help:	"U.S. Interstate//Click where you want to place a highway shield"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	1494
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.Highway1 Apply"
+)
+
+(AVIcon.1494
+	Name:	"BW US Interstate"
+	Res:	"Icons.BW US Interstate"
+
+)
+
+(Tool.1495
+	Disabled:	1
+	Help:	"U.S. Route//Click where you want to place a highway shield"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	1496
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.Highway2 Apply"
+)
+
+(AVIcon.1496
+	Name:	"USRoute"
+	Res:	"Icons.USRoute"
+
+)
+
+(Tool.1497
+	Disabled:	1
+	Help:	"Generic State Hwy//Click where you want to place a highway shield"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	1498
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.Highway3 Apply"
+)
+
+(AVIcon.1498
+	Name:	"GenericStateHighway"
+	Res:	"Icons.GenericStateHighway"
+
+)
+
+(Tool.1499
+	Disabled:	1
+	Help:	"Generic Square Hwy//Click where you want to place a highway shield"
+	HelpTopic:	"Label_Tool"
+	Update:	"View.CalloutUpdate"
+	Icon:	1500
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.Highway4 Apply"
+)
+
+(AVIcon.1500
+	Name:	"GenericHighway1"
+	Res:	"Icons.GenericHighway1"
+
+)
+
+(Tool.1501
+	Disabled:	1
+	Help:	"Generic Oval Hwy//Click where you want to place a highway shield"
+	Update:	"View.CalloutUpdate"
+	Icon:	1502
+	Cursor:	"Cursors.Tag"
+	Apply:	"View.Highway5 Apply"
+)
+
+(AVIcon.1502
+	Name:	"GenericHighway2"
+	Res:	"Icons.GenericHighway2"
+
+)
+
+(ToolMenu.1503
+	Help:	"Text//Creates text on the display"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	1504
+	Cursor:	"Cursors.Text"
+	Apply:	"View.TextTool"
+	Click:	"SymWin.DisplayFontPanel"
+	Child:	1505
+	Child:	1506
+	Child:	1508
+	Child:	1510
+	Child:	1512
+	Child:	1514
+)
+
+(AVIcon.1504
+	Name:	"Text"
+	Res:	"Icons.Text"
+
+)
+
+(Tool.1505
+	Help:	"Text//Creates text on the display"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	1504
+	Cursor:	"Cursors.Text"
+	Apply:	"View.TextTool"
+	Click:	"SymWin.DisplayFontPanel"
+)
+
+(Tool.1506
+	Help:	"Callout Text//Click and drag to where you want your text to appear, then enter the text"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	1507
+	Cursor:	"Cursors.Bullseye"
+	Apply:	"View.CalloutTextTool"
+)
+
+(AVIcon.1507
+	Name:	"CallOutText1"
+	Res:	"Icons.CallOutText1"
+
+)
+
+(Tool.1508
+	Help:	"Bullet Leader Text//Click and drag to where you want your text to appear, then enter the text"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	1509
+	Cursor:	"Cursors.Bullseye"
+	Apply:	"View.BulletLeaderTextTool"
+)
+
+(AVIcon.1509
+	Name:	"CallOutText2"
+	Res:	"Icons.CallOutText2"
+
+)
+
+(Tool.1510
+	Help:	"Banner Text//Click where you want your label to appear and enter your text"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	1511
+	Cursor:	"Cursors.Bullseye"
+	Apply:	"View.ShadowBoxTextTool"
+)
+
+(AVIcon.1511
+	Name:	"CallOutText3"
+	Res:	"Icons.CallOutText3"
+
+)
+
+(Tool.1512
+	Help:	"Drop-Shadow Text//Click where you want your text to appear and enter your text"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	1513
+	Cursor:	"Cursors.Target"
+	Apply:	"View.CreateDropShadowText"
+)
+
+(AVIcon.1513
+	Name:	"DropShadowText"
+	Res:	"Icons.DropShadowText"
+
+)
+
+(Tool.1514
+	Help:	"Spline Text//Adds text that is aligned to a splined baseline"
+	HelpTopic:	"Text_tool"
+	Update:	"View.TextToolUpdate"
+	Icon:	1515
+	Cursor:	"Cursors.Bullseye"
+	Apply:	"View.SplineText"
+)
+
+(AVIcon.1515
+	Name:	"TextAligned"
+	Res:	"Icons.TextAligned"
+
+)
+
+(ToolMenu.1516
+	Help:	"Draw Point//Creates a point on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.PointToolUpdate"
+	Icon:	1517
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.PointTool"
+	Click:	"SymWin.DisplayMarkerPanel"
+	Child:	1518
+	Child:	1519
+	Child:	1521
+	Child:	1523
+	Child:	1525
+	Child:	1527
+	Child:	1529
+	Child:	1531
+	Child:	1533
+)
+
+(AVIcon.1517
+	Name:	"Point"
+	Res:	"Icons.Point"
+
+)
+
+(Tool.1518
+	Help:	"Draw Point//Creates a point on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.PointToolUpdate"
+	Icon:	1517
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.PointTool"
+	Click:	"SymWin.DisplayMarkerPanel"
+)
+
+(Tool.1519
+	Help:	"Draw Straight Line//Creates a line on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.GraphicToolUpdate"
+	Icon:	1520
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.LineTool"
+	Click:	"SymWin.DisplayPenPanel"
+)
+
+(AVIcon.1520
+	Name:	"SelectLine"
+	Res:	"Icons.SelectLine"
+
+)
+
+(Tool.1521
+	Help:	"Draw Line//Creates a line with two or more points on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.PolyLineToolUpdate"
+	Icon:	1522
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.PolyLineTool"
+	Click:	"SymWin.DisplayPenPanel"
+)
+
+(AVIcon.1522
+	Name:	"Lines"
+	Res:	"Icons.Lines"
+
+)
+
+(Tool.1523
+	Help:	"Draw Rectangle//Creates a rectangle on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.PolyToolUpdate"
+	Icon:	1524
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.RectTool"
+	Click:	"SymWin.DisplayFillPanel"
+)
+
+(AVIcon.1524
+	Name:	"Rect"
+	Res:	"Icons.Rect"
+
+)
+
+(Tool.1525
+	Help:	"Draw Circle//Creates a circle on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.PolyToolUpdate"
+	Icon:	1526
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.CircleTool"
+	Click:	"SymWin.DisplayFillPanel"
+)
+
+(AVIcon.1526
+	Name:	"Disk"
+	Res:	"Icons.Disk"
+
+)
+
+(Tool.1527
+	Help:	"Draw Polygon//Creates a polygon on the display"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.PolyToolUpdate"
+	Icon:	1528
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.PolyTool"
+	Click:	"SymWin.DisplayFillPanel"
+)
+
+(AVIcon.1528
+	Name:	"Poly"
+	Res:	"Icons.Poly"
+
+)
+
+(Tool.1529
+	Disabled:	1
+	Help:	"Draw Line to Split Feature//Creates a line to split line features"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.SplitLineToolUpdate"
+	Icon:	1530
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.SplitTool"
+)
+
+(AVIcon.1530
+	Name:	"SplitLine"
+	Res:	"Icons.SplitLine"
+
+)
+
+(Tool.1531
+	Disabled:	1
+	Help:	"Draw Line to Split Polygon//Creates a line to split polygon features"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.SplitPolyToolUpdate"
+	Icon:	1532
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.SplitTool"
+)
+
+(AVIcon.1532
+	Name:	"SplitPoly"
+	Res:	"Icons.SplitPoly"
+
+)
+
+(Tool.1533
+	Disabled:	1
+	Help:	"Draw Line to Append Polygon//Appends a new polygon adjacent to other polygons"
+	HelpTopic:	"Draw_tool"
+	Update:	"View.AutoCompleteUpdate"
+	Icon:	1534
+	Cursor:	"Cursors.CrossHair"
+	Apply:	"View.AutoCompleteTool"
+)
+
+(AVIcon.1534
+	Name:	"AutoComplete"
+	Res:	"Icons.AutoComplete"
+
+)
+
+(ToolMenu.1535
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snap//Sets the general snapping tolerance for the editable theme"
+	HelpTopic:	"Snap_tools"
+	Update:	"View.SnapToolUpdate"
+	Icon:	1536
+	Cursor:	"Cursors.Default"
+	Apply:	"View.SnapTool"
+	Child:	1537
+	Child:	1538
+)
+
+(AVIcon.1536
+	Name:	"SnapTool"
+	Res:	"Icons.SnapTool"
+
+)
+
+(Tool.1537
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snap//Sets the general snapping tolerance for the editable theme"
+	HelpTopic:	"Snap_tools"
+	Update:	"View.SnapToolUpdate"
+	Icon:	1536
+	Cursor:	"Cursors.Default"
+	Apply:	"View.SnapTool"
+)
+
+(Tool.1538
+	Disabled:	1
+	Invisible:	1
+	Help:	"Snap//Sets the interactive snapping tolerance for the editable theme"
+	HelpTopic:	"Snap_tools"
+	Update:	"View.InteractiveSnapToolUpdate"
+	Icon:	1539
+	Cursor:	"Cursors.Default"
+	Apply:	"View.InteractiveSnapTool"
+)
+
+(AVIcon.1539
+	Name:	"SnapFeatureTool"
+	Res:	"Icons.SnapFeatureTool"
+
+)
+
+(Tool.1540
+	InternalName:	"Surface"
+	Help:	"Contour//Creates a contour based on a point you define in a view"
+	HelpTopic:	"Contour_Tool@surface.hlp"
+	Update:	"Spatial.ContourToolUpdate"
+	Icon:	1541
+	Cursor:	"Cursors.Bullseye"
+	Apply:	"Spatial.ContourTool"
+)
+
+(AVIcon.1541
+	Name:	"Contour"
+	Res:	"Icons.Contour"
+
+)
+
+(AVIcon.1542
+	Name:	"Icon"
+	Res:	"View.Icon"
+
+)
+
+(FN.2109
+	Path:	"$HOME"
+)
+
+(TClr.2110
+	Red:	0xffff
+	Green:	0xffff
+)
+
+(AVStr.2111
+	S:	"View"
+)
+
+(AVStr.2112
+	S:	"Table"
+)
+
+(AVStr.2113
+	S:	"Chart"
+)
+
+(AVStr.2114
+	S:	"Layout"
+)
+
+(AVStr.2115
+	S:	"Script"
+)
+
+(AVStr.2116
+	S:	"Project"
+)
+
+(AVStr.2117
+	S:	"Appl"
+)
+
