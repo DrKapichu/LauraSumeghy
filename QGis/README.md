@@ -37,4 +37,15 @@ The proposed fixes essentially come from the [SLYR Community Edition](https://pl
 The plugin serves the purpose to convert the proprietary **.lyr** format into a QGis-compatible format that is **.qml**.
 
 
+## Fix for .aux files
+According to the [QGIS StackExchange forum](https://gis.stackexchange.com/questions/62857/how-to-open-aux-file-in-qgis), **.aux** files are auxiliary files in ArcGIS that contain additional information related to a Raster file. So, to fix this one I'd first find a raster file to work on. But that doesn't look easy, I don't recognize any of these file extensions...  
+Okay I got it!! According to the [gis documentation on the adf file format](https://docs.fileformat.com/gis/adf/), adf files are raster data file format. So, this one should be fixed by fixing the loading of the adf files. Sounds easy to me. :sob:
+
+
+## Fix for .adf files
+
+
+## Fix for .adj files
+
+
 
